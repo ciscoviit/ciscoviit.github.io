@@ -1,0 +1,79 @@
+.cisco__herosection {
+    display: flex;
+}
+.cisco__herosection-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.cisco__herosection-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.cisco__herosection-content p {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: var(--color-text);
+    
+    margin-top: 1.5rem;
+}
+
+.cisco__herosection-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cisco__herosection-image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .cisco__herosection {
+        flex-direction: column;
+    }
+
+    .cisco__herosection-content {
+        margin: 0 0 3rem;
+    }
+}
+
+ /* for tablet screens */
+@media screen and (max-width: 650px) {
+    .cisco__herosection h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .cisco__herosection p {
+        font-size: 16px;
+        line-height: 60px;
+    }
+}
+
+/* for mobile screens */
+@media screen and (max-width: 490px) {
+    .cisco__herosection h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .cisco__herosection p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
