@@ -1,0 +1,12 @@
+.gallery-img{
+	width: 100%;
+	height: 75vh;
+}
+
+
+@media screen and (max-width: 480px) {
+	.gallery-img{
+		width: 100%;
+		height: 25vh;
+	}
+}
