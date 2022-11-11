@@ -14,12 +14,12 @@ const Header = () => (
           Automate, secure, and scale your network with a software-delivered approach.
         </p>
         <div className="btn_wrapper">
-        <button className="btn view_more_btn">
-          About <i className="ri-arrow-right-line"></i>
-        </button>
+          <button className="btn view_more_btn">
+            About <i className="ri-arrow-right-line"></i>
+          </button>
 
-        <button className="btn documentation_btn">Courses</button>
-      </div>
+          <button className="btn documentation_btn">Courses</button>
+        </div>
       </div>
 
 
@@ -28,9 +28,9 @@ const Header = () => (
       </div>
     </div>
     <div className='cisco__header section__padding1'>
-      
+
     </div>
-    </>
+  </>
 );
 
 export default Header;
