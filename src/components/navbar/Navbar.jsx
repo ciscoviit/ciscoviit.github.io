@@ -10,6 +10,7 @@ const Menu = () => (
   <p><a href="#courses">Courses</a></p>
   <p><a href="#team">Team</a></p>
   <p><a href="#contact">Contact Us</a></p>
+  </>
 )
 
 const Navbar = () => {
