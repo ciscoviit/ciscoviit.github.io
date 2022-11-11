@@ -10,7 +10,6 @@ const Menu = () => (
   <p><a href="#courses">Courses</a></p>
   <p><a href="#team">Team</a></p>
   <p><a href="#contact">Contact Us</a></p>
-  </>
 )
 
 const Navbar = () => {
@@ -22,7 +21,7 @@ const Navbar = () => {
         <div className="cisco__navbar-links_logo">
           {/* <img src={logo} alt="logo" /> */}
           {/* Add logo and remove h3 tag */}
-          <h3>CISCOVIIT</h3>
+          <h2>CISCOVIIT</h2>
         </div>
         <div className="cisco__navbar-links_container">
           <Menu />
