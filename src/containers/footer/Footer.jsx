@@ -16,7 +16,7 @@ const Footer = () => (
         </ul>
       </div>
       <div className="footer-col">
-        <h4>Contact Us</h4>
+        <h4>Get In Touch</h4>
         <ul>
           <li><a href="/">kondhwa </a></li>
           <li><a href="/">+918023</a></li>
@@ -26,16 +26,17 @@ const Footer = () => (
       <div className="footer-col">
         <h4>follow us</h4>
         <div className="social-links">
-          <a href="/"><i className="fab fa-facebook-f"></i></a>
-          <a href="/"><i className="fab fa-twitter"></i></a>
           <a href="/"><i className="fab fa-instagram"></i></a>
           <a href="/"><i className="fab fa-linkedin-in"></i></a>
+          <a href="/"><i className="fab fa-facebook-f"></i></a>
+          <a href="/"><i className="fab fa-twitter"></i></a>
         </div>
       </div>
       <div className="cisco__footer-copyright">
         <p>@Cisco Team. All rights reserved.</p>
       </div>
     </div>
+    <br></br>
   </div>
 
 );

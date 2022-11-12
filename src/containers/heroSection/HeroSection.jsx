@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import './HeroSection.css';
 
 const Header = () => (
@@ -14,11 +15,11 @@ const Header = () => (
           Automate, secure, and scale your network with a software-delivered approach.
         </p>
         <div className="btn_wrapper">
-          <button className="btn view_more_btn">
+        <NavLink to='/about'><button className="btn view_more_btn">
             About <i className="ri-arrow-right-line"></i>
-          </button>
+          </button></NavLink>
 
-          <button className="btn documentation_btn">Courses</button>
+          <NavLink to='courses'><button className="btn documentation_btn">Courses</button></NavLink>
         </div>
       </div>
 

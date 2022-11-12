@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// import logo from '../../assets/logo.svg';
+import { NavLink } from 'react-router-dom';
 import './navbar.css';
 
 const Menu = () => (
   <>
-  <p><a href="#home">Home</a></p>
-  <p><a href="#about">About</a></p>
-  <p><a href="#courses">Courses</a></p>
-  <p><a href="#team">Team</a></p>
-  <p><a href="#contact">Contact Us</a></p>
+    <p><a href="/"><NavLink to='/'>Home</NavLink></a></p>
+    <p><a href="/"><NavLink to='/about'>About</NavLink></a></p>
+    <p><a href="/"><NavLink to='/courses'>Courses</NavLink></a></p>
+    <p><a href="/"><NavLink to='/team'>Team</NavLink></a></p>
+    <p><a href="/"><NavLink to='/contactus'>Contact Us</NavLink></a></p>
   </>
 )
 

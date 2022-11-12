@@ -10,3 +10,10 @@
 		height: 25vh;
 	}
 }
+
+@media screen and (max-width: 768px) {
+	.gallery-img{
+		width: 100%;
+		height: 40vh;
+	}
+}
