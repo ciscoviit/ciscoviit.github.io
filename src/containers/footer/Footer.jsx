@@ -3,7 +3,7 @@ import React from 'react';
 import './footer.css';
 
 const Footer = () => (
-  <div className="container">
+  <div className="container mb-5">
     <div className="row">
       <div className="footer-col">
         <h4>Links</h4>
@@ -32,11 +32,11 @@ const Footer = () => (
           <a href="/"><i className="fab fa-twitter"></i></a>
         </div>
       </div>
-      <div className="cisco__footer-copyright">
+      <div className="cisco__footer-copyright mb-3">
         <p>@Cisco Team. All rights reserved.</p>
       </div>
     </div>
-    <br></br>
+   
   </div>
 
 );
