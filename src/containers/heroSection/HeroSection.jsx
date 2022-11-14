@@ -16,8 +16,6 @@ const Header = () => (
         </p>
         
       </div>
-
-
       <div className="cisco__header-image">
         <img alt='' src="https://images1.the-dots.com/1247540/spacegif4.gif?p=projectImageFullJpg" />
       </div>

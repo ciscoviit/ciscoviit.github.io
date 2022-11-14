@@ -1,6 +1,6 @@
 import React from 'react';
-import { Footer, Gallery, HeroSection } from './containers';
-import { Insights, Navbar } from './components';
+import { Footer, Gallery, HeroSection, TeamCard } from './containers';
+import { Insights, Navbar, TeamSection } from './components';
 import {  Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
@@ -36,7 +36,7 @@ const Courses = () => {
 const Team = () => {
   return (
     <div>
-      <h1>hi</h1>
+      <TeamCard/>
     </div>
   )
 }
@@ -63,7 +63,6 @@ const App = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
-
   )
 }
 

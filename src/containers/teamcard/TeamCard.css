@@ -1,0 +1,65 @@
+
+.page-section-heading 
+{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.gradient__bg {
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+    height: 100% !important; 
+}
+
+.divider-custom-line
+{
+    color: aliceblue;
+}
+
+/*To change */
+.rec.cardcarousel
+{
+    padding:5px;
+}
+
+.rec.rec-dot
+{
+    display: none;
+}
+
+.rec.rec-arrow
+{
+    font-size:x-large;
+    background-color: transparent;
+    box-shadow:0 0 2px 3px;
+
+    
+}
+
+.rec.rec-arrow-left:hover:enabled,
+.rec.rec-arrow-right:hover:enabled
+{
+    background-color:var(--clr-primary-400); 
+}
+
+.rec.rec-arrow-left:focus:enabled,
+.rec.rec-arrow-right:focus:enabled
+{
+    background-color:var(--clr-primary-400);
+}
+
