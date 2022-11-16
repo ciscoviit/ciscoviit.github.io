@@ -4,6 +4,8 @@ import './heroSection.css';
 
 const Header = () => (
   <>
+  <div className='gradient__bg-home'>
+
     <div className="cisco__header section__padding" id="home">
       <div className="cisco__header-content">
         <h1 className="main-heading">
@@ -29,6 +31,7 @@ const Header = () => (
           <NavLink to='courses'><button className="btn documentation_btn">Courses</button></NavLink>
         </div>
     </div>
+  </div>
   </>
 );
 

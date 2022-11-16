@@ -1,15 +1,13 @@
 import React from 'react';
 import { Footer, Gallery, HeroSection, TeamCard } from './containers';
-import { Insights, Navbar, TeamSection } from './components';
-import {  Route, Routes, Navigate } from 'react-router-dom';
+import { Insights, Navbar } from './components';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
 const Home = () => {
   return (
     <div className="App">
-      <div className='gradient__bg'>
-        <HeroSection />
-      </div>
+      <HeroSection />
       <Insights />
       <Gallery />
       <Footer />
@@ -36,7 +34,7 @@ const Courses = () => {
 const Team = () => {
   return (
     <div>
-      <TeamCard/>
+      <TeamCard />
     </div>
   )
 }
