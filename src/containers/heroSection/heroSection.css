@@ -3,6 +3,7 @@
   flex-direction: row;
 }
 .heading-fancy-font {
+  text-align: center;
   color: var(--lg-heading);
   --font-family :  'Shadows Into Light', cursive;
 }
