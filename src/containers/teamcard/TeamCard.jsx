@@ -51,7 +51,7 @@ const TeamCard = ()=>{
                         <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Sachi Teke" domain="Vice-President" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Pratik Rathod" domain="Publicity-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"><span>Dev Team</span></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Pratik Rathod" domain="Publicity-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
 
                     <div className="col-md-6 col-lg-4 mb-5">
