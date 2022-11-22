@@ -13,7 +13,7 @@ const Header = () => (
           <br />
           Connect Everywhere
         </h1>
-        <p className="heading-fancy-font">
+        <p className="heading-fancy-font text-center">
           Loved by Developers, Trusted By Bussiness.
         </p>
         

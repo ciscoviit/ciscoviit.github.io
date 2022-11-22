@@ -1,5 +1,4 @@
-.course-card
-{
+.course-card {
     width: 300px;
     height: 400px;
     overflow: hidden;
@@ -12,99 +11,90 @@
     margin-bottom: 10px;
 }
 
-.course-name
-{
-    font-style:normal;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 
-                'Lucida Grande', 'Lucida Sans Unicode', 
-                 Geneva, Verdana, sans-serif;
+.course-name {
+    font-style: normal;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode',
+        Geneva, Verdana, sans-serif;
     font-weight: bolder;
     font-size: large;
     color: white;
-    font-display:inherit;
+    font-display: inherit;
     margin-bottom: 10px;
 }
 
-.course-about
-{
+.course-about {
     font-weight: bold;
     font-size: 14px;
-    margin-bottom:3px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.card-text
-{
+.card-text {
     color: white;
     margin-top: 4px;
     margin-bottom: 2px;
     letter-spacing: 0.5px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
-.fas 
-{
+.fas {
     font-size: 6px;
     color: var(--light-color);
-    
+
 }
-.fas .fa-circle
-{
+
+.fas .fa-circle {
     text-align: center;
 }
 
 
 
-.course-card:hover
-{
+.course-card:hover {
     box-shadow: 0px 0px 12px 3px;
     border-color: black;
     overflow: hidden;
-    
+
 }
 
-.course-img 
-{
-  overflow: hidden; 
-  margin-top: 1px;
-  margin-left: 1px;
-  margin-right: 1px;
+.course-img {
+    overflow: hidden;
+    margin-top: 1px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
-.course-img img
-{
+.course-img img {
     transition: all 1.3s ease;
     height: 200px;
     width: 100%;
     border-radius: 5px;
-   
-    
-}
-.course-img:hover img
-{
-  transform: scale(1.2);
+
+
 }
 
-.Btn
-{
+.course-img:hover img {
+    transform: scale(1.2);
+}
+
+.Btn {
     outline: none;
     color: white;
     cursor: pointer;
     transition: .3s;
-    width:120px;
+    width: 120px;
     height: 40px;
     margin-top: 5px;
     font-size: 16px;
-    text-align:center;
+    text-align: center;
     border-radius: 6px;
     background-color: #03203C;
     display: block;
 
 }
 
-.Btn:hover
-{
+.Btn:hover {
     color: black;
     font-size: 16px;
     box-shadow: 0 0 1px 2px;
@@ -113,11 +103,16 @@
     display: block;
 }
 
-.card-bottom
-{
-    
-    margin-bottom:10px;
+.card-bottom {
+
+    margin-bottom: 10px;
     margin-left: 15px;
 }
 
+@media screen and (max-width: 480px) {
+    .course-card{
+        margin-left: auto !important; 
+        margin-right: auto !important;
 
+    }
+}

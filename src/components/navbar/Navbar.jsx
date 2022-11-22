@@ -17,7 +17,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="cisco__navbar">
+    <div className="cisco__navbar ">
       <div className="cisco__navbar-links">
         <div className="cisco__navbar-links_logo">
           {/* <img src={logo} alt="logo" /> */}
