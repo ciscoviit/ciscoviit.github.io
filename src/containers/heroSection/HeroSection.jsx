@@ -13,8 +13,8 @@ const Header = () => (
           <br />
           Connect Everywhere
         </h1>
-        <p className="info-text">
-          Automate, secure, and scale your network with a software-delivered approach.
+        <p className="heading-fancy-font">
+          Loved by Developers, Trusted By Bussiness.
         </p>
         
       </div>
