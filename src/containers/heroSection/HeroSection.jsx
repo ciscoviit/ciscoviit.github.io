@@ -13,11 +13,10 @@ const Header = () => (
           <br />
           Connect Everywhere
         </h1>
-        <p className="heading-fancy-font text-center">
+     {/*   <p className="heading-fancy-font text-center">
           Loved by Developers, Trusted By Bussiness.
-        </p>
-        
-      </div>
+        </p> */} 
+    </div>
       <div className="cisco__header-image">
         <img alt='' src="https://images1.the-dots.com/1247540/spacegif4.gif?p=projectImageFullJpg" />
       </div>
