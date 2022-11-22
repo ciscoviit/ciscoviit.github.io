@@ -19,12 +19,12 @@ const TeamSection =({ image, sname, Tag,domain, github, linkedin, instagram})=>
                 <h4 className="title">{domain}</h4>
             </div>
             
-            <ul className="social">
+  //          <ul className="social">
                 
-                <li><a href={github} target="_blank" rel="noopener" rel="noreferrer" className="fab fa-linkedin" aria-hidden="true">T</a></li>
-                <li><a href={linkedin} target="_blank"  rel="noopener" rel="noreferrer" className="fab fa-twitter" aria-hidden="true">T</a></li>
-                <li><a href={instagram} target="_blank"  rel="noopener" rel="noreferrer" className="fab fa-instagram" aria-hidden="true">T</a></li>
-            </ul>
+ //               <li><a href={github} target="_blank" rel="noopener" rel="noreferrer" className="fab fa-linkedin" aria-hidden="true">T</a></li>
+ //               <li><a href={linkedin} target="_blank"  rel="noopener" rel="noreferrer" className="fab fa-twitter" aria-hidden="true">T</a></li>
+ //               <li><a href={instagram} target="_blank"  rel="noopener" rel="noreferrer" className="fab fa-instagram" aria-hidden="true">T</a></li>
+ //           </ul>
         </div>
     );
 };
