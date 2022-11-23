@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './heroSection.css';
+import cloud from "../../assets/cloud.gif";
+
 
 const Header = () => (
   <>
@@ -18,7 +20,7 @@ const Header = () => (
           </p>
         </div>
         <div className="cisco__header-image">
-          <img alt='' src="https://images1.the-dots.com/1247540/spacegif4.gif?p=projectImageFullJpg" />
+          <img alt='' src={cloud} />
         </div>
       </div>
       <div className='cisco__header section__padding_btn'>
