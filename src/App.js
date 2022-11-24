@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Gallery, HeroSection, TeamCard ,CourseCard} from './containers';
-import { Insights, Navbar ,AboutSection} from './components';
+import { Insights, Navbar , AboutSection} from './components';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
@@ -25,7 +25,7 @@ const About = () => {
 
 const Courses = () => {
   return (
-    <div>
+    <div className='App'>
       <CourseCard/>
     </div>
   )

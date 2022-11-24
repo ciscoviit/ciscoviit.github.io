@@ -4,7 +4,7 @@ body {
     background: radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
 }
 
-.container {
+.container_ab {
     display: flex;
     justify-content: center;
     /* background: #031B34; */
@@ -18,12 +18,12 @@ body {
     width: 80%;
 }
 
-.row {
+.row_ab {
     padding-top: 5rem;
     padding-bottom: 2rem;
 }
 
-.row>div {
+.row_ab>div {
     margin-top: 1rem;
 }
 
