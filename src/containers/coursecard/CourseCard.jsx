@@ -1,6 +1,7 @@
 import React from "react";
 import './CourseCard.css';
 import CourseSection from "../../components/course/CourseSection";
+import maxresdefault from "../../assets/maxresdefault.jpg"
 
 const CourseCard=()=>
 {
@@ -13,7 +14,7 @@ const CourseCard=()=>
                 <div className="row justify-content-center">
                 
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <CourseSection courseName="CCNA: Module-1" courseAbout="52-weeks" courseImage={"https://i.ytimg.com/vi/UqYNV-OheOw/maxresdefault.jpg"} courseText="Learn basic networking concepts"/>    
+                        <CourseSection courseName="CCNA: Module-1" courseAbout="52-weeks" courseImage={maxresdefault} courseText="Learn basic networking concepts"/>    
                         
                     </div>
                     

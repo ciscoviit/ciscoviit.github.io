@@ -32,7 +32,7 @@ const Insights = () => {
           <div className="item wow fadeInUpBig animated bg-transparent" data-number="359" style={{ visibility: 'visible' }}>
             <i className="fas fa-book-open"></i>
             <p>No. of Courses</p>
-            <p className='number'><CountUp end={359} duration={5} /></p>
+            <p className='cooun'><CountUp end={359} duration={5} /></p>
           </div>
         </div>
       </div>
