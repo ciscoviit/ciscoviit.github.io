@@ -7,7 +7,7 @@ const AboutSection = () => {
 
   return (
     <>
-      
+
       <div className='section' >
         <div className='container text-light'>
           <div className='outer'>
@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="row">
               <div className="col-lg-4 col-sm-12">
                 <div className="profile h-100">
-                <img src={ai} alt="ai" className='profile-img' />
+                  <img src={ai} alt="ai" className='profile-img' />
                   <div className="profile-content  text-center text-light">
                     <h4 className='px-5'>Cisco Networing Academy</h4>
                     <div className="card-body mt-3 px-3">
@@ -33,7 +33,7 @@ const AboutSection = () => {
                   <h4 className='card-title'> What we do??</h4>
 
                   <p className="card-text">Launch Cisco Modules : outside the cost of modules are high but we here provide in fewer rate. Also when go for cisco , you'll filter out from the students because you've done
-certification from them itself.Conduct technical sessions.Arrange workshops.</p>
+                    certification from them itself.Conduct technical sessions.Arrange workshops.</p>
 
                 </div>
                 <div className="card-body mt-3">
@@ -46,13 +46,16 @@ certification from them itself.Conduct technical sessions.Arrange workshops.</p>
                 </div>
                 <div className="card-body mt-3">
                   <h4 className='card-title mt-2'> History</h4>
-                  <p className="card-text">As you all are aware that VIIT has signed MoU with CISCO under that we had established Cisco Networking Academy. 
-Cisco NetAcad has 2 certified instructors from CISCO. </p>
+                  <p className="card-text">As you all are aware that VIIT has signed MoU with CISCO under that we had established Cisco Networking Academy.
+                    Cisco NetAcad has 2 certified instructors from CISCO. </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+      <div class="text-center p-3">
+      <p>Made with <i class="fa fa-heart pulse"></i> By CiscoViiT</p>
       </div>
     </>
   )

@@ -17,6 +17,13 @@ body {
 .outer {
     width: 80%;
 }
+.fa{
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
 
 .row_ab {
     padding-top: 5rem;

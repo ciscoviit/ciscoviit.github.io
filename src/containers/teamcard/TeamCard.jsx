@@ -131,7 +131,9 @@ const TeamCard = ()=>{
                 </Carousel>
 
             </div>
-            
+            <div class="text-center p-3">
+                <p>Made with <i class="fa fa-heart pulse"></i> By CiscoViiT</p>
+            </div>
 
         </section>
     );
