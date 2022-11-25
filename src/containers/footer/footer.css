@@ -150,11 +150,18 @@ ul {
         width: 50%;
         margin-bottom: 30px;
     }
+    .footer-col1 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
 }
 
 
 @media (max-width: 574px) {
     .footer-col {
+        width: 100%;
+    }
+    .footer-col1{
         width: 100%;
     }
 }
