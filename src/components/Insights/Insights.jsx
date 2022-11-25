@@ -11,28 +11,28 @@ const Insights = () => {
           <div className="item wow fadeInUpBig animated bg-transparent" data-number="12" style={{ visibility: 'visible' }}>
             <i className="fa fa-briefcase"></i>
             <p>Projects done</p>
-            <p className='number'><CountUp end={50} duration={5} /></p>
+            <p className='number'><CountUp end={50} duration={8} /></p>
 
 
           </div>
           <div className="item wow fadeInUpBig animated bg-transparent" data-number="55" style={{ visibility: 'visible' }}>
             <i className="fas fa-user-graduate"></i>
             <p>Course Enrollment</p>
-            <p className='number'><CountUp end={300} duration={5} /></p>
+            <p className='number'><CountUp end={300} duration={8} /></p>
 
 
           </div>
           <div className="item wow fadeInUpBig animated bg-transparent" data-number="359" style={{ visibility: 'visible' }}>
             <i className="fas fa-award"></i>
             <p>No. Of events</p>
-            <p className='number'><CountUp end={400} duration={5} /></p>
+            <p className='number'><CountUp end={400} duration={8} /></p>
 
 
           </div>
           <div className="item wow fadeInUpBig animated bg-transparent" data-number="359" style={{ visibility: 'visible' }}>
             <i className="fas fa-book-open"></i>
             <p>No. of Courses</p>
-            <p className='number'><CountUp end={359} duration={5} /></p>
+            <p className='number'><CountUp end={359} duration={8} /></p>
           </div>
         </div>
       </div>

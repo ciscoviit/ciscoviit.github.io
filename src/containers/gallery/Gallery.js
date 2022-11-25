@@ -18,7 +18,7 @@ const Gallery = () => {
             <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="100000">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img src={blog01} className="d-block w-75 gallery-img" alt="..." />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
