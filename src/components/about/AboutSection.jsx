@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 //import { Navbar } from './components';
-import ai from '../../assets/ai.png';
+import CN_Logo2 from '../../assets/CN_Logo2.png';
 //import CIscoLogo from './assets/CIscoLogo.jpg';
 const AboutSection = () => {
 
@@ -18,7 +18,7 @@ const AboutSection = () => {
             <div className="row row_ab">
               <div className="col-lg-4 col-sm-12">
                 <div className="profile h-100">
-                  <img src={ai} alt="ai" className='profile-img' />
+                  <img src={CN_Logo2} alt="ai" className='profile-img' />
                   <div className="profile-content  text-center text-light">
                     <h4 className='px-5 fs-6 academy fw-bold'>Cisco Networing Academy</h4>
                     <div className="card-body mt-3 px-3">

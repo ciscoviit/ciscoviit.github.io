@@ -59,13 +59,11 @@ body {
     justify-content: center;
     z-index: 1;
     position: relative;
-
-
 }
 
 .profile-content {
     height: 100%;
-    padding-top: 30%;
+    padding-top: 40%;
     background-color: #45768f;
     padding-bottom: 2rem;
     border-radius: 2em;
@@ -75,6 +73,7 @@ body {
 .card-body img,
 .profile-img {
     border-radius: 100%;
+    background-color: black;
 
 }
 .card-text_ab{

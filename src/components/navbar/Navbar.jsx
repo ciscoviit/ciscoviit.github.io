@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { NavLink } from 'react-router-dom';
+// import CN_Logo2 from '../../assets/CN_Logo2.png';
+
 import './navbar.css';
 
 const Menu = () => (
@@ -20,8 +22,9 @@ const Navbar = () => {
     <div className="cisco__navbar ">
       <div className="cisco__navbar-links">
         <div className="cisco__navbar-links_logo">
-          {/* <img src={logo} alt="logo" /> */}
+          {/* <img src={CN_Logo2} width="30" height="30" class="d-inline-block align-top" alt=""/> */}
           {/* Add logo and remove h3 tag */}
+
           <h2><a href='/'>CISCOVIIT</a></h2>
         </div>
         <div className="cisco__navbar-links_container">
