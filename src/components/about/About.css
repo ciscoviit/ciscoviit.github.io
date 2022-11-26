@@ -4,20 +4,30 @@ body {
     background: radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
 }
 
+.heading {
+    font-weight: 100;
+    font-size: 40px;
+    line-height: 55px;
+
+}
+
 .container_ab {
     display: flex;
     justify-content: center;
-    /* background: #031B34; */
+    background: #031B34;
 
     /* background-color: transparent; */
 }
-.p{
+
+.p {
     font-family: 'Poppins', sans-serif;
 }
+
 .outer {
     width: 80%;
 }
-.fa{
+
+.fa {
     color: #E90606;
     margin: 0 3px;
     font-size: 10px;
@@ -25,8 +35,8 @@ body {
     -webkit-animation: pound .35s infinite alternate;
 }
 
-.row_ab {
-    padding-top: 5rem;
+.row_ab{
+    padding-top: 5.5rem;
     padding-bottom: 2rem;
 }
 
@@ -44,12 +54,12 @@ body {
 }
 
 .profile {
-    
+
     display: flex;
     justify-content: center;
     z-index: 1;
     position: relative;
-    
+
 
 }
 
@@ -59,24 +69,37 @@ body {
     background-color: #45768f;
     padding-bottom: 2rem;
     border-radius: 2em;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
-.card-body img ,.profile-img {
+.card-body img,
+.profile-img {
     border-radius: 100%;
 
 }
-
-
-
-.card-text {
-    text-align: justify;
+.card-text_ab{
+    color: darkslategray;
 }
-.card-body{
+
+.academy{
+ 
+    color: #242B2E;
+    text-shadow: 1px 1px white;
+}
+
+.card-body {
     padding-left: 2rem;
-    
+
 }
+
 /* .card-design
 {
     
 } */
+
+@media screen and (max-width: 480px) {
+    .row_ab{
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+    }
+}
