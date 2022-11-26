@@ -15,6 +15,7 @@ body {
     display: flex;
     justify-content: center;
     background: #031B34;
+    height: 100vh;
 
     /* background-color: transparent; */
 }

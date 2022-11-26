@@ -21,9 +21,9 @@ const TeamSection =({ image, sname, Tag, domain, linkedin, twitter, instagram})=
             
             <ul className="social">
                 
-                <li><a href={linkedin} target="_blank" className="fab fa-linkedin" aria-hidden="true"></a></li>
-                <li><a href={twitter} target="_blank" className="fab fa-twitter" aria-hidden="true"></a></li>
-                <li><a href={instagram} target="_blank" className="fab fa-instagram" aria-hidden="true"></a></li>
+                <li><a href={linkedin}><i className="fab fa-linkedin"></i></a></li>
+                <li><a href={twitter}><i className="fab fa-twitter"></i></a></li>
+                <li><a href={instagram}><i className="fab fa-instagram"></i></a></li>
             </ul>
         </div>
     );

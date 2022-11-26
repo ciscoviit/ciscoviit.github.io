@@ -1,6 +1,6 @@
 import React from "react";
 //import { Router } from "react-router-dom";
-import { Router,Link} from 'react-router-dom';
+// import { Router,Link} from 'react-router-dom';
 import './CourseSection.css';
 
 const CourseSection=({courseName,courseAbout,courseImage,courseText,courseTab})=>
@@ -20,7 +20,9 @@ const CourseSection=({courseName,courseAbout,courseImage,courseText,courseTab})=
                 </p>
             </div> 
             <div className="card-bottom">
-                <a href={courseTab} target="_blank"  aria-hidden="true"><button className="Btn">Read More</button></a>
+                {/* <a href={courseTab} target="_blank"  aria-hidden="true"><button className="Btn">Read More</button></a> */}
+                <a href={courseTab}><button className="Btn">Read More</button></a>
+
             </div>  
         </div>
     );
