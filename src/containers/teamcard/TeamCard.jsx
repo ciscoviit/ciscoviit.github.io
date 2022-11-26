@@ -4,6 +4,7 @@ import "../../components/team/TeamSection.css";
 import "./TeamCard.css";
 import Carousel from 'react-elastic-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Shreyas_Gavhalkar from "../../assets/Shreyas_Gavhalkar.jpg";
 
 
 const breakPoints=[
@@ -45,49 +46,49 @@ const TeamCard = ()=>{
 
                 <div className="row justify-content-center">
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shreyas Gavhalkar" domain="President" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image={Shreyas_Gavhalkar} sname="Shreyas Gavhalkar" domain="President" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/"  instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Sachi Teke" domain="Vice-President" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Sachi Teke" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"><span>Dev Team</span></i>}image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Pratik Rathod" domain="Publicity-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                    </div>
-
-                    <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Tejaswini Bahir" domain="IR-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                    </div>
-                    <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Saikumar Padmawar" domain="Technical-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                    </div>
-                    <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shrutika Wagh" domain="Publicity-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Pratik Rathod" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208" twitter="https://twitter.com/cyph3r_s" instagram="https://www.instagram.com/pratik_rathod_1/"/>
                     </div>
 
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Vishnu Jadhav" domain="professor" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Tejaswini Bahir" domain="IR-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Sayali Sontakke" domain="Design-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Saikumar Padmawar" domain="Technical-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i target="_blank" className="fas fa-code" aria-hidden="true"></i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Nikhilesh Sharma" domain="Department-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shrutika Wagh" domain="Publicity-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Vishnu Jadhav" domain="professor" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Sayali Sontakke" domain="Design-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"> DEV.</i>} image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Nikhilesh Sharma" domain="Department-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                     </div>
                 </div>
                     <Carousel  breakPoints={breakPoints}>
 
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Samruddhi Nande" domain="Jt.Technical-Head"  linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" />
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Samruddhi N." domain="Technical-Head"  linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" />
                         <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Yash Akotkar" domain="Jt.Design-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Siddharth Latthe" domain="Content Writing-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Rahul Talele" domain="Administration-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Vinayak Pawar" domain="Administration-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shravani Murabatte" domain="Activity Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shubham Wamanacharya" domain="Activity Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Amey Agarwal" domain="Documentation-Head"  linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" />
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Lokesh Shingvi" domain="IR-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Gaurav Kanade" domain="Department-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Rithesh Lade" domain="Department-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
-                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Armaan Shaikh" domain="Department-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Siddharth L." domain="Content Writing" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Rahul Talele" domain="Admin" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Vinayak Pawar" domain="Admin" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shravani M." domain="Activity Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Shubham W." domain="Activity Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Amey Agarwal" domain="Doc-Head"  linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" />
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Lokesh S." domain="IR-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Gaurav Kanade" domain="Dept-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Rithesh Lade" domain="Dept-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection className="cardcarousel" image="https://static.vecteezy.com/system/resources/previews/000/439/863/non_2x/vector-users-icon.jpg" sname="Armaan Shaikh" domain="Dept-Head" github="https://github.com/tejaswinibahir-01" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210/" instagram="https://instagram.com/tej_b01?igshid=YmMyMTA2M2Y="/>
                         
                     </Carousel>
                 
@@ -131,9 +132,7 @@ const TeamCard = ()=>{
                 </Carousel>
 
             </div>
-            <div class="text-center p-3">
-                <p>Made with <i class="fa fa-heart pulse"></i> By CiscoViiT</p>
-            </div>
+            
 
         </section>
     );

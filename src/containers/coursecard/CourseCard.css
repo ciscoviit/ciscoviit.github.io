@@ -3,10 +3,3 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.fa{
-    color: #E90606;
-    margin: 0 3px;
-    font-size: 10px;
-    animation: pound .35s infinite alternate;
-    -webkit-animation: pound .35s infinite alternate;
-}

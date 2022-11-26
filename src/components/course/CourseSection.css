@@ -85,10 +85,8 @@
     transition: .3s;
     width: 120px;
     height: 40px;
+    margin-top: 5px;
     font-size: 16px;
-    text-align:center;
-    margin: 5px;
-    text-decoration: none;
     text-align: center;
     border-radius: 6px;
     background-color: #03203C;
@@ -115,8 +113,15 @@
     .course-card{
         margin-left: auto !important; 
         margin-right: auto !important;
-
-
-
     }
 }
+
+
+.fa{
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
+

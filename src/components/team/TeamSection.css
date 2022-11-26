@@ -128,6 +128,7 @@
 
 .our-team:hover .fas {
   top: 7px;
+  
 }
 
 .our-team .fas.fa-code {
@@ -142,7 +143,7 @@
 
 .fas.fa-code
 {
-  font-size: 15px;
+  font-size: 13px;
   position: absolute;
   position: top right;
   right: 8px;
@@ -151,11 +152,11 @@
   
 }
 
-.our-team .fas.fa-code:hover {
+.our-team .fas.fa-code:hover 
+{
   color: #1369ce;
   background-color: #f7f5ec;
   
 }
-
 
 
