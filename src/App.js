@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Gallery, HeroSection, TeamCard ,CourseCard} from './containers';
+import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage} from './containers';
 import { Insights, Navbar } from './components';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
@@ -42,7 +42,7 @@ const Team = () => {
 const ContactUs = () => {
   return (
     <div>
-      <h1>hi</h1>
+      <ContactPage/>
     </div>
   )
 }

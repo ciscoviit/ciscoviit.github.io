@@ -94,14 +94,17 @@
     transition: .3s;
     width:120px;
     height: 40px;
-    margin-top: 5px;
     font-size: 16px;
     text-align:center;
+    margin: 5px;
+    text-decoration: none;
     border-radius: 6px;
     background-color: #03203C;
     display: block;
 
 }
+
+
 
 .Btn:hover
 {
@@ -119,5 +122,7 @@
     margin-bottom:10px;
     margin-left: 15px;
 }
+
+
 
 

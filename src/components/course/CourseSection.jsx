@@ -1,7 +1,9 @@
 import React from "react";
+//import { Router } from "react-router-dom";
+import { Router,Link} from 'react-router-dom';
 import './CourseSection.css';
 
-const CourseSection=({courseName,courseAbout,courseImage,courseText})=>
+const CourseSection=({courseName,courseAbout,courseImage,courseText,courseTab})=>
 {
     return(
         <div className="course-card">
@@ -18,7 +20,7 @@ const CourseSection=({courseName,courseAbout,courseImage,courseText})=>
                 </p>
             </div> 
             <div className="card-bottom">
-                <button className="Btn">Read More</button>
+                <a href={courseTab} target="_blank"  aria-hidden="true"><button className="Btn">Read More</button></a>
             </div>  
         </div>
     );
