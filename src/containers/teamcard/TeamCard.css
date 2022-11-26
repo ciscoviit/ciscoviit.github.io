@@ -39,6 +39,13 @@
     background-color:var(--clr-primary-400);
 }
 
+.fa{
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
 
 .gradient__bg {
 

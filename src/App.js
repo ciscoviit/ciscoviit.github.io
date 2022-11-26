@@ -18,14 +18,14 @@ const Home = () => {
 const About = () => {
   return (
     <div>
-      <h1>hi</h1>
+      <AboutSection/>
     </div>
   )
 }
 
 const Courses = () => {
   return (
-    <div>
+    <div className='App'>
       <CourseCard/>
     </div>
   )
@@ -39,7 +39,7 @@ const Team = () => {
   )
 }
 
-const ContactUs = () => {
+const Contactus = () => {
   return (
     <div>
       <ContactPage/>
@@ -57,7 +57,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/courses" element={<Courses />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/contactus" element={<ContactUs />} />
+        <Route path="/contactus" element={<Contactus />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>

@@ -59,6 +59,7 @@
 .cisco__navbar-menu {
     margin-left: 1rem;
     display: none;
+    z-index: 2;
     position: relative;
 }
 
@@ -82,6 +83,9 @@
     min-width: 210px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+
+    z-index: 2;
+
 }
 
 .cisco__navbar-menu_container p {
