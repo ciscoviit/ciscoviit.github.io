@@ -1,7 +1,8 @@
 .course-card {
     width: 300px;
-    height: 400px;
+    height: 420px;
     overflow: hidden;
+    overflow-x: hidden;
     transition: 0.3 s;
     animation: ease-in-out;
     background-color: transparent;
@@ -9,6 +10,12 @@
     border: solid 2px;
     margin-left: 30px;
     margin-bottom: 10px;
+}
+
+.card-body {
+    padding: 10px;
+    height: 130px;
+    margin: 10px 5px 20px -10px;
 }
 
 .course-name {
@@ -33,7 +40,6 @@
 .card-text {
     color: white;
     margin-top: 4px;
-    margin-bottom: 2px;
     letter-spacing: 0.5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
@@ -105,8 +111,8 @@
 
 .card-bottom {
 
-    margin-bottom: 10px;
-    margin-left: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 @media screen and (max-width: 480px) {
