@@ -16,13 +16,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 48px;
+  /* padding: 48px; */
+  margin-bottom: 50px;
+  background-color: #031b34;
 }
 
 .formbold-form-wrapper {
   margin: 0 auto;
   max-width: 550px;
   width: 100%;
+  padding: 60px 0px 60px 0px;
   background: transparent;
 }
 .formbold-form-label {
