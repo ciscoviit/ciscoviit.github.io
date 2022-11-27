@@ -31,7 +31,7 @@ body {
 
 @media screen and (max-width: 480px) {
   .formbold-form-wrapper {
-    max-width: 350px;
+    max-width: 280px;
   }
 }
 .formbold-form-label {
