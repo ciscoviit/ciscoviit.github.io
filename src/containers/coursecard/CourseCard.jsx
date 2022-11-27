@@ -13,6 +13,7 @@ import CloudSecurity from "../../assets/CloudSecurity.jpg";
 import CCIE from "../../assets/CCIE.jpg";
 import CcieSecurity from "../../assets/CcieSecurity.jpg";
 import CCNP from "../../assets/CCNP.jpg";
+import FooterHeart from "../footerHeart/FooterHeart";
 
 
 const CourseCard=()=>
@@ -94,10 +95,7 @@ const CourseCard=()=>
 
                 </div>
             </div>
-            
-            <div class="text-center p-3">
-                <p>Made with <i class="fa fa-heart pulse"></i> By CiscoViiT</p>
-            </div>
+            <FooterHeart />
             
         </section>
     );

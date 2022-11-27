@@ -1,6 +1,6 @@
 import React from 'react';
-// import ciscoLogo from '../../logo.svg';
 import './footer.css';
+import FooterHeart from "../footerHeart/FooterHeart";
 
 const Footer = () => (
   <div className="container mb-5">
@@ -32,9 +32,8 @@ const Footer = () => (
           <a href="https://twitter.com/ciscoviit"><i className="fab fa-twitter"></i></a>
         </div>
       </div>
-      <div className="cisco__footer-copyright mb-3">
-        <p>@Cisco Team. All rights reserved.</p>
-      </div>
+      
+      <FooterHeart />
     </div>
    
   </div>

@@ -39,6 +39,7 @@ ul {
 .footer-col1{
     width: 25%;
     padding: 0 15px;
+    margin-bottom: 30px;
 }
 .footer-col1 h4{ 
     font-size: 18px;

@@ -4,6 +4,7 @@ import "../../components/team/TeamSection.css";
 import "./TeamCard.css";
 import Carousel from 'react-elastic-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import FooterHeart from "../footerHeart/FooterHeart";
 import Shreyas_Gavhalkar from "../../assets/Shreyas_Gavhalkar.jpg";
 
 
@@ -133,7 +134,7 @@ const TeamCard = ()=>{
 
             </div>
             
-
+        <FooterHeart />
         </section>
     );
 };

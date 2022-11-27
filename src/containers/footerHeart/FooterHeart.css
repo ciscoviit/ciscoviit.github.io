@@ -1,0 +1,15 @@
+.footer-heart{
+    text-align:center;
+    font-family: open sans, sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.footer-heart-section {
+    padding: 10px 0px 20px 0px;
+}
+
+
+.emoji{
+    vertical-align: middle;
+}

@@ -28,6 +28,12 @@ body {
   padding: 60px 0px 60px 0px;
   background: transparent;
 }
+
+@media screen and (max-width: 480px) {
+  .formbold-form-wrapper {
+    max-width: 350px;
+  }
+}
 .formbold-form-label {
   display: block;
   font-weight: 500;

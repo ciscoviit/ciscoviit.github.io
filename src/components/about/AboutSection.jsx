@@ -2,7 +2,8 @@ import React from 'react'
 import './About.css';
 //import { Navbar } from './components';
 import CN_Logo2 from '../../assets/CN_Logo2.png';
-//import CIscoLogo from './assets/CIscoLogo.jpg';
+import { FooterHeart } from '../../containers';
+
 const AboutSection = () => {
 
   return (
@@ -54,9 +55,8 @@ const AboutSection = () => {
           </div>
         </div>
       </div>
-      <div class="text-center p-3">
-      <p>Made with <i class="fa fa-heart pulse"></i> By CiscoViiT</p>
-      </div>
+      
+      <FooterHeart />
     </>
   )
 }
