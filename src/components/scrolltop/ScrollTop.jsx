@@ -2,13 +2,11 @@ import {useEffect} from 'react';
 
 const ScrollTop = () => {
   useEffect(() => {
-    // 👇️ scroll to top on page load
     window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
   }, []);
 
   return (
     <div>
-      {/* 👇️ scroll to top on button click */}
       <button
         onClick={() => {
           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
@@ -19,10 +17,9 @@ const ScrollTop = () => {
           fontSize: '20px',
           bottom: '30px',
           right: '30px',
-          backgroundColor: '#120E43',
           color: '#fff',
           textAlign: 'center',
-          borderRadius: '2rem'
+          borderRadius: '2rem', zIndex:999
         }}
       ><i className="fa fa-angle-double-up" style={{ fontSize: "20px", color: "DodgerBlue" }}></i> 
       </button>
