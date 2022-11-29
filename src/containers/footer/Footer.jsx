@@ -19,8 +19,8 @@ const Footer = () => (
         <h4>Get In Touch</h4>
         <ul>
           <li><a href="/">Survey No. 2/3/4, VIM Private Rd, Kapil Nagar, Kondhwa, Pune, Maharashtra 411048 </a></li>
-          <li><a href="/">+918023</a></li>
-          <li><a href="/">ciscoviit@viit.ac.in</a></li>
+          <li><a href='/'>+918023</a></li>
+          <li><a href="mailto:ciscoviit@viit.ac.in">ciscoviit@viit.ac.in</a></li>
         </ul>
       </div>
       <div className="footer-col">
