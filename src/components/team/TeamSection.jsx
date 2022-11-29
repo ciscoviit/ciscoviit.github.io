@@ -2,7 +2,7 @@ import React from "react";
 import "./TeamSection.css";
 
 
-const TeamSection =({ image, sname, Tag, domain, linkedin, twitter, instagram})=>
+const TeamSection =({ image, Name, Tag, domain, linkedin, twitter, instagram})=>
 {
     
     return(
@@ -15,7 +15,7 @@ const TeamSection =({ image, sname, Tag, domain, linkedin, twitter, instagram})=
             
             
             <div className="team-content">
-                <h3 className="name">{sname}</h3>
+                <h3 className="name">{Name}</h3>
                 <h4 className="title">{domain}</h4>
             </div>
             

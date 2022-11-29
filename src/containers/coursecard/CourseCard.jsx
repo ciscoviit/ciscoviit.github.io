@@ -1,18 +1,18 @@
 import React from "react";
 import './CourseCard.css';
 import CourseSection from "../../components/course/CourseSection";
-import module3 from "../../assets/module3.jpg";
-import module2 from "../../assets/module2.jpg";
-import module1 from "../../assets/module1.jpg";
-import NetworkingEssentials from "../../assets/NetworkingEssentials.jpg";
-import NetworkSecurity from "../../assets/NetworkSecurity.jpg";
-import cybersecurity from "../../assets/cybersecurity.jpg";
-import Iot from "../../assets/Iot.jpg";
-import CyberEssentials from "../../assets/CyberEssentials.jpg";
-import CloudSecurity from "../../assets/CloudSecurity.jpg";
-import CCIE from "../../assets/CCIE.jpg";
-import CcieSecurity from "../../assets/CcieSecurity.jpg";
-import CCNP from "../../assets/CCNP.jpg";
+import module3 from "../../assets/CourseDocuments/module3.jpg";
+import module2 from "../../assets/CourseDocuments/module2.jpg";
+import module1 from "../../assets/CourseDocuments/module1.jpg";
+import NetworkingEssentials from "../../assets/CourseDocuments/NetworkingEssentials.jpg";
+import NetworkSecurity from "../../assets/CourseDocuments/NetworkSecurity.jpg";
+import cybersecurity from "../../assets/CourseDocuments/cybersecurity.jpg";
+import Iot from "../../assets/CourseDocuments/Iot.jpg";
+import CyberEssentials from "../../assets/CourseDocuments/CyberEssentials.jpg";
+import CloudSecurity from "../../assets/CourseDocuments/CloudSecurity.jpg";
+import CCIE from "../../assets/CourseDocuments/CCIE.jpg";
+import CcieSecurity from "../../assets/CourseDocuments/CcieSecurity.jpg";
+import CCNP from "../../assets/CourseDocuments/CCNP.jpg";
 import FooterHeart from "../footerHeart/FooterHeart";
 
 
@@ -96,7 +96,6 @@ const CourseCard=()=>
                 </div>
             </div>
             <FooterHeart />
-            
         </section>
     );
 };
