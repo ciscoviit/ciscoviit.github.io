@@ -2,6 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './heroSection.css';
 import cloud from "../../assets/cloud.gif";
+import { ScrollTop} from '../../components';
 
 
 const Header = () => (
@@ -32,6 +33,7 @@ const Header = () => (
           <NavLink to='courses'><button className="btn documentation_btn">Courses</button></NavLink>
         </div>
       </div>
+      <ScrollTop/>
     </div>
   </>
 );

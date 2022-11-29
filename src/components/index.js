@@ -5,3 +5,4 @@ export { default as Navbar } from './navbar/Navbar';
 export {default as TeamSection} from './team/TeamSection';
 export {default as CourseSection} from './course/CourseSection';
 export {default as AboutSection} from './about/AboutSection';
+export {default as ScrollTop} from './scrolltop/ScrollTop';
