@@ -24,7 +24,7 @@ const ScrollTop = () => {
           textAlign: 'center',
           borderRadius: '2rem'
         }}
-      >^ 
+      ><i className="fa fa-angle-double-up" style={{ fontSize: "20px", color: "DodgerBlue" }}></i> 
       </button>
     </div>
   );
