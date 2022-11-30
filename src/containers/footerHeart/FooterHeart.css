@@ -1,8 +1,10 @@
 .footer-heart{
     text-align:center;
-    font-family: open sans, sans-serif;
-    font-size: 18px;
-    font-style: italic;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    border-top: 1px solid #d1d5db;
+    padding: 1rem 1rem;
+    margin-bottom: -1rem;
 }
 
 .footer-heart-section {

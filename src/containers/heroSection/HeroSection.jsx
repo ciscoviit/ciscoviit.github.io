@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './heroSection.css';
 import cloud from "../../assets/cloud.gif";
-import { ScrollTop} from '../../components';
+import { ScrollTop } from '../../components';
 
 
 const Header = () => (
@@ -14,10 +14,10 @@ const Header = () => (
           <h1 className="main-heading">
             Welcome to <span>Cisco ViiT</span>
             <br />
-            Connect Everywhere
+            The Bridge to Possible.
           </h1>
           <p className="heading-fancy-font text-center">
-            Loved by Developers, Trusted By Bussiness.
+            Creating a bridge to employment opportunities
           </p>
         </div>
         <div className="cisco__header-image">
@@ -33,7 +33,7 @@ const Header = () => (
           <NavLink to='courses'><button className="btn documentation_btn">Courses</button></NavLink>
         </div>
       </div>
-      <ScrollTop/>
+      <ScrollTop />
     </div>
   </>
 );
