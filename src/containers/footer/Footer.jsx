@@ -12,7 +12,6 @@ const Footer = () => (
           <li><a href="/">Courses</a></li>
           <li><a href="/">Team</a></li>
           <li><a href="/">Contact Us</a></li>
-          
         </ul>
       </div>
       <div className="footer-col1">

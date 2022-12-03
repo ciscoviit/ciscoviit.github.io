@@ -3,15 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Inter", sans-serif;
 }
+
 .formbold-mb-5 {
   margin-bottom: 20px;
 }
+
 .formbold-pt-3 {
   padding-top: 12px;
 }
+
 .formbold-main-wrapper {
   display: flex;
   align-items: center;
@@ -34,14 +38,16 @@ body {
     max-width: 280px;
   }
 }
+
 .formbold-form-label {
   display: block;
   font-weight: 500;
   font-size: 20px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:azure;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: azure;
   margin-bottom: 12px;
 }
+
 .formbold-form-label-2 {
   font-weight: 600;
   font-size: 20px;
@@ -60,50 +66,51 @@ body {
   outline: none;
   resize: none;
 }
+
 .formbold-form-input:focus {
   border-color: #6a64f1;
   box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
 }
 
-.formbold-form-input:hover
-{
-   box-shadow: 0px 0px 12px 2px;
+.formbold-form-input:hover {
+  box-shadow: 0px 0px 12px 2px;
 }
 
 .formbold-btn {
   text-align: center;
   font-size: 16px;
-  border-radius: 6px;
-  padding: 14px 32px;
+  border-radius: 9px;
+  padding: 12px 26px;
   border: none;
-  font-weight: 600;
+  font-weight: 500;
   background-color: var(--primary-color);
   color: white;
   cursor: pointer;
 }
-.formbold-btn:hover {
-  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
-  background-color: transparent;
-  border: solid var(--primary-color);
-}
+
 
 .formbold--mx-3 {
   margin-left: -12px;
   margin-right: -12px;
 }
+
 .formbold-px-3 {
   padding-left: 12px;
   padding-right: 12px;
 }
+
 .flex {
   display: flex;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
+
 .w-full {
   width: 100%;
 }
+
 @media (min-width: 540px) {
   .sm\:w-half {
     width: 50%;
