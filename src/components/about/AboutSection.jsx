@@ -31,18 +31,18 @@ export const AboutSection = () => {
 
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Module 1",
+      description: "",
       imgUrl: module1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Module 2",
+      description: "",
       imgUrl: module2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Module 3",
+      description: "",
       imgUrl: module3,
     },
 
