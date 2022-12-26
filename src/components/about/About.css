@@ -81,6 +81,7 @@
     overflow: hidden;
     margin-bottom: 24px;
     object-fit: fill;
+    margin-left: 40px;
   }
   .proj-imgbx::before {
     content: "";
@@ -201,4 +202,3 @@
   .contact form button:hover::before {
     width: 100%;
   }
-  
