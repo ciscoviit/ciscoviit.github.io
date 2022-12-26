@@ -109,3 +109,90 @@ a {
         height: 90vh;
     }
 }
+
+/*---------courses----------*/
+.container_ab {
+    display: flex;
+    justify-content: center;
+    background: #031B34;
+
+    /* background-color: transparent; */
+}
+
+.p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.outer {
+    width: 80%;
+}
+
+.fa {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound .35s infinite alternate;
+    -webkit-animation: pound .35s infinite alternate;
+}
+
+.row_ab{
+    padding-top: 5.5rem;
+    padding-bottom: 2rem;
+}
+
+.row_ab>div {
+    margin-top: 1rem;
+}
+
+
+.profile-img {
+    position: absolute;
+    width: 15rem;
+    z-index: 2;
+    top: -7.5rem;
+
+}
+
+.profile {
+
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    position: relative;
+}
+
+.profile-content {
+    height: 100%;
+    padding-top: 40%;
+    background-color: #45768f;
+    padding-bottom: 2rem;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
+.card-body img,
+.profile-img {
+    border-radius: 100%;
+    background-color: black;
+
+}
+.card-text_ab{
+    color: darkslategray;
+}
+
+.academy{
+ 
+    color: #242B2E;
+    text-shadow: 1px 1px white;
+}
+
+.card-body {
+    padding-left: 2rem;
+
+}
+@media screen and (max-width: 480px) {
+    .row_ab{
+        padding-top: 7rem;
+        padding-bottom: 2rem;
+    }
+}

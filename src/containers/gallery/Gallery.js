@@ -1,8 +1,8 @@
 import React from 'react';
 import './gallery.css';
-import blog01 from "../../assets/blog01.png";
-import blog02 from "../../assets/blog02.png";
-import blog03 from "../../assets/blog03.png";
+import blog01 from "../../assets/blog01.JPG";
+import blog02 from "../../assets/blog02.jpg";
+import blog03 from "../../assets/blog03.JPG";
 
 const Gallery = () => {
   return (
@@ -19,13 +19,13 @@ const Gallery = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="2000">
-              <img src={blog01} className="d-block w-75 gallery-img" alt="..." />
+              <img src={blog01} className="d-block w-75 gallery-img rounded" alt="..." />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <img src={blog02} className="d-block w-75 gallery-img" alt="..." />
+              <img src={blog02} className="d-block w-75 gallery-img rounded" alt="..." />
             </div>
             <div className="carousel-item" data-bs-interval="2000">
-              <img src={blog03} className="d-block w-75 gallery-img" alt="..." />
+              <img src={blog03} className="d-block w-75 gallery-img rounded" alt="..." />
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">

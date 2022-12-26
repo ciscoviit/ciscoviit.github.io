@@ -3,14 +3,17 @@ import { NavLink } from 'react-router-dom';
 import './heroSection.css';
 import cloud from "../../assets/cloud.gif";
 import { ScrollTop } from '../../components';
-
+import FadeIn from 'react-fade-in';
 
 const Header = () => (
   <>
+  
     <div className='gradient__bg-home'>
-
+    <FadeIn>
       <div className="cisco__header section__padding" id="home">
+      
         <div className="cisco__header-content">
+        
           <h1 className="main-heading">
             Welcome to <span>Cisco ViiT</span>
             <br />
@@ -34,7 +37,9 @@ const Header = () => (
         </div>
       </div>
       <ScrollTop />
+      </FadeIn>
     </div>
+    
   </>
 );
 

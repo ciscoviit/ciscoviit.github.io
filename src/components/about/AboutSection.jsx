@@ -1,64 +1,114 @@
-import React from 'react'
-import './About.css';
-//import { Navbar } from './components';
-import CN_Logo2 from '../../assets/CN_Logo2.png';
-import { FooterHeart } from '../../containers';
+import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { AboutImg } from "./AboutImg";
+import './About.css'
+import module1 from "../../assets/module1.jpeg";
+import module2 from "../../assets/module2.jpeg";
+import module3 from "../../assets/module3.jpeg";
+import 'animate.css';
 
-const AboutSection = () => {
+import TrackVisibility from 'react-on-screen';
+
+export const AboutSection = () => {
+
+  const projects1 = [
+    {
+      title: "Module 1",
+      description: "",
+      imgUrl: module1,
+    },
+    {
+      title: "Module 2",
+      description: "",
+      imgUrl: module2,
+    },
+    {
+      title: "Module 3",
+      description: "",
+      imgUrl: module3,
+    },
+
+  ];
+
+  const projects2 = [
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: module1,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: module2,
+    },
+    {
+      title: "Business Startup",
+      description: "Design & Development",
+      imgUrl: module3,
+    },
+
+  ];
 
   return (
-    <>
-
-      <div className='section' >
-        <div className='container_ab text-light'>
-          <div className='outer'>
-            <div className=" text-center mt-5">
-              <h1 className='heading'>About us</h1>
-              <p className='fw-bold fs-6'>Excellent in the field of Networing</p>
-            </div>
-            <div className="row row_ab">
-              <div className="col-lg-4 col-sm-12">
-                <div className="profile h-100">
-                  <img src={CN_Logo2} alt="ai" className='profile-img' />
-                  <div className="profile-content  text-center text-light">
-                    <h4 className='px-5 fs-6 academy fw-bold'>Cisco Networing Academy</h4>
-                    <div className="card-body mt-3 px-3">
-                      {/* <h4 className='card-title'>Mission</h4> */}
-                      <p className="card-text mt-2">We will, together with our education ,instructor, training and employement partners we have made a commitment to developing the workforce of the future. Join us as we change the world.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-8 col-sm-12" >
-                <div className="card-body ">
-                  <h4 className='card-title fs-6 fw-bold'> What we do??</h4>
-
-                  <p className="card-text">Launch Cisco Modules : outside the cost of modules are high but we here provide in fewer rate. Also when go for cisco , you'll filter out from the students because you've done
-                    certification from them itself.Conduct technical sessions.Arrange workshops.</p>
-
-                </div>
-                <div className="card-body mt-3">
-                  <h4 className='card-title fw-bold fs-6 mt-2'> Mission</h4>
-                  <p className="card-text">To provide quality educational training designed to meet the current and future needs of the information technology.</p>
-                </div>
-                <div className="card-body mt-3">
-                  <h4 className='card-title fw-bold fs-6 mt-2'> Aim</h4>
-                  <p className="card-text">Cisco provides free training to thousands through its Cisco Networking Academy Program.To get maximum benefits from NetAcad to students, we have a committee for Cisco Networking Academy.</p>
-                </div>
-                <div className="card-body mt-3">
-                  <h4 className='card-title fw-bold fs-6  mt-2'> History</h4>
-                  <p className="card-text">As you all are aware that VIIT has signed MoU with CISCO under that we had established Cisco Networking Academy.
-                    Cisco NetAcad has 2 certified instructors from CISCO. </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <FooterHeart />
-    </>
+    <section className="project" id="project">
+      <Container>
+        <Row>
+          <Col size={12}>
+            <TrackVisibility>
+              {({ isVisible }) =>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                  <h2>About Us</h2>
+                  <p>Cisco Networking Academy is a global IT and cybersecurity education program that partners with learning institutions around the world to empower all people with career opportunities. It is Cisco’s largest and longest-running Cisco Corporate Social Responsibility program.</p>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+                    <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+                      <Nav.Item>
+                        <Nav.Link eventKey="first">Tab 1</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="second">Tab 2</Nav.Link>
+                      </Nav.Item>
+                      <Nav.Item>
+                        <Nav.Link eventKey="third">Tab 3</Nav.Link>
+                      </Nav.Item>
+                    </Nav>
+                    <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {
+                            projects1.map((project, index) => {
+                              return (
+                                <AboutImg
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="second">
+                        <Row>
+                          {
+                            projects2.map((project, index) => {
+                              return (
+                                <AboutImg
+                                  key={index}
+                                  {...project}
+                                />
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <p>Cisco Networking Academy is a global platform which can be used to inspire students and instructors to make their future</p>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>}
+            </TrackVisibility>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   )
 }
-
-export default AboutSection

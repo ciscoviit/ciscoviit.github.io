@@ -1,12 +1,13 @@
 import React from "react";
 import "./TeamSection.css";
-
+import FadeIn from 'react-fade-in';
 
 const TeamSection =({ image, Name, Tag, domain, linkedin, twitter, instagram})=>
 {
     
     return(
         <div className="our-team rounded">
+            <FadeIn>
             
             <div className="picture">
                 <img className="img-fluid" src={image} alt="" />   
@@ -25,6 +26,7 @@ const TeamSection =({ image, Name, Tag, domain, linkedin, twitter, instagram})=>
                 <li><a href={twitter}><i className="fab fa-twitter"></i></a></li>
                 <li><a href={instagram}><i className="fab fa-instagram"></i></a></li>
             </ul>
+            </FadeIn>
         </div>
     );
 };
