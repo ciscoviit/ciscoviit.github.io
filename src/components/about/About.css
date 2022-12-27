@@ -202,3 +202,9 @@
   .contact form button:hover::before {
     width: 100%;
   }
+@media screen and (max-width: 320px) {
+    .proj-imgbx{
+    width: 220px;
+    height: 220px;
+    }
+}
