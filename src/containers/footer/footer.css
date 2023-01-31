@@ -93,7 +93,7 @@ ul {
     color: #fff;
 }
 
-.footer-col ul li:not(:last-child) {
+.footer-col ul li {
     margin-bottom: 10px;
 }
 .footer-col1 ul li:not(:last-child) {

@@ -8,7 +8,7 @@ import './navbar.css';
 const Menu = () => (
   <>
     <p><a href="/"><NavLink to='/'>Home</NavLink></a></p>
-    <p><a href="/"><NavLink to='/about'>About</NavLink></a></p>
+    {/* <p><a href="/"><NavLink to='/about'>About</NavLink></a></p> */}
     <p><a href="/"><NavLink to='/courses'>Courses</NavLink></a></p>
     <p><a href="/"><NavLink to='/team'>Team</NavLink></a></p>
     <p><a href="/"><NavLink to='/contactus'>Contact Us</NavLink></a></p>

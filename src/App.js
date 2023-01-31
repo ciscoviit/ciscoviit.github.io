@@ -1,6 +1,6 @@
 import React from 'react';
 import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage} from './containers';
-import { Insights, Navbar ,AboutSection} from './components';
+import { Insights, Navbar } from './components';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
@@ -15,13 +15,13 @@ const Home = () => {
   )
 }
 
-const About = () => {
-  return (
-    <div>
-      <AboutSection/>
-    </div>
-  )
-}
+// const About = () => {
+//   return (
+//     <div>
+//       <AboutSection/>
+//     </div>
+//   )
+// }
 
 const Courses = () => {
   return (
@@ -54,7 +54,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {/* <Route path="/about" element={<About />} /> */}
         <Route path="/courses" element={<Courses />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contactus" element={<Contactus/>} />
