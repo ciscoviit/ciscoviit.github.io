@@ -1,10 +1,10 @@
 import React from 'react';
 import './gallery.css';
-import blog01 from "../../assets/blog01.JPG";
-import blog02 from "../../assets/blog02.jpg";
-import blog03 from "../../assets/blog03.JPG";
-import blog04 from "../../assets/blog04.JPG";
-import blog05 from "../../assets/blog05.JPG";
+import blog01 from "../../assets/Blog/blog01.JPG";
+import blog02 from "../../assets/Blog/blog02.jpg";
+import blog03 from "../../assets/Blog/blog03.JPG";
+import blog04 from "../../assets/Blog/blog04.JPG";
+import blog05 from "../../assets/Blog/blog05.JPG";
 
 const Gallery = () => {
   return (

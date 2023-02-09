@@ -1,9 +1,9 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { AboutImg } from "./AboutImg";
 import './About.css'
-import module1 from "../../assets/module1.jpeg";
-import module2 from "../../assets/module2.jpeg";
-import module3 from "../../assets/module3.jpeg";
+import module1 from "../../assets/Blog/module1.jpeg";
+import module2 from "../../assets/Blog/module2.jpeg";
+import module3 from "../../assets/Blog/module3.jpeg";
 import 'animate.css';
 
 import TrackVisibility from 'react-on-screen';

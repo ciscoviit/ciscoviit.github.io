@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './heroSection.css';
-import cloud from "../../assets/cloud.gif";
+import cloud from "../../assets/Blog/cloud.gif";
 import { ScrollTop } from '../../components';
 import FadeIn from 'react-fade-in';
 
