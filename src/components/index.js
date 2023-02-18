@@ -6,3 +6,4 @@ export {default as TeamSection} from './team/TeamSection';
 export {default as CourseSection} from './course/CourseSection';
 export {AboutSection} from './about/AboutSection';
 export {default as ScrollTop} from './scrolltop/ScrollTop';
+// export {default as EventRegistrationForm } from './event/EventRegistrationForm';
