@@ -14,7 +14,7 @@
 <p align="center">
 <table align="center">
   <tbody><tr>
-     <td align="center"><a href="https://github.com/Qbitman"><img alt="" src="https://avatars.githubusercontent.com/u/67314476?v=4" width="125px;"><br><sub><b> Saurav Mukherjee </b></sub></a><br></td> </a></td>
+     <td align="center"><a href="https://github.com/Qbitman"><img alt="" src="https://avatars.githubusercontent.com/u/67314476?v=4" width="125px;"><br><sub><b> Chaitanya Uge </b></sub></a><br></td> </a></td>
 
 </tbody></table>
 
