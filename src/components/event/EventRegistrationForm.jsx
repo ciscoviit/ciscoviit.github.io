@@ -118,7 +118,7 @@ const TeamRegistrationForm = () => {
           </form>
           <div>
           {/* <p>Registration successful!</p> */}
-          <img className='center' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/444px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="Pay Here" />
+          {/* <img className='center' src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/444px-QR_code_for_mobile_English_Wikipedia.svg.png" alt="Pay Here" /> */}
         </div>
 
           {registrationComplete &&<script>alert('registration complete');</script>}
