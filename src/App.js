@@ -1,5 +1,5 @@
 import React from 'react';
-import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage, Timeline} from './containers';
+import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage} from './containers';
 import { Insights, Navbar, EventRegistrationForm } from './components';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
@@ -47,13 +47,13 @@ const Team = () => {
   )
 }
 
-const Event = () => {
-  return (
-    <div>
-      <Timeline />
-    </div>
-  )
-}
+// const Event = () => {
+//   return (
+//     <div>
+//       <Timeline />
+//     </div>
+//   )
+// }
 
 const Contactus = () => {
   return (
@@ -74,7 +74,7 @@ const App = () => {
         <Route path="/courses" element={<Courses />} />
         <Route path="/registrationform" element={<RegistrationForm />} />
         <Route path="/team" element={<Team />} />
-        <Route path="/event" element={<Event />} />
+        <Route path="/event" element={<RegistrationForm />} />
         <Route path="/contactus" element={<Contactus/>} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
