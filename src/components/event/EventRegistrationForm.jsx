@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import './EventRegistrationForm.css';
-
+// import { Timeline } from '../../containers';
 const firebaseConfig = {
   apiKey: "AIzaSyCxMsy0vG5Y4J7jvlhmvzFsfF_cWgWYir0",
   authDomain: "netacad-7098b.firebaseapp.com",

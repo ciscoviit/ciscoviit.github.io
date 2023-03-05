@@ -1,6 +1,6 @@
 import React from 'react';
-import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage} from './containers';
-import { Insights, Navbar , EventRegistrationForm} from './components';
+import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage, Timeline} from './containers';
+import { Insights, Navbar, EventRegistrationForm } from './components';
 import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 
@@ -11,6 +11,14 @@ const Home = () => {
       <Insights />
       <Gallery />
       <Footer />
+    </div>
+  )
+}
+
+const RegistrationForm = () => {
+  return (
+    <div>
+      <EventRegistrationForm />
     </div>
   )
 }
@@ -38,10 +46,11 @@ const Team = () => {
     </div>
   )
 }
+
 const Event = () => {
   return (
     <div>
-      <EventRegistrationForm />
+      <Timeline />
     </div>
   )
 }
@@ -63,6 +72,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         {/* <Route path="/about" element={<About />} /> */}
         <Route path="/courses" element={<Courses />} />
+        <Route path="/registrationform" element={<RegistrationForm />} />
         <Route path="/team" element={<Team />} />
         <Route path="/event" element={<Event />} />
         <Route path="/contactus" element={<Contactus/>} />

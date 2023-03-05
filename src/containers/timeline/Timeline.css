@@ -1,0 +1,117 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.timeline-heading {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.vertical-timeline-element {
+  position: relative;
+  margin: 34 auto;
+  padding-top: 2px;
+  padding-bottom: 47px;
+}
+.left-element{
+  left: 127%;
+}
+
+.vertical-timeline-element:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -1px;
+  width: 2px;
+  height: 100%;
+  background: #ccc;
+}
+
+.vertical-timeline-element-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #f5f5f5;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.vertical-timeline-element-icon:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 6px #f5f5f5;
+}
+/* 
+.vertical-timeline-element.current-date:hover {
+  background-color: #ffcd00;
+  color: #fff;
+} */
+
+.vertical-timeline-element.current-date:hover .vertical-timeline-element-date {
+  background-color: #ffcd00;
+  color: #fff;
+}
+
+
+.vertical-timeline-element-date {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vertical-timeline-element-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.vertical-timeline-element-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.vertical-timeline-element-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: all 0.3s ease-in-out;
+}
+
+.vertical-timeline-element-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.current-flag {
+  position: relative;
+  height: 60px;
+  margin-top: 40px;
+}
+
+.current-flag:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #f5f5f5 transparent;
+}
