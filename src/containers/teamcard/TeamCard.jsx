@@ -90,7 +90,7 @@ const TeamCard = ()=>{
 
                 <div className="row justify-content-center">
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Shreyas_Gavhalkar} Name="Shreyas " domain="President" linkedin="https://www.linkedin.com/in/shreyas-gavhalkar-a8b0bb206"  instagram="www.instagram.com/__shreyas__19"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Shreyas_Gavhalkar} Name="Shreyas Gavhalkar" domain="President" linkedin="https://www.linkedin.com/in/shreyas-gavhalkar-a8b0bb206"  instagram="www.instagram.com/__shreyas__19"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Sachi_Teke} Name="Sachi Teke" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
