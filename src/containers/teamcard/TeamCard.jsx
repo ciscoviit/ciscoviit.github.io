@@ -7,7 +7,7 @@ import 'react-multi-carousel/lib/styles.css';
 import FooterHeart from "../footerHeart/FooterHeart";
 import Nitin_Sakhare from "../../assets/TeamDocuments/Nitin_Sakhare.jpg";
 import Vikas_Kolekar from "../../assets/TeamDocuments/Vikas_Kolekar.jpg";
-import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
+// import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
 import Sachi_Teke from "../../assets/TeamDocuments/Sachi_Teke.jpg";
 import Pratik_Rathod from "../../assets/TeamDocuments/Pratik_Rathod.jpg";
 import Tejaswini_Bahir from "../../assets/TeamDocuments/Tejaswini_Bahir.jpg";
@@ -53,11 +53,11 @@ import Sandesh_Buchkul from "../../assets/TeamDocuments/Sandesh_Buchkul.jpg";
 import Sumedh_kulkarni from "../../assets/TeamDocuments/Sumedh_kulkarni.jpg";
 import Viraj_Badale from "../../assets/TeamDocuments/Viraj_Badale.jpg";
 import Ashish_Ruke from "../../assets/TeamDocuments/Ashish_Ruke.jpg";
-import Amol_Golhar from "../../assets/TeamDocuments/Amol_Golhar.jpg";
-import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
-import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
-import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
-import Shruti_Ghodake from "../../assets/TeamDocuments/Shruti_Ghodake.jpg";
+// import Amol_Golhar from "../../assets/TeamDocuments/Amol_Golhar.jpg";
+// import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
+// import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
+// import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
+// import Shruti_Ghodake from "../../assets/TeamDocuments/Shruti_Ghodake.jpg";
 
 
 
