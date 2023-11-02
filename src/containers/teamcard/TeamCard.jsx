@@ -8,7 +8,7 @@ import FooterHeart from "../footerHeart/FooterHeart";
 import Nitin_Sakhare from "../../assets/TeamDocuments/Nitin_Sakhare.jpg";
 import Vikas_Kolekar from "../../assets/TeamDocuments/Vikas_Kolekar.jpg";
 // import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
-import Sachi_Teke from "../../assets/TeamDocuments/Sachi_Teke.jpg";
+// import Sachi_Teke from "../../assets/TeamDocuments/Sachi_Teke.jpg";
 import Pratik_Rathod from "../../assets/TeamDocuments/Pratik_Rathod.jpg";
 import Tejaswini_Bahir from "../../assets/TeamDocuments/Tejaswini_Bahir.jpg";
 import Saikumar_Padmawar from "../../assets/TeamDocuments/Saikumar_Padmawar.jpg";
