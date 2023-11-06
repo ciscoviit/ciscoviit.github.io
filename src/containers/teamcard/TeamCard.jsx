@@ -7,12 +7,12 @@ import 'react-multi-carousel/lib/styles.css';
 import FooterHeart from "../footerHeart/FooterHeart";
 import Nitin_Sakhare from "../../assets/TeamDocuments/Nitin_Sakhare.jpg";
 import Vikas_Kolekar from "../../assets/TeamDocuments/Vikas_Kolekar.jpg";
-// import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
-// import Sachi_Teke from "../../assets/TeamDocuments/Sachi_Teke.jpg";
+import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
+import Sachi_Teke from "../../assets/TeamDocuments/Sachi_Teke.jpg";
 // import Pratik_Rathod from "../../assets/TeamDocuments/Pratik_Rathod.jpg";
 // import Tejaswini_Bahir from "../../assets/TeamDocuments/Tejaswini_Bahir.jpg";
-// import Saikumar_Padmawar from "../../assets/TeamDocuments/Saikumar_Padmawar.jpg";
-// import Shrutika_Wagh from "../../assets/TeamDocuments/Shrutika_Wagh.jpg";
+import Saikumar_Padmawar from "../../assets/TeamDocuments/Saikumar_Padmawar.jpg";
+import Shrutika_Wagh from "../../assets/TeamDocuments/Shrutika_Wagh.jpg";
 import Vishnu_Jadhav from "../../assets/TeamDocuments/Vishnu_Jadhav.jpg";
 import Sayali_Sontakke from "../../assets/TeamDocuments/Sayali_Sontakke.jpg";
 import Nikhilesh_Sharma from "../../assets/TeamDocuments/Nikhilesh_Sharma.jpg";
@@ -54,11 +54,11 @@ import Sumedh_kulkarni from "../../assets/TeamDocuments/Sumedh_kulkarni.jpg";
 import Viraj_Badale from "../../assets/TeamDocuments/Viraj_Badale.jpg";
 import Ashish_Ruke from "../../assets/TeamDocuments/Ashish_Ruke.jpg";
 import Amol_Golhar from "../../assets/TeamDocuments/Amol_Golhar.jpg";
-// import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
-// import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
-// import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
+import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
+import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
+import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
 import Shruti_Ghodake from "../../assets/TeamDocuments/Shruti_Ghodake.jpg";
-
+import Hrishikesh_Mahajan from "../../assets/TeamDocuments/Hrishikesh_Mahajan.jpg";
 
 
 
@@ -87,6 +87,17 @@ const TeamCard = ()=>{
                     </div>
                 </div>
 
+                <h2 className="page-section-heading text-center text-uppercase text-secondary ">Advisory Board</h2>
+                <div className="row justify-content-center">
+                    <div className="col-md-6 col-lg-4 mb-5">
+                    <TeamSection image={Vinayak_Pawar} Name="Vinayak Pawar" domain="Advisory Board Member" linkedin="https://www.linkedin.com/in/vinayak-pawar-17133a212" twitter="" instagram="https://www.instagram.com/we_nayak.08/"/>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4 mb-5">
+                    <TeamSection image={Saikumar_Padmawar} Name="Saikumar_Padmawar" domain="Advisory Board Member" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                    </div>
+                </div>
+
             </div>
 
             {/* TY-Committe Section*/}
@@ -101,6 +112,14 @@ const TeamCard = ()=>{
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Sumedh_kulkarni} Name="Sumedh_kulkarni" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
                     </div>
+
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Amol_Golhar} Name="Amol Golhar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Hrishikesh_Mahajan} Name="Hrishikesh Mahajan" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                    </div>
+                    
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Sahil_Wagh} Name="Sahil Wagh" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208" twitter="https://twitter.com/cyph3r_s" instagram="https://www.instagram.com/pratik_rathod_1/"/>
                     </div>
@@ -111,22 +130,33 @@ const TeamCard = ()=>{
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Rahul_Shelke} Name="Rahul Shelke" domain="IR-Head" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210" instagram="https://instagram.com/tej_b01/"/>
                     </div>
-                    <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Amol_Golhar} Name="Amol Golhar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+
+                     <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Deepak_Ghume} Name="Deepak_Ghume" domain="Design-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Amol_Golhar} Name="Amol Golhar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Devyani_Dahake} Name="Devyani Dahake" domain="Documentation & content-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
-                    
 
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Vishnu_Jadhav} Name="Vishnu Jadhav" domain="Department-Head " linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav" twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19" instagram="https://instagram.com/vj_5501?igshid=YmMyMTA2M2Y="/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Nikita_Sanap} Name="Nikita_Sanap" domain="Activily-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
+
+
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Sayali_Sontakke} Name="Sayali Sontakke" domain="Design-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Vedant_Devre} Name="Vedant Devre" domain="IT Department-Head " linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav" twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19" instagram="https://instagram.com/vj_5501?igshid=YmMyMTA2M2Y="/>
                     </div>
+                   
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Nikhilesh_Sharma} Name="Nikhilesh Sharma" domain="Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Smit_Ramteke} Name="Smit_Ramteke" domain="Comp Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
+                    </div>
+                    
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Viraj_Badale} Name="Viraj Badale" domain="EN&TC Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Ashish_Ruke} Name="Ashish Ruke" domain="AI&DS Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
                     </div>
 
                         
