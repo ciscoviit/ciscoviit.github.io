@@ -53,11 +53,11 @@ import Sandesh_Buchkul from "../../assets/TeamDocuments/Sandesh_Buchkul.jpg";
 import Sumedh_kulkarni from "../../assets/TeamDocuments/Sumedh_kulkarni.jpg";
 import Viraj_Badale from "../../assets/TeamDocuments/Viraj_Badale.jpg";
 import Ashish_Ruke from "../../assets/TeamDocuments/Ashish_Ruke.jpg";
-// import Amol_Golhar from "../../assets/TeamDocuments/Amol_Golhar.jpg";
-// import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
-// import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
-// import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
-// import Shruti_Ghodake from "../../assets/TeamDocuments/Shruti_Ghodake.jpg";
+import Amol_Golhar from "../../assets/TeamDocuments/Amol_Golhar.jpg";
+import Deepak_Ghume from "../../assets/TeamDocuments/Deepak_Ghume.jpg";
+import Devyani_Dahake from "../../assets/TeamDocuments/Devyani_Dahake.jpg";
+import Nikita_Sanap from "../../assets/TeamDocuments/Nikita_Sanap.jpg";
+import Shruti_Ghodake from "../../assets/TeamDocuments/Shruti_Ghodake.jpg";
 
 
 
@@ -102,18 +102,22 @@ const TeamCard = ()=>{
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Sumedh_kulkarni} Name="Sumedh_kulkarni" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Pratik_Rathod} Name="Pratik Rathod" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208" twitter="https://twitter.com/cyph3r_s" instagram="https://www.instagram.com/pratik_rathod_1/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Sahil_Wagh} Name="Sahil Wagh" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208" twitter="https://twitter.com/cyph3r_s" instagram="https://www.instagram.com/pratik_rathod_1/"/>
+                    </div>
+                    <div className="col-md-6 col-lg-4 mb-5">
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Shruti_Ghodake} Name="Shruti Ghodake" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208" twitter="https://twitter.com/cyph3r_s" instagram="https://www.instagram.com/pratik_rathod_1/"/>
                     </div>
                     
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Tejaswini_Bahir} Name="Tejaswini Bahir" domain="IR-Head" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210" instagram="https://instagram.com/tej_b01/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Rahul_Shelke} Name="Rahul Shelke" domain="IR-Head" linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210" instagram="https://instagram.com/tej_b01/"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Saikumar_Padmawar} Name="Saikumar Padmawar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Amol_Golhar} Name="Amol Golhar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Shrutika_Wagh} Name="Shrutika Wagh" domain="Publicity-Head" linkedin="https://www.linkedin.com/in/shrutika-wagh-65b907199" instagram="https://www.instagram.com/shrutika_53/" />
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Amol_Golhar} Name="Amol Golhar" domain="Technical-Head" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="https://twitter.com/SAIKUMARPADMAW1" instagram="https://www.instagram.com/saikumarpadmawar/"/>
                     </div>
+                    
 
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Vishnu_Jadhav} Name="Vishnu Jadhav" domain="Department-Head " linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav" twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19" instagram="https://instagram.com/vj_5501?igshid=YmMyMTA2M2Y="/>
