@@ -94,7 +94,7 @@ const TeamCard = ()=>{
                     </div>
 
                     <div className="col-md-6 col-lg-4 mb-5">
-                    <TeamSection image={Saikumar_Padmawar} Name="Saikumar_Padmawar" domain="Advisory Board Member" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="" instagram="https://www.instagram.com/saikumarpadmawar/"/>
+                    <TeamSection image={Saikumar_Padmawar} Name="Saikumar Padmawar" domain="Advisory Board Member" linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b" twitter="" instagram="https://www.instagram.com/saikumarpadmawar/"/>
                     </div>
                 </div>
 
@@ -110,7 +110,7 @@ const TeamCard = ()=>{
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Akash_Kalshetti} Name="Akash Kalshetti" domain="President" linkedin="https://www.linkedin.com/in/shreyas-gavhalkar-a8b0bb206"  instagram="www.instagram.com/__shreyas__19"/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Sumedh_kulkarni} Name="Sumedh_kulkarni" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Sumedh_kulkarni} Name="Sumedh kulkarni" domain="Vice-President" linkedin="https://www.linkedin.com/in/sachi-teke-118469206/" twitter="https://twitter.com/sachi_teke" instagram="https://instagram.com/sachi_teke7032"/>
                     </div>
 
                     <div className="col-md-6 col-lg-4 mb-5">
@@ -132,14 +132,14 @@ const TeamCard = ()=>{
                     </div>
 
                      <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Deepak_Ghume} Name="Deepak_Ghume" domain="Design-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Deepak_Ghume} Name="Deepak Ghume" domain="Design-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
                     <div className="col-md-6 col-lg-4 mb-5">
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Devyani_Dahake} Name="Devyani Dahake" domain="Documentation & content-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
 
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Nikita_Sanap} Name="Nikita_Sanap" domain="Activily-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Nikita_Sanap} Name="Nikita Sanap" domain="Activily-Head" linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209" twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08" instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="/>
                     </div>
 
 
@@ -148,7 +148,7 @@ const TeamCard = ()=>{
                     </div>
                    
                     <div className="col-md-6 col-lg-4 mb-5">
-                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Smit_Ramteke} Name="Smit_Ramteke" domain="Comp Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
+                        <TeamSection Tag={<i className="fas fa-code"></i>} image={Smit_Ramteke} Name="Smit Ramteke" domain="Comp Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
                     </div>
                     
                     <div className="col-md-6 col-lg-4 mb-5">
