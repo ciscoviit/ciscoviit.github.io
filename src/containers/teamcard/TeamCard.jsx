@@ -159,6 +159,8 @@ const TeamCard = ()=>{
                         <TeamSection Tag={<i className="fas fa-code"></i>} image={Ashish_Ruke} Name="Ashish Ruke" domain="AI&DS Department-Head" linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/" instagram="https://www.instagram.com/_nikhileshsharma_/"/>
                     </div>
 
+                    
+                    {/* updated content */}
                         
                 </div>
    
