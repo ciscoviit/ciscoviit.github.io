@@ -120,7 +120,6 @@ const TeamCard = () => {
               Name="Saikumar Padmawar"
               domain="Advisory Board Member"
               linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
-              twitter=""
               instagram="https://www.instagram.com/saikumarpadmawar/"
             />
           </div>
@@ -141,8 +140,8 @@ const TeamCard = () => {
               image={Akash_Kalshetti}
               Name="Akash Kalshetti"
               domain="President"
-              linkedin="https://www.linkedin.com/in/shreyas-gavhalkar-a8b0bb206"
-              instagram="www.instagram.com/__shreyas__19"
+              linkedin="https://www.linkedin.com/in/akash-kalshetti-27712b252"
+              instagram="https://www.instagram.com/kalshetti_akash"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-5">
