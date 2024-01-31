@@ -5,7 +5,7 @@ const FooterHeart = () => {
     return (
         <div className="footer-heart-section">
             <p className="footer-heart">
-            Copyright © 2022 All Rights Reserved by CISCO NETACAD VIIT.
+            Copyright © 2024 All Rights Reserved by CISCO NETACAD VIIT.
             </p>
         </div>
     );
