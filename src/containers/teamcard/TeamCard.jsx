@@ -150,9 +150,9 @@ const TeamCard = () => {
               image={Sumedh_kulkarni}
               Name="Sumedh kulkarni"
               domain="Vice-President"
-              linkedin="https://www.linkedin.com/in/sachi-teke-118469206/"
-              twitter="https://twitter.com/sachi_teke"
-              instagram="https://instagram.com/sachi_teke7032"
+              linkedin="https://www.linkedin.com/in/sumedh-kulkarni-080235245"
+              twitter="https://twitter.com/sumedh_2103"
+              instagram="https://www.instagram.com/sumedhk_2103"
             />
           </div>
 
@@ -162,9 +162,8 @@ const TeamCard = () => {
               image={Amol_Golhar}
               Name="Amol Golhar"
               domain="Technical-Head"
-              linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
-              twitter="https://twitter.com/SAIKUMARPADMAW1"
-              instagram="https://www.instagram.com/saikumarpadmawar/"
+              linkedin="https://www.linkedin.com/in/amol-golhar-a17536251"
+              instagram="https://www.instagram.com/amolsgolhar"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-5">
@@ -173,9 +172,7 @@ const TeamCard = () => {
               image={Hrishikesh_Mahajan}
               Name="Hrishikesh Mahajan"
               domain="Technical-Head"
-              linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
-              twitter="https://twitter.com/SAIKUMARPADMAW1"
-              instagram="https://www.instagram.com/saikumarpadmawar/"
+              linkedin="https://www.linkedin.com/in/hrishikesh-mahajan"
             />
           </div>
 
@@ -185,20 +182,19 @@ const TeamCard = () => {
               image={Sahil_Wagh}
               Name="Sahil Wagh"
               domain="Publicity-Head"
-              linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208"
-              twitter="https://twitter.com/cyph3r_s"
-              instagram="https://www.instagram.com/pratik_rathod_1/"
+              linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
+              instagram="https://www.instagram.com/its_me_sahilwagh"
             />
           </div>
+
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
               image={Shruti_Ghodake}
               Name="Shruti Ghodake"
               domain="Publicity-Head"
-              linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208"
-              twitter="https://twitter.com/cyph3r_s"
-              instagram="https://www.instagram.com/pratik_rathod_1/"
+              linkedin="https://www.linkedin.com/in/shruti-ghodake-539935260"
+              instagram="https://www.instagram.com/shrutighodake_03"
             />
           </div>
 
@@ -208,8 +204,9 @@ const TeamCard = () => {
               image={Rahul_Shelke}
               Name="Rahul Shelke"
               domain="IR-Head"
-              linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210"
-              instagram="https://instagram.com/tej_b01/"
+              linkedin="https://www.linkedin.com/in/rahul-shelke-457841227"
+              twitter="https://twitter.com/Mr_RahulShelke"
+              instagram="https://www.instagram.com/mr_rahulshelke"
             />
           </div>
 
@@ -219,20 +216,19 @@ const TeamCard = () => {
               image={Deepak_Ghume}
               Name="Deepak Ghume"
               domain="Design-Head"
-              linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s"
-              instagram="https://www.instagram.com/sayaliii.s_"
+              linkedin="https://www.linkedin.com/in/deepak-ghume-35537628a"
+              instagram="https://www.instagram.com/_king_deepak_official"
             />
           </div>
+
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
               image={Devyani_Dahake}
               Name="Devyani Dahake"
               domain="Documentation & content-Head"
-              linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s"
-              instagram="https://www.instagram.com/sayaliii.s_"
+              linkedin="https://www.linkedin.com/in/devyani-dahake-148682230"
+              instagram="https://www.instagram.com/devyanid_"
             />
           </div>
 
@@ -242,9 +238,7 @@ const TeamCard = () => {
               image={Nikita_Sanap}
               Name="Nikita Sanap"
               domain="Activily-Head"
-              linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s"
-              instagram="https://www.instagram.com/sayaliii.s_"
+              linkedin="https://www.linkedin.com/in/nikita-sanap-072b3a24b"
             />
           </div>
 
@@ -253,10 +247,9 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Vedant_Devre}
               Name="Vedant Devre"
-              domain="IT Department-Head "
-              linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav"
-              twitter="https://twitter.com/vj_5501/status/1586284985656365056"
-              instagram="https://instagram.com/vj_5501"
+              domain="IT Department-Head"
+              linkedin="https://www.linkedin.com/in/vedant-devre"
+              instagram="https://www.instagram.com/vedant_devre_77"
             />
           </div>
 
@@ -266,8 +259,8 @@ const TeamCard = () => {
               image={Smit_Ramteke}
               Name="Smit Ramteke"
               domain="Comp Department-Head"
-              linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/"
-              instagram="https://www.instagram.com/_nikhileshsharma_/"
+              linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
+              instagram="https://www.instagram.com/smit.__.ramteke"
             />
           </div>
 
@@ -277,8 +270,8 @@ const TeamCard = () => {
               image={Viraj_Badale}
               Name="Viraj Badale"
               domain="EN&TC Department-Head"
-              linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/"
-              instagram="https://www.instagram.com/_nikhileshsharma_/"
+              linkedin="https://www.linkedin.com/in/viraj-badale-731216229"
+              instagram="https://www.instagram.com/viraj_11_2020"
             />
           </div>
 
@@ -288,8 +281,8 @@ const TeamCard = () => {
               image={Ashish_Ruke}
               Name="Ashish Ruke"
               domain="AI&DS Department-Head"
-              linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/"
-              instagram="https://www.instagram.com/_nikhileshsharma_/"
+              linkedin="https://www.linkedin.com/in/ashish-ruke-68a038230"
+              instagram="https://www.instagram.com/ashishruke99"
             />
           </div>
 
