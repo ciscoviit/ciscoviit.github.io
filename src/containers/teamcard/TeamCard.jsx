@@ -83,7 +83,6 @@ const TeamCard = () => {
         <h2 className="page-section-heading text-center text-uppercase text-secondary ">
           Co-ordinators
         </h2>
-
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
@@ -95,7 +94,6 @@ const TeamCard = () => {
               instagram="https://instagram.com/nitinsakhare4"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               image={Vikas_Kolekar}
@@ -107,7 +105,6 @@ const TeamCard = () => {
             />
           </div>
         </div>
-
         <h2 className="page-section-heading text-center text-uppercase text-secondary ">
           Advisory Board
         </h2>
@@ -122,7 +119,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/we_nayak.08/"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               image={Saikumar_Padmawar}
@@ -134,14 +130,11 @@ const TeamCard = () => {
           </div>
         </div>
       </div>
-
       {/* TY-Committe Section*/}
-
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary ">
           TY-Committee
         </h2>
-
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
@@ -153,7 +146,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/kalshetti_akash"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -165,7 +157,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/sumedhk_2103"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -177,7 +168,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/sanchit_dhale_17_"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -188,7 +178,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/_itz_mayur_26"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -198,7 +187,6 @@ const TeamCard = () => {
               linkedin="https://www.linkedin.com/in/hrishikesh-mahajan"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -209,7 +197,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/amolsgolhar"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -219,7 +206,6 @@ const TeamCard = () => {
               linkedin="https://www.linkedin.com/in/nikita-sanap-072b3a24b"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -231,7 +217,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/mr_rahulshelke"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -242,7 +227,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/khushi_asodekar"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -253,7 +237,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/shrutighodake_03"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -264,7 +247,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/its_me_sahilwagh"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -275,7 +257,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/_king_deepak_official"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -286,7 +267,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/rajan._39"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -297,7 +277,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/devyanid_"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -308,7 +287,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/smit.__.ramteke"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -319,7 +297,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/vedant_devre_77"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -330,7 +307,6 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/viraj_11_2020"
             />
           </div>
-
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -341,17 +317,14 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/ashishruke99"
             />
           </div>
-
           {/* updated content */}
         </div>
       </div>
-
       {/* SY-Committee Section */}
       {/* <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary ">
           SY-Committee
         </h2>
-
         <Carousel breakPoints={breakPoints}>
           <TeamSection
             className="cardcarousel"
@@ -519,10 +492,8 @@ const TeamCard = () => {
           />
         </Carousel>
       </div> */}
-
       <FooterHeart />
     </section>
   );
 };
-
 export default TeamCard;
