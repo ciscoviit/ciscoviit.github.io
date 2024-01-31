@@ -83,7 +83,7 @@ const TeamCard = () => {
               domain="Professor"
               linkedin="https://www.linkedin.com/in/nitin-sakhare-b2485383"
               twitter="https://twitter.com/NitinSakhare16"
-              instagram="https://instagram.com/nitinsakhare4?igshid=YmMyMTA2M2Y="
+              instagram="https://instagram.com/nitinsakhare4"
             />
           </div>
 
@@ -94,7 +94,7 @@ const TeamCard = () => {
               domain="Professor"
               linkedin="https://www.linkedin.com/in/vikas-kolekar"
               twitter="https://twitter.com/KolekarVikas279"
-              instagram="https://instagram.com/kolekarvikas279?igshid=YmMyMTA2M2Y="
+              instagram="https://instagram.com/kolekarvikas279"
             />
           </div>
         </div>
@@ -221,8 +221,8 @@ const TeamCard = () => {
               Name="Deepak Ghume"
               domain="Design-Head"
               linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08"
-              instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="
+              twitter="https://www.twitter.com/Sayaliii_s"
+              instagram="https://www.instagram.com/sayaliii.s_"
             />
           </div>
           <div className="col-md-6 col-lg-4 mb-5">
@@ -232,8 +232,8 @@ const TeamCard = () => {
               Name="Devyani Dahake"
               domain="Documentation & content-Head"
               linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08"
-              instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="
+              twitter="https://www.twitter.com/Sayaliii_s"
+              instagram="https://www.instagram.com/sayaliii.s_"
             />
           </div>
 
@@ -244,8 +244,8 @@ const TeamCard = () => {
               Name="Nikita Sanap"
               domain="Activily-Head"
               linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-              twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08"
-              instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="
+              twitter="https://www.twitter.com/Sayaliii_s"
+              instagram="https://www.instagram.com/sayaliii.s_"
             />
           </div>
 
@@ -256,8 +256,8 @@ const TeamCard = () => {
               Name="Vedant Devre"
               domain="IT Department-Head "
               linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav"
-              twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19"
-              instagram="https://instagram.com/vj_5501?igshid=YmMyMTA2M2Y="
+              twitter="https://twitter.com/vj_5501/status/1586284985656365056"
+              instagram="https://instagram.com/vj_5501"
             />
           </div>
 
