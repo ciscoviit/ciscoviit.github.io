@@ -153,6 +153,7 @@ const TeamCard = () => {
               instagram="https://www.instagram.com/kalshetti_akash"
             />
           </div>
+
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -168,13 +169,26 @@ const TeamCard = () => {
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
-              image={Amol_Golhar}
-              Name="Amol Golhar"
-              domain="Technical-Head"
-              linkedin="https://www.linkedin.com/in/amol-golhar-a17536251"
-              instagram="https://www.instagram.com/amolsgolhar"
+              image={Sanchit_Dhale}
+              Name="Sanchit Dhale"
+              domain="Administration Head"
+              linkedin="https://www.linkedin.com/in/sanchit-dhale-8a9588231"
+              twitter="https://twitter.com/sanchez_1711"
+              instagram="https://www.instagram.com/sanchit_dhale_17_"
             />
           </div>
+
+          <div className="col-md-6 col-lg-4 mb-5">
+            <TeamSection
+              Tag={<i className="fas fa-code"></i>}
+              image={Mayur_Tingare}
+              Name="Mayur Tingare"
+              domain="Administration Head"
+              linkedin="https://www.linkedin.com/in/mayur-tingare-b2642122a"
+              instagram="https://www.instagram.com/_itz_mayur_26"
+            />
+          </div>
+
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
@@ -188,22 +202,21 @@ const TeamCard = () => {
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
-              image={Sahil_Wagh}
-              Name="Sahil Wagh"
-              domain="Publicity-Head"
-              linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
-              instagram="https://www.instagram.com/its_me_sahilwagh"
+              image={Amol_Golhar}
+              Name="Amol Golhar"
+              domain="Technical-Head"
+              linkedin="https://www.linkedin.com/in/amol-golhar-a17536251"
+              instagram="https://www.instagram.com/amolsgolhar"
             />
           </div>
 
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
-              image={Shruti_Ghodake}
-              Name="Shruti Ghodake"
-              domain="Publicity-Head"
-              linkedin="https://www.linkedin.com/in/shruti-ghodake-539935260"
-              instagram="https://www.instagram.com/shrutighodake_03"
+              image={Nikita_Sanap}
+              Name="Nikita Sanap"
+              domain="Activily-Head"
+              linkedin="https://www.linkedin.com/in/nikita-sanap-072b3a24b"
             />
           </div>
 
@@ -222,11 +235,55 @@ const TeamCard = () => {
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
+              image={Khushi_Asodekar}
+              Name="Khushi Asodekar"
+              domain="Publicity-Head"
+              linkedin="https://www.linkedin.com/in/khushi-asodekar-90b982267"
+              instagram="https://www.instagram.com/khushi_asodekar"
+            />
+          </div>
+
+          <div className="col-md-6 col-lg-4 mb-5">
+            <TeamSection
+              Tag={<i className="fas fa-code"></i>}
+              image={Shruti_Ghodake}
+              Name="Shruti Ghodake"
+              domain="Publicity-Head"
+              linkedin="https://www.linkedin.com/in/shruti-ghodake-539935260"
+              instagram="https://www.instagram.com/shrutighodake_03"
+            />
+          </div>
+
+          <div className="col-md-6 col-lg-4 mb-5">
+            <TeamSection
+              Tag={<i className="fas fa-code"></i>}
+              image={Sahil_Wagh}
+              Name="Sahil Wagh"
+              domain="Publicity-Head"
+              linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
+              instagram="https://www.instagram.com/its_me_sahilwagh"
+            />
+          </div>
+
+          <div className="col-md-6 col-lg-4 mb-5">
+            <TeamSection
+              Tag={<i className="fas fa-code"></i>}
               image={Deepak_Ghume}
               Name="Deepak Ghume"
               domain="Design-Head"
               linkedin="https://www.linkedin.com/in/deepak-ghume-35537628a"
               instagram="https://www.instagram.com/_king_deepak_official"
+            />
+          </div>
+
+          <div className="col-md-6 col-lg-4 mb-5">
+            <TeamSection
+              Tag={<i className="fas fa-code"></i>}
+              image={Rajan_Sudan}
+              Name="Rajan Sudan"
+              domain="Design-Head"
+              linkedin="https://www.linkedin.com/in/rajan-sudan-7a7283216"
+              instagram="https://www.instagram.com/rajan._39"
             />
           </div>
 
@@ -244,10 +301,11 @@ const TeamCard = () => {
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               Tag={<i className="fas fa-code"></i>}
-              image={Nikita_Sanap}
-              Name="Nikita Sanap"
-              domain="Activily-Head"
-              linkedin="https://www.linkedin.com/in/nikita-sanap-072b3a24b"
+              image={Smit_Ramteke}
+              Name="Smit Ramteke"
+              domain="Comp Department-Head"
+              linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
+              instagram="https://www.instagram.com/smit.__.ramteke"
             />
           </div>
 
@@ -259,17 +317,6 @@ const TeamCard = () => {
               domain="IT Department-Head"
               linkedin="https://www.linkedin.com/in/vedant-devre"
               instagram="https://www.instagram.com/vedant_devre_77"
-            />
-          </div>
-
-          <div className="col-md-6 col-lg-4 mb-5">
-            <TeamSection
-              Tag={<i className="fas fa-code"></i>}
-              image={Smit_Ramteke}
-              Name="Smit Ramteke"
-              domain="Comp Department-Head"
-              linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
-              instagram="https://www.instagram.com/smit.__.ramteke"
             />
           </div>
 
