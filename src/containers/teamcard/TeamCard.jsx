@@ -2,7 +2,7 @@ import React from "react";
 import TeamSection from "../../components/team/TeamSection";
 import "../../components/team/TeamSection.css";
 import "./TeamCard.css";
-// import Carousel from "react-elastic-carousel";
+import Carousel from "react-elastic-carousel";
 import "react-multi-carousel/lib/styles.css";
 import FooterHeart from "../footerHeart/FooterHeart";
 
@@ -96,11 +96,11 @@ import Zeeshan_Parvez from "../../assets/TeamDocuments/Zeeshan_Parvez.jpg";
 // import Ankush_Singh from "../../assets/TeamDocuments/Ankush_Singh.jpg";
 // import Sandesh_Buchkul from "../../assets/TeamDocuments/Sandesh_Buchkul.jpg";
 
-// const breakPoints = [
-//   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
-//   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
-//   { width: 768, itemsToShow: 3, itemsToScroll: 3 },
-// ];
+const breakPoints = [
+ { width: 1, itemsToShow: 1, itemsToScroll: 1 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 3, itemsToScroll: 3 },
+ ];
 
 const TeamCard = () => {
   return (
@@ -348,6 +348,41 @@ const TeamCard = () => {
         </div>
       </div>
       {/* SY-Committee Section */}
+      <div className="container">
+                <h2 className="page-section-heading text-center text-uppercase text-secondary ">SY-Committee</h2>
+                
+                <Carousel  breakPoints={breakPoints}>
+
+                    <TeamSection className="cardcarousel" image={Rijul_Pimpale} Name="Rijul Pimpale " domain="Tech Team" linkedin="https://www.linkedin.com/in/rijul-pimpale-b72734269" />
+                    <TeamSection className="cardcarousel" image={Kshitija_Deshmukh} Name="Kshitija Deshmukh" domain="Tech Team" linkedin="https://www.linkedin.com/in/kshitija-deshmukh-06b74625b"/>
+                    <TeamSection className="cardcarousel" image={Robin_Patel} Name="Robin Patel" domain="Tech Team" linkedin="https://www.linkedin.com/in/robin-patel-31b32125b" />
+                    <TeamSection className="cardcarousel" image={Aishwarya_Meshram} Name="Aishwarya Meshram " domain="Tech Team" linkedin="https://www.linkedin.com/in/aishwarya-meshram-403338260"/>
+                    <TeamSection className="cardcarousel" image={Arya_Patil} Name="Arya Patil" domain="Activity Team" linkedin="https://www.linkedin.com/in/shravani-ghorpade-61778322a"/>
+                    <TeamSection className="cardcarousel" image={Shreyas_Borade} Name="Shreyash Borade " domain="Activity Team" linkedin="https://www.linkedin.com/in/shreyash-borade-a986a3256"/>
+                    <TeamSection className="cardcarousel" image={Varad_Bodhade} Name="Varad Bodhade" domain="Activity Team" linkedin="https://www.linkedin.com/in/varad-bodhade-5a947525b"/>
+                    <TeamSection className="cardcarousel" image={Shravani_Ghorpade} Name="Shravani Ghorpade" domain="Activity Team" linkedin="https://www.linkedin.com/in/arya-patil-a2931925b"/>
+                    <TeamSection className="cardcarousel" image={Sakshi_Amate} Name="Sakshi Amate" domain="Design Team" linkedin="https://www.linkedin.com/in/sakshi-amate-67685a25a"/>
+                    <TeamSection className="cardcarousel" image={Sakshi_Hedke} Name="Sakshi Hedke" domain="Design Team" linkedin="https://www.linkedin.com/in/sakshi-hedke-44975b25b"/>
+                    <TeamSection className="cardcarousel" image={Vedashri_Patil} Name="Vedashri Patil" domain="Design Team" linkedin="https://www.linkedin.com/in/vedashri-patil-b3a27b28b"/>
+                    <TeamSection className="cardcarousel" image={Pranav_Hore} Name="Pranav Hore" domain="Design Team" linkedin="https://www.linkedin.com/in/pranav-hore-0204a4258"/>
+                    <TeamSection className="cardcarousel" image={Sakshi_Nagmode} Name="Sakshi Nagmode" domain="Design Team" linkedin="https://www.linkedin.com/in/sakshi-nagmode-ba5a8725b"/>
+                    <TeamSection className="cardcarousel" image={Ayush_Rathod} Name="Ayush Rathod" domain=" AI&DS Dept Head" linkedin="https://www.linkedin.com/in/ayushjrathod"/>
+                    <TeamSection className="cardcarousel" image={Abhijeet_Shinde} Name="Abhijeet Shinde" domain=" Comp Dept Head" linkedin="https://www.linkedin.com/in/abhijeet-shinde-94794725a"/>
+                    <TeamSection className="cardcarousel" image={Rucha_Patil} Name="Rucha Ravindra Patil " domain="Comp Dept Head" linkedin="https://www.linkedin.com/in/rucha-patil-15045625a"/>
+                    <TeamSection className="cardcarousel" image={Pratham_Katariya} Name="Pratham Katariya" domain="EN&TC Dept Head" linkedin="https://www.linkedin.com/in/pratham-katariya-239839259"/>
+                    <TeamSection className="cardcarousel" image={Shreyanshi_Meshram} Name="Shreyanshi Meshram " domain="EN&TC Dept Head" linkedin="https://www.linkedin.com/in/shreyanshi-meshram-0694b2258"/>
+                    <TeamSection className="cardcarousel" image={Sahil_Wagh} Name="Prasad Kulkarni " domain="IT Dept Head" linkedin="https://www.linkedin.com/in/prasad-kulkarni-392b9b268"/>
+                    <TeamSection className="cardcarousel" image={Sahil_Khilar} Name="Sahil Khilari " domain="IT Dept Head" linkedin="https://www.linkedin.com/in/sahil-khilari-20513224a"/>
+                    <TeamSection className="cardcarousel" image={Srivatsa_Ankamwar} Name="Srivatsa Ankamwar" domain="Documentation Team" linkedin="https://www.linkedin.com/in/srivatsa-ankamwar-89640a258"/>
+                    <TeamSection className="cardcarousel" image={Vaishnavi_Shinde} Name="Vaishnavi Shinde" domain="Documentation Team" linkedin="https://www.linkedin.com/in/vaishnavi-raman-shinde-2b890b25a"/>
+                    <TeamSection className="cardcarousel" image={Jaydip_Mane} Name="Jaydip Mane" domain="Documentation Team" linkedin=""/>
+                    <TeamSection className="cardcarousel" image={Aditya_Uragudwar} Name="Aditya Uragudwar" domain="Finance Team" linkedin="https://www.linkedin.com/in/aditya-uragudwar-702311198"/>
+                    
+                    
+                    
+                </Carousel>
+
+            </div>
       {/* <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary ">
           SY-Committee
