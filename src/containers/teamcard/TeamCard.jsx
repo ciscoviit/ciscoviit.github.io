@@ -32,6 +32,33 @@ import Smit_Ramteke from "../../assets/TeamDocuments/Smit_Ramteke.jpg";
 import Vedant_Devre from "../../assets/TeamDocuments/Vedant_Devre.jpg";
 import Viraj_Badale from "../../assets/TeamDocuments/Viraj_Badale.jpg";
 import Ashish_Ruke from "../../assets/TeamDocuments/Ashish_Ruke.jpg";
+// SY Committee
+import Abhijeet_Shinde from "../../assets/TeamDocuments/Abhijeet_Shinde.jpg";
+import Aditya_Uragudwar from "../../assets/TeamDocuments/Aditya_Uragudwar.jpg";
+import Aishwarya_Meshram from "../../assets/TeamDocuments/Aishwarya_Meshram.jpg";
+import Arya_Patil from "../../assets/TeamDocuments/Arya_Patil.jpg";
+import AAyush_Rathod from "../../assets/TeamDocuments/Ayush_Rathod.jpg";
+import Jaydip_Mane from "../../assets/TeamDocuments/Jaydip_Mane.jpg";
+import Kshitija_Deshmukh from "../../assets/TeamDocuments/Kshitija_Deshmukh.jpg";
+import Pranav_Hore from "../../assets/TeamDocuments/Pranav_Hore.jpg";
+import Pratham_Katariya from "../../assets/TeamDocuments/Pratham_Katariya.jpg";
+import Rijul_Pimpale from "../../assets/TeamDocuments/Rijul_Pimpale.jpg";
+import Robin_Patel from "../../assets/TeamDocuments/Robin_Patel.jpg";
+import Rucha_Patil from "../../assets/TeamDocuments/Rucha_Patil.jpg";
+import Sahil_Khilar from "../../assets/TeamDocuments/Sahil_Khilar.jpg";
+import Sakshi_Amate from "../../assets/TeamDocuments/Sakshi_Amate.jpg";
+import Sakshi_Hedke from "../../assets/TeamDocuments/Sakshi_Hedke.jpg";
+import Sakshi_Nagmode from "../../assets/TeamDocuments/Sakshi_Nagmode.jpg";
+import Shravani_Ghorpade from "../../assets/TeamDocuments/Shravani_Ghorpade.jpg";
+import Shreyanshi_Meshram from "../../assets/TeamDocuments/Shreyanshi_Meshram.jpg";
+import Shreyas_Borade from "../../assets/TeamDocuments/Shreyas_Borade.jpg";
+import Srivatsa_Ankamwar from "../../assets/TeamDocuments/Srivatsa_Ankamwar.jpg";
+import Vaishnavi_Shinde from "../../assets/TeamDocuments/Vaishnavi_Shinde.jpg";
+import Varad_Bodhade from "../../assets/TeamDocuments/Varad_Bodhade.jpg";
+import Vedashri_Patil from "../../assets/TeamDocuments/Vedashri_Patil.jpg";
+import Zeeshan_Parvez from "../../assets/TeamDocuments/Zeeshan_Parvez.jpg";
+
+
 
 // Previous Year Committees
 // import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Shreyas_Gavhalkar.jpg";
