@@ -101,7 +101,7 @@ const TeamCard = () => {
     <section className="team-section" id="team">
       {/* Co-ordinators Section */}
       <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase text-secondary ">
+        <h2 className="page-section-heading text-center text-uppercase text-secondary">
           Co-ordinators
         </h2>
         <div className="row justify-content-center">
@@ -126,7 +126,7 @@ const TeamCard = () => {
             />
           </div>
         </div>
-        <h2 className="page-section-heading text-center text-uppercase text-secondary ">
+        <h2 className="page-section-heading text-center text-uppercase text-secondary">
           Advisory Board
         </h2>
         <div className="row justify-content-center">
@@ -153,7 +153,7 @@ const TeamCard = () => {
       </div>
       {/* TY-Committe Section*/}
       <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase text-secondary ">
+        <h2 className="page-section-heading text-center text-uppercase text-secondary">
           TY-Committee
         </h2>
         <div className="row justify-content-center">
@@ -343,14 +343,14 @@ const TeamCard = () => {
       </div>
       {/* SY-Committee Section */}
       <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase text-secondary ">
+        <h2 className="page-section-heading text-center text-uppercase text-secondary">
           SY-Committee
         </h2>
         <Carousel breakPoints={breakPoints}>
           <TeamSection
             className="cardcarousel"
             image={Rijul_Pimpale}
-            Name="Rijul Pimpale "
+            Name="Rijul Pimpale"
             domain="Tech Team"
             linkedin="https://www.linkedin.com/in/rijul-pimpale-b72734269"
           />
@@ -371,7 +371,7 @@ const TeamCard = () => {
           <TeamSection
             className="cardcarousel"
             image={Aishwarya_Meshram}
-            Name="Aishwarya Meshram "
+            Name="Aishwarya Meshram"
             domain="Tech Team"
             linkedin="https://www.linkedin.com/in/aishwarya-meshram-403338260"
           />
@@ -385,7 +385,7 @@ const TeamCard = () => {
           <TeamSection
             className="cardcarousel"
             image={Shreyas_Borade}
-            Name="Shreyash Borade "
+            Name="Shreyash Borade"
             domain="Activity Team"
             linkedin="https://www.linkedin.com/in/shreyash-borade-a986a3256"
           />
@@ -455,7 +455,7 @@ const TeamCard = () => {
           <TeamSection
             className="cardcarousel"
             image={Rucha_Patil}
-            Name="Rucha Ravindra Patil "
+            Name="Rucha Ravindra Patil"
             domain="Comp Dept Head"
             linkedin="https://www.linkedin.com/in/rucha-patil-15045625a"
           />
@@ -469,21 +469,21 @@ const TeamCard = () => {
           <TeamSection
             className="cardcarousel"
             image={Shreyanshi_Meshram}
-            Name="Shreyanshi Meshram "
+            Name="Shreyanshi Meshram"
             domain="EN&TC Dept Head"
             linkedin="https://www.linkedin.com/in/shreyanshi-meshram-0694b2258"
           />
           <TeamSection
             className="cardcarousel"
             image={Sahil_Wagh}
-            Name="Prasad Kulkarni "
+            Name="Prasad Kulkarni"
             domain="IT Dept Head"
             linkedin="https://www.linkedin.com/in/prasad-kulkarni-392b9b268"
           />
           {/* <TeamSection
             className="cardcarousel"
             image={Sahil_Khilar}
-            Name="Sahil Khilari "
+            Name="Sahil Khilari"
             domain="IT Dept Head"
             linkedin="https://www.linkedin.com/in/sahil-khilari-20513224a"
           /> */}
@@ -518,7 +518,7 @@ const TeamCard = () => {
         </Carousel>
       </div>
       {/* <div className="container">
-        <h2 className="page-section-heading text-center text-uppercase text-secondary ">
+        <h2 className="page-section-heading text-center text-uppercase text-secondary">
           SY-Committee
         </h2>
         <Carousel breakPoints={breakPoints}>
