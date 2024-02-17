@@ -91,11 +91,13 @@ import Vedashri_Patil from "../../assets/TeamDocuments/Vedashri_Patil.jpg";
 // import Chaitanya_Ganjiwale from "../../assets/TeamDocuments/Chaitanya_Ganjiwale.jpg";
 // import Ankush_Singh from "../../assets/TeamDocuments/Ankush_Singh.jpg";
 // import Sandesh_Buchkul from "../../assets/TeamDocuments/Sandesh_Buchkul.jpg";
+
 const breakPoints = [
   { width: 1, itemsToShow: 1, itemsToScroll: 1 },
   { width: 550, itemsToShow: 2, itemsToScroll: 2 },
   { width: 768, itemsToShow: 3, itemsToScroll: 3 },
 ];
+
 const TeamCard = () => {
   return (
     <section className="team-section" id="team">
@@ -692,4 +694,5 @@ const TeamCard = () => {
     </section>
   );
 };
+
 export default TeamCard;

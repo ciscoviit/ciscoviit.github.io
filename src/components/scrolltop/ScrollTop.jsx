@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { FaAngleUp } from "react-icons/fa";
 
 const ScrollTop = () => {
@@ -22,18 +22,20 @@ const ScrollTop = () => {
     <div>
       <button
         onClick={() => {
-          window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+          window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
         }}
         style={{
-          position: 'fixed',
-          padding: '0.5rem 1rem',
-          fontSize: '20px',
-          bottom: '70px',
-          right: '30px',
-          color: '#fff',
-          textAlign: 'center',
-          borderRadius: '2rem', zIndex: 999
-        }}>
+          position: "fixed",
+          padding: "0.5rem 1rem",
+          fontSize: "20px",
+          bottom: "70px",
+          right: "30px",
+          color: "#fff",
+          textAlign: "center",
+          borderRadius: "2rem",
+          zIndex: 999,
+        }}
+      >
         {" "}
         {showTopBtn && (
           <FaAngleUp
@@ -46,4 +48,5 @@ const ScrollTop = () => {
     </div>
   );
 };
+
 export default ScrollTop;

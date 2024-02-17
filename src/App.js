@@ -1,8 +1,15 @@
-import React from 'react';
-import { Footer, Gallery, HeroSection, TeamCard ,CourseCard, ContactPage} from './containers';
-import { Insights, Navbar, EventRegistrationForm } from './components';
-import { Route, Routes, Navigate } from 'react-router-dom';
-import './App.css';
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import "./App.css";
+import { EventRegistrationForm, Insights, Navbar } from "./components";
+import {
+  ContactPage,
+  CourseCard,
+  Footer,
+  Gallery,
+  HeroSection,
+  TeamCard,
+} from "./containers";
 
 const Home = () => {
   return (
@@ -12,16 +19,16 @@ const Home = () => {
       <Gallery />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
 const RegistrationForm = () => {
   return (
     <div>
       <EventRegistrationForm />
     </div>
-  )
-}
+  );
+};
 
 // const About = () => {
 //   return (
@@ -33,19 +40,19 @@ const RegistrationForm = () => {
 
 const Courses = () => {
   return (
-    <div className='App'>
-      <CourseCard/>
+    <div className="App">
+      <CourseCard />
     </div>
-  )
-}
+  );
+};
 
 const Team = () => {
   return (
     <div>
       <TeamCard />
     </div>
-  )
-}
+  );
+};
 
 // const Event = () => {
 //   return (
@@ -58,15 +65,15 @@ const Team = () => {
 const Contactus = () => {
   return (
     <div>
-      <ContactPage/>
+      <ContactPage />
     </div>
-  )
-}
+  );
+};
 
 // the components will be imported inside of containers
 const App = () => {
   return (
-    <div className='App'>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -75,11 +82,11 @@ const App = () => {
         <Route path="/registrationform" element={<RegistrationForm />} />
         <Route path="/team" element={<Team />} />
         <Route path="/event" element={<RegistrationForm />} />
-        <Route path="/contactus" element={<Contactus/>} />
+        <Route path="/contactus" element={<Contactus />} />
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
