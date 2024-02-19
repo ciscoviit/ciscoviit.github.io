@@ -52,38 +52,38 @@ const Gallery = () => {
             ></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active" data-bs-interval="1500">
+            <div className="carousel-item active" data-bs-interval="2000">
               <img
                 src={blog01}
-                className="d-block w-75 gallery-img rounded"
+                className="d-block gallery-img rounded"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval="1500">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={blog02}
-                className="d-block w-75 gallery-img rounded"
+                className="d-block gallery-img rounded"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval="1500">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={blog03}
-                className="d-block w-75 gallery-img rounded"
+                className="d-block gallery-img rounded"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval="1500">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={blog04}
-                className="d-block w-75 gallery-img rounded"
+                className="d-block gallery-img rounded"
                 alt="..."
               />
             </div>
-            <div className="carousel-item" data-bs-interval="1500">
+            <div className="carousel-item" data-bs-interval="2000">
               <img
                 src={blog05}
-                className="d-block w-75 gallery-img rounded"
+                className="d-block gallery-img rounded"
                 alt="..."
               />
             </div>
