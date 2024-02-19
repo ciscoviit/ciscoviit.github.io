@@ -104,14 +104,14 @@ const TeamCard = () => {
       {/* Co-ordinators Section */}
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary">
-          Co-ordinators
+          Faculty Advisors
         </h2>
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5">
             <TeamSection
               image={Nitin_Sakhare}
               Name="Nitin Sakhare"
-              domain="Professor"
+              domain="Faculty Advisor"
               linkedin="https://www.linkedin.com/in/nitin-sakhare-b2485383"
               twitter="https://twitter.com/NitinSakhare16"
               instagram="https://instagram.com/nitinsakhare4"
@@ -121,7 +121,7 @@ const TeamCard = () => {
             <TeamSection
               image={Vikas_Kolekar}
               Name="Vikas Kolekar"
-              domain="Professor"
+              Advisors="Faculty Advisor"
               linkedin="https://www.linkedin.com/in/vikas-kolekar"
               twitter="https://twitter.com/KolekarVikas279"
               instagram="https://instagram.com/kolekarvikas279"
@@ -129,7 +129,7 @@ const TeamCard = () => {
           </div>
         </div>
         <h2 className="page-section-heading text-center text-uppercase text-secondary">
-          Advisory Board
+          Student Advisory Board
         </h2>
         <div className="row justify-content-center">
           <div className="col-md-6 col-lg-4 mb-5">
@@ -138,7 +138,6 @@ const TeamCard = () => {
               Name="Vinayak Pawar"
               domain="Advisory Board Member"
               linkedin="https://www.linkedin.com/in/vinayak-pawar-17133a212"
-              twitter=""
               instagram="https://www.instagram.com/we_nayak.08/"
             />
           </div>
@@ -206,7 +205,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Hrishikesh_Mahajan}
               Name="Hrishikesh Mahajan"
-              domain="Technical-Head"
+              domain="Technical Head"
               linkedin="https://www.linkedin.com/in/hrishikesh-mahajan"
             />
           </div>
@@ -215,7 +214,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Amol_Golhar}
               Name="Amol Golhar"
-              domain="Technical-Head"
+              domain="Technical Head"
               linkedin="https://www.linkedin.com/in/amol-golhar-a17536251"
               instagram="https://www.instagram.com/amolsgolhar"
             />
@@ -225,7 +224,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Nikita_Sanap}
               Name="Nikita Sanap"
-              domain="Activily-Head"
+              domain="Activity Head"
               linkedin="https://www.linkedin.com/in/nikita-sanap-072b3a24b"
             />
           </div>
@@ -234,7 +233,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Rahul_Shelke}
               Name="Rahul Shelke"
-              domain="IR-Head"
+              domain="Industry Relations Head"
               linkedin="https://www.linkedin.com/in/rahul-shelke-457841227"
               twitter="https://twitter.com/Mr_RahulShelke"
               instagram="https://www.instagram.com/mr_rahulshelke"
@@ -245,7 +244,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Khushi_Asodekar}
               Name="Khushi Asodekar"
-              domain="Publicity-Head"
+              domain="Publicity Head"
               linkedin="https://www.linkedin.com/in/khushi-asodekar-90b982267"
               instagram="https://www.instagram.com/khushi_asodekar"
             />
@@ -255,7 +254,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Shruti_Ghodake}
               Name="Shruti Ghodake"
-              domain="Publicity-Head"
+              domain="Publicity Head"
               linkedin="https://www.linkedin.com/in/shruti-ghodake-539935260"
               instagram="https://www.instagram.com/shrutighodake_03"
             />
@@ -265,7 +264,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Sahil_Wagh}
               Name="Sahil Wagh"
-              domain="Publicity-Head"
+              domain="Publicity Head"
               linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
               instagram="https://www.instagram.com/its_me_sahilwagh"
             />
@@ -275,7 +274,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Deepak_Ghume}
               Name="Deepak Ghume"
-              domain="Design-Head"
+              domain="Design Head"
               linkedin="https://www.linkedin.com/in/deepak-ghume-35537628a"
               instagram="https://www.instagram.com/_king_deepak_official"
             />
@@ -285,7 +284,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Rajan_Sudan}
               Name="Rajan Sudan"
-              domain="Design-Head"
+              domain="Design Head"
               linkedin="https://www.linkedin.com/in/rajan-sudan-7a7283216"
               instagram="https://www.instagram.com/rajan._39"
             />
@@ -295,7 +294,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Devyani_Dahake}
               Name="Devyani Dahake"
-              domain="Documentation & content-Head"
+              domain="Documentation & Content Head"
               linkedin="https://www.linkedin.com/in/devyani-dahake-148682230"
               instagram="https://www.instagram.com/devyanid_"
             />
@@ -305,7 +304,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Smit_Ramteke}
               Name="Smit Ramteke"
-              domain="Comp Department-Head"
+              domain="Computer Department Head"
               linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
               instagram="https://www.instagram.com/smit.__.ramteke"
             />
@@ -315,7 +314,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Vedant_Devre}
               Name="Vedant Devre"
-              domain="IT Department-Head"
+              domain="IT Department Head"
               linkedin="https://www.linkedin.com/in/vedant-devre"
               instagram="https://www.instagram.com/vedant_devre_77"
             />
@@ -325,7 +324,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Viraj_Badale}
               Name="Viraj Badale"
-              domain="EN&TC Department-Head"
+              domain="E&TC Department Head"
               linkedin="https://www.linkedin.com/in/viraj-badale-731216229"
               instagram="https://www.instagram.com/viraj_11_2020"
             />
@@ -335,7 +334,7 @@ const TeamCard = () => {
               Tag={<i className="fas fa-code"></i>}
               image={Ashish_Ruke}
               Name="Ashish Ruke"
-              domain="AI&DS Department-Head"
+              domain="AI&DS Department Head"
               linkedin="https://www.linkedin.com/in/ashish-ruke-68a038230"
               instagram="https://www.instagram.com/ashishruke99"
             />
@@ -353,28 +352,28 @@ const TeamCard = () => {
             className="cardcarousel"
             image={Rijul_Pimpale}
             Name="Rijul Pimpale"
-            domain="Tech Team"
+            domain="Technical Team"
             linkedin="https://www.linkedin.com/in/rijul-pimpale-b72734269"
           />
           <TeamSection
             className="cardcarousel"
             image={Kshitija_Deshmukh}
             Name="Kshitija Deshmukh"
-            domain="Tech Team"
+            domain="Technical Team"
             linkedin="https://www.linkedin.com/in/kshitija-deshmukh-06b74625b"
           />
           <TeamSection
             className="cardcarousel"
             image={Robin_Patel}
             Name="Robin Patel"
-            domain="Tech Team"
+            domain="Technical Team"
             linkedin="https://www.linkedin.com/in/robin-patel-31b32125b"
           />
           <TeamSection
             className="cardcarousel"
             image={Aishwarya_Meshram}
             Name="Aishwarya Meshram"
-            domain="Tech Team"
+            domain="Technical Team"
             linkedin="https://www.linkedin.com/in/aishwarya-meshram-403338260"
           />
           <TeamSection
@@ -444,49 +443,49 @@ const TeamCard = () => {
             className="cardcarousel"
             image={Ayush_Rathod}
             Name="Ayush Rathod"
-            domain=" AI&DS Dept Head"
+            domain="AI&DS Department Team"
             linkedin="https://www.linkedin.com/in/ayushjrathod"
           />
           <TeamSection
             className="cardcarousel"
             image={Abhijeet_Shinde}
             Name="Abhijeet Shinde"
-            domain=" Comp Dept Head"
+            domain="Computer Department Team"
             linkedin="https://www.linkedin.com/in/abhijeet-shinde-94794725a"
           />
           <TeamSection
             className="cardcarousel"
             image={Rucha_Patil}
             Name="Rucha Ravindra Patil"
-            domain="Comp Dept Head"
+            domain="Computer Department Team"
             linkedin="https://www.linkedin.com/in/rucha-patil-15045625a"
           />
           <TeamSection
             className="cardcarousel"
             image={Pratham_Katariya}
             Name="Pratham Katariya"
-            domain="EN&TC Dept Head"
+            domain="E&TC Department Team"
             linkedin="https://www.linkedin.com/in/pratham-katariya-239839259"
           />
           <TeamSection
             className="cardcarousel"
             image={Shreyanshi_Meshram}
             Name="Shreyanshi Meshram"
-            domain="EN&TC Dept Head"
+            domain="E&TC Department Team"
             linkedin="https://www.linkedin.com/in/shreyanshi-meshram-0694b2258"
           />
           <TeamSection
             className="cardcarousel"
             image={Sahil_Wagh}
             Name="Prasad Kulkarni"
-            domain="IT Dept Head"
+            domain="IT Department Team"
             linkedin="https://www.linkedin.com/in/prasad-kulkarni-392b9b268"
           />
           {/* <TeamSection
             className="cardcarousel"
             image={Sahil_Khilar}
             Name="Sahil Khilari"
-            domain="IT Dept Head"
+            domain="IT Department Team"
             linkedin="https://www.linkedin.com/in/sahil-khilari-20513224a"
           /> */}
           <TeamSection
@@ -508,7 +507,6 @@ const TeamCard = () => {
             image={Jaydip_Mane}
             Name="Jaydip Mane"
             domain="Documentation Team"
-            linkedin=""
           />
           <TeamSection
             className="cardcarousel"
