@@ -1,6 +1,5 @@
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import "./App.css";
 import { EventRegistrationForm, Insights, Navbar } from "./components";
 import {
   ContactPage,
@@ -10,6 +9,7 @@ import {
   HeroSection,
   TeamCard,
 } from "./containers";
+import "./App.css";
 
 const Home = () => {
   return (
