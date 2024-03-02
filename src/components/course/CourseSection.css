@@ -1,133 +1,121 @@
 .course-card {
-    width: 300px;
-    height: 420px;
-    overflow: hidden;
-    overflow-x: hidden;
-    transition: 0.3 s;
-    animation: ease-in-out;
-    background-color: transparent;
-    border-radius: 5px;
-    border: solid 2px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+  width: 300px;
+  height: 420px;
+  overflow: hidden;
+  overflow-x: hidden;
+  transition: 0.3 s;
+  animation: ease-in-out;
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid 2px;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .card-body {
-    padding: 10px;
-    height: 130px;
-    margin: 10px 5px 20px -10px;
+  padding: 10px;
+  height: 130px;
+  margin: 10px 5px 20px -10px;
 }
 
 .course-name {
-    font-style: normal;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular',
-        'Lucida Grande', 'Lucida Sans Unicode',
-        Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    font-size: large;
-    color: white;
-    font-display: inherit;
-    margin-bottom: 10px;
+  font-style: normal;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  color: white;
+  font-display: inherit;
+  margin-bottom: 10px;
 }
 
 .course-about {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 3px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .card-text {
-    color: white;
-    margin-top: 4px;
-    letter-spacing: 0.5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+  color: white;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fas {
-    font-size: 6px;
-    color: var(--light-color);
-
+  font-size: 6px;
+  color: var(--light-color);
 }
 
 .fas .fa-circle {
-    text-align: center;
+  text-align: center;
 }
 
-
-
 .course-card:hover {
-    box-shadow: 0px 0px 12px 3px;
-    border-color: black;
-    overflow: hidden;
-
+  box-shadow: 0px 0px 12px 3px;
+  border-color: black;
+  overflow: hidden;
 }
 
 .course-img {
-    overflow: hidden;
-    margin-top: 1px;
-    margin-left: 1px;
-    margin-right: 1px;
+  overflow: hidden;
+  margin-top: 1px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
 
 .course-img img {
-    transition: all 1.3s ease;
-    height: 200px;
-    width: 100%;
-    border-radius: 5px;
-
-
+  transition: all 1.3s ease;
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
 }
 
 .course-img:hover img {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .Btn {
-    outline: none;
-    color: white;
-    cursor: pointer;
-    transition: .3s;
-    width: 120px;
-    height: 40px;
-    margin-top: 5px;
-    font-size: 16px;
-    text-align: center;
-    border-radius: 6px;
-    background-color: #03203C;
-    display: block;
-
+  outline: none;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 120px;
+  height: 40px;
+  margin-top: 5px;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #03203c;
+  display: block;
 }
 
 .Btn:hover {
-    color: black;
-    font-size: 16px;
-    box-shadow: 0 0 1px 2px;
-    border: solid 2px;
-    background-color: #5aa7de;
-    display: block;
+  color: black;
+  font-size: 16px;
+  box-shadow: 0 0 1px 2px;
+  border: solid 2px;
+  background-color: #5aa7de;
+  display: block;
 }
 
 .card-bottom {
-
-    margin-top: 20px;
-    margin-left: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 480px) {
-    .course-card{
-        margin-left: auto !important; 
-        margin-right: auto !important;
-    }
+  .course-card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
 }
 
-
-.fa{
-    color: #E90606;
-    margin: 0 3px;
-    font-size: 10px;
-    animation: pound .35s infinite alternate;
-    -webkit-animation: pound .35s infinite alternate;
+.fa {
+  color: #e90606;
+  margin: 0 3px;
+  font-size: 10px;
+  animation: pound 0.35s infinite alternate;
+  -webkit-animation: pound 0.35s infinite alternate;
 }
-

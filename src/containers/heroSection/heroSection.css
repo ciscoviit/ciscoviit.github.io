@@ -6,36 +6,54 @@
 .heading-fancy-font {
   text-align: center;
   color: var(--lg-heading);
-  --font-family: 'Shadows Into Light', cursive;
+  --font-family: "Shadows Into Light", cursive;
 }
 
 .gradient__bg-home {
   /* ff 3.6+ */
-  background: -moz-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+  background: -moz-radial-gradient(
+    circle at 3% 25%,
+    rgba(18, 14, 67, 1) 0%,
+    rgba(36, 43, 46, 1) 100%
+  );
 
   /* safari 5.1+,chrome 10+ */
-  background: -webkit-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+  background: -webkit-radial-gradient(
+    circle at 3% 25%,
+    rgba(18, 14, 67, 1) 0%,
+    rgba(36, 43, 46, 1) 100%
+  );
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+  background: -o-radial-gradient(
+    circle at 3% 25%,
+    rgba(18, 14, 67, 1) 0%,
+    rgba(36, 43, 46, 1) 100%
+  );
 
   /* ie 10+ */
-  background: -ms-radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+  background: -ms-radial-gradient(
+    circle at 3% 25%,
+    rgba(18, 14, 67, 1) 0%,
+    rgba(36, 43, 46, 1) 100%
+  );
 
   /* global 92%+ browsers support */
-  background: radial-gradient(circle at 3% 25%, rgba(18, 14, 67, 1) 0%, rgba(36, 43, 46, 1) 100%);
+  background: radial-gradient(
+    circle at 3% 25%,
+    rgba(18, 14, 67, 1) 0%,
+    rgba(36, 43, 46, 1) 100%
+  );
 
   height: 90vh !important;
 }
 
 .section__padding_btn {
   padding: 0 5rem !important;
-
 }
 
 .section__padding {
   padding: 3rem 4rem !important;
-
 }
 
 .cisco__header-content {
@@ -97,8 +115,8 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  background: #FF4820;
-  border: 2px solid #FF4820;
+  background: #ff4820;
+  border: 2px solid #ff4820;
   padding: 0 1rem;
   color: #fff;
   cursor: pointer;
@@ -123,7 +141,6 @@
   height: 38px;
 }
 
-
 .cisco__header-content__people p {
   margin: 0 0 0 1rem;
   font-family: var(--font-family);
@@ -145,7 +162,6 @@
   width: 100%;
   height: 100%;
 }
-
 
 @media screen and (max-width: 1050px) {
   .cisco__header {
@@ -328,10 +344,8 @@
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
-
 /* ==== "Inter" FONT-FAMILY FROM FONTS.GOOGLE.COM  ==== */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
-
 
 /* ==== CSS VARIABLES ==== */
 :root {
@@ -370,7 +384,6 @@ button {
 .container {
   width: 100%;
 }
-
 
 .main-heading {
   font-weight: 100;
@@ -452,7 +465,6 @@ button {
   transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
-
 @media screen and (min-width: 1040px) {
   .container {
     width: 1040px;
@@ -461,7 +473,6 @@ button {
 }
 
 @media screen and (max-width: 991px) {
-
   .main-heading {
     font-size: 32px;
     text-align: center;

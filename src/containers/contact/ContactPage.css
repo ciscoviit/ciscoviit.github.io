@@ -43,7 +43,8 @@ body {
   display: block;
   font-weight: 500;
   font-size: 20px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: azure;
   margin-bottom: 12px;
 }
@@ -87,7 +88,6 @@ body {
   color: white;
   cursor: pointer;
 }
-
 
 .formbold--mx-3 {
   margin-left: -12px;
