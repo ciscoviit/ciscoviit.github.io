@@ -6,7 +6,7 @@
   transition: 0.3 s;
   animation: ease-in-out;
   background-color: transparent;
-  border-radius: 5px;
+  border-radius: 20px;
   border: solid 2px;
   margin-left: 30px;
   margin-bottom: 10px;
@@ -60,20 +60,17 @@
 
 .course-img {
   overflow: hidden;
-  margin-top: 1px;
-  margin-left: 1px;
-  margin-right: 1px;
+  margin: 10px;
 }
 
 .course-img img {
   transition: all 1.3s ease;
-  height: 200px;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .course-img:hover img {
-  transform: scale(1.2);
+  transform: scale(0.95);
 }
 
 .Btn {
