@@ -1,45 +1,26 @@
 import React from "react";
-import FadeIn from "react-fade-in";
-import "./TeamSection.css";
+import TeamInnerSection from "./TeamInnerSection";
 
 const TeamSection = ({
   image,
-  Name,
   Tag,
+  Name,
   domain,
   linkedin,
   twitter,
   instagram,
 }) => {
   return (
-    <div className="our-team rounded">
-      <FadeIn>
-        <div className="picture">
-          <img className="img-fluid" src={image} alt="" />
-        </div>
-        <div>{Tag}</div>
-        <div className="team-content">
-          <h3 className="name">{Name}</h3>
-          <h4 className="title">{domain}</h4>
-        </div>
-        <ul className="social">
-          <li>
-            <a href={linkedin}>
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href={twitter}>
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href={instagram}>
-              <i className="fab fa-instagram"></i>
-            </a>
-          </li>
-        </ul>
-      </FadeIn>
+    <div className="col-md-6 col-lg-4 mb-5">
+      <TeamInnerSection
+        image={image}
+        Tag={Tag}
+        Name={Name}
+        domain={domain}
+        linkedin={linkedin}
+        twitter={twitter}
+        instagram={instagram}
+      />
     </div>
   );
 };
