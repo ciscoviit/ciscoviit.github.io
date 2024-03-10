@@ -23,21 +23,27 @@ const TeamInnerSection = ({
           <h4 className="title">{domain}</h4>
         </div>
         <ul className="social">
-          <li>
-            <a href={linkedin}>
-              <i className="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href={twitter}>
-              <i className="fab fa-twitter"></i>
-            </a>
-          </li>
-          <li>
-            <a href={instagram}>
-              <i className="fab fa-instagram"></i>
-            </a>
-          </li>
+          {linkedin && (
+            <li>
+              <a href={linkedin}>
+                <i className="fab fa-linkedin"></i>
+              </a>
+            </li>
+          )}
+          {twitter && (
+            <li>
+              <a href={twitter}>
+                <i className="fab fa-twitter"></i>
+              </a>
+            </li>
+          )}
+          {instagram && (
+            <li>
+              <a href={instagram}>
+                <i className="fab fa-instagram"></i>
+              </a>
+            </li>
+          )}
         </ul>
       </FadeIn>
     </div>
