@@ -15,7 +15,7 @@ const TeamInnerSection = ({
     <div className="our-team rounded">
       <FadeIn>
         <div className="picture">
-          <img className="img-fluid" src={image} alt="" />
+          <img className="img-fluid" src={image} alt={Name} title={Name} />
         </div>
         <div>{Tag}</div>
         <div className="team-content">
