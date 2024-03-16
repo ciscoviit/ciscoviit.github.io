@@ -39,25 +39,28 @@ import Aishwarya_Meshram from "../../assets/TeamDocuments/Committee-23-24/SY-Com
 import Arya_Patil from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Arya_Patil.jpg";
 import Ayush_Rathod from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Ayush_Rathod.jpg";
 import Jaydip_Mane from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Jaydip_Mane.png";
+import Kapil_Murge from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Kapil_Murge.jpg";
 import Kshitija_Deshmukh from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Kshitija_Deshmukh.jpg";
+import Manish_Patil from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Manish_Patil.jpg";
 import Pranav_Hore from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Pranav_Hore.jpg";
+import Prasad_Kulkarni from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Prasad_Kulkarni.jpg";
 import Pratham_Katariya from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Pratham_Katariya.jpg";
 import Rijul_Pimpale from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Rijul_Pimpale.jpg";
 import Robin_Patel from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Robin_Patel.jpg";
 import Rucha_Patil from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Rucha_Patil.jpeg";
-// import Sahil_Khilar from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Sahil_Khilar.jpeg";
+import Sahil_Khilari from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Sahil_Khilari.jpeg";
 import Sakshi_Amate from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Sakshi_Amate.jpg";
 import Sakshi_Hedke from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Sakshi_Hedke.jpg";
 import Sakshi_Nagmode from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Sakshi_Nagmode.jpg";
 import Shravani_Ghorpade from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Shravani_Ghorpade.jpg";
 import Shreyanshi_Meshram from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Shreyanshi_Meshram.jpg";
-import Shreyas_Borade from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Shreyas_Borade.jpg";
+import Shreyash_Borade from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Shreyash_Borade.jpg";
 import Srivatsa_Ankamwar from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Srivatsa_Ankamwar.jpg";
 import Vaishnavi_Shinde from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Vaishnavi_Shinde.jpg";
 import Varad_Bodhade from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Varad_Bodhade.jpg";
 import Vedashri_Patil from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Vedashri_Patil.jpg";
-// import Zeeshan_Parvez from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Zeeshan_Parvez.jpg";
-// Previous Year Committees
+import Zeeshan_Parvez from "../../assets/TeamDocuments/Committee-23-24/SY-Committee/Zeeshan_Parvez.jpg";
+// TY Committee 2022-23
 import Shreyas_Gavhalkar from "../../assets/TeamDocuments/Committee-22-23/Shreyas_Gavhalkar.jpg";
 import Sachi_Teke from "../../assets/TeamDocuments/Committee-22-23/Sachi_Teke.jpg";
 import Pratik_Rathod from "../../assets/TeamDocuments/Committee-22-23/Pratik_Rathod.jpg";
@@ -77,6 +80,7 @@ import Lokesh_Shingavi from "../../assets/TeamDocuments/Committee-22-23/Lokesh_S
 import Gaurav_kanade from "../../assets/TeamDocuments/Committee-22-23/Gaurav_kanade.jpg";
 import Ritesh_Lade from "../../assets/TeamDocuments/Committee-22-23/Ritesh_Lade.jpg";
 import Armaan_Shaikh from "../../assets/TeamDocuments/Committee-22-23/Armaan_Shaikh.jpg";
+// SY Commttee 2022-23
 import Riya_Agarwal from "../../assets/TeamDocuments/Committee-22-23/Riya_Agarwal.jpg";
 import Abhiskek_Jadhav from "../../assets/TeamDocuments/Committee-22-23/Abhishek_Jadhav.jpg";
 import Yash_Patil from "../../assets/TeamDocuments/Committee-22-23/Yash_Patil.jpg";
@@ -306,10 +310,11 @@ const TeamCard = () => {
         <div className="row justify-content-center">
           <TeamSection
             className="cardcarousel"
-            image={Rijul_Pimpale}
-            Name="Rijul Pimpale"
+            image={Robin_Patel}
+            Name="Robin Patel"
             domain="Technical Team"
-            linkedin="https://www.linkedin.com/in/rijul-pimpale-b72734269"
+            limkedin="https://www.linkedin.com/in/robin-patel-31b32125b"
+            instagram="https://www.instagram.com/robinpatel2061"
           />
           <TeamSection
             className="cardcarousel"
@@ -317,13 +322,15 @@ const TeamCard = () => {
             Name="Kshitija Deshmukh"
             domain="Technical Team"
             linkedin="https://www.linkedin.com/in/kshitija-deshmukh-06b74625b"
+            instagram="https://www.instagram.com/kshitudeshmukh0110"
           />
           <TeamSection
             className="cardcarousel"
-            image={Robin_Patel}
-            Name="Robin Patel"
+            image={Rijul_Pimpale}
+            Name="Rijul Pimpale"
             domain="Technical Team"
-            linkedin="https://www.linkedin.com/in/robin-patel-31b32125b"
+            linkedin="https://www.linkedin.com/in/rijul-pimpale-b72734269"
+            instagram="https://www.instagram.com/rijjj_919"
           />
           <TeamSection
             className="cardcarousel"
@@ -331,34 +338,39 @@ const TeamCard = () => {
             Name="Aishwarya Meshram"
             domain="Technical Team"
             linkedin="https://www.linkedin.com/in/aishwarya-meshram-403338260"
+            instagram="https://www.instagram.com/aishwaryameshram26"
           />
           <TeamSection
             className="cardcarousel"
             image={Arya_Patil}
             Name="Arya Patil"
             domain="Activity Team"
-            linkedin="https://www.linkedin.com/in/shravani-ghorpade-61778322a"
-          />
-          <TeamSection
-            className="cardcarousel"
-            image={Shreyas_Borade}
-            Name="Shreyash Borade"
-            domain="Activity Team"
-            linkedin="https://www.linkedin.com/in/shreyash-borade-a986a3256"
-          />
-          <TeamSection
-            className="cardcarousel"
-            image={Varad_Bodhade}
-            Name="Varad Bodhade"
-            domain="Activity Team"
-            linkedin="https://www.linkedin.com/in/varad-bodhade-5a947525b"
+            linkedin="https://www.linkedin.com/in/arya-patil-a2931925b"
+            instagram="https://www.instagram.com/arya7patil"
           />
           <TeamSection
             className="cardcarousel"
             image={Shravani_Ghorpade}
             Name="Shravani Ghorpade"
             domain="Activity Team"
-            linkedin="https://www.linkedin.com/in/arya-patil-a2931925b"
+            linkedin="https://www.linkedin.com/in/shravani-ghorpade-61778322a"
+            instagram="https://www.instagram.com/shravtyy"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Shreyash_Borade}
+            Name="Shreyash Borade"
+            domain="Admin Team"
+            linkedin="https://www.linkedin.com/in/shreyash-borade-a986a3256"
+            instagram="https://www.instagram.com/shrey.borade"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Varad_Bodhade}
+            Name="Varad Bodhade"
+            domain="Admin Team"
+            linkedin="https://www.linkedin.com/in/varad-bodhade-5a947525b"
+            instagram="https://www.instagram.com/varad_bodhade"
           />
           <TeamSection
             className="cardcarousel"
@@ -373,6 +385,7 @@ const TeamCard = () => {
             Name="Sakshi Hedke"
             domain="Design Team"
             linkedin="https://www.linkedin.com/in/sakshi-hedke-44975b25b"
+            instagram="https://www.instagram.com/sakshihedke17"
           />
           <TeamSection
             className="cardcarousel"
@@ -380,6 +393,7 @@ const TeamCard = () => {
             Name="Vedashri Patil"
             domain="Design Team"
             linkedin="https://www.linkedin.com/in/vedashri-patil-b3a27b28b"
+            instagram="https://www.instagram.com/patil_vedashri"
           />
           <TeamSection
             className="cardcarousel"
@@ -387,6 +401,7 @@ const TeamCard = () => {
             Name="Pranav Hore"
             domain="Design Team"
             linkedin="https://www.linkedin.com/in/pranav-hore-0204a4258"
+            instagram="https://www.instagram.com/pranav_h_221"
           />
           <TeamSection
             className="cardcarousel"
@@ -394,6 +409,30 @@ const TeamCard = () => {
             Name="Sakshi Nagmode"
             domain="Design Team"
             linkedin="https://www.linkedin.com/in/sakshi-nagmode-ba5a8725b"
+            instagram="https://www.instagram.com/sakshi_0.97"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Zeeshan_Parvez}
+            Name="Zeeshan Parvez"
+            domain="Publicity Team"
+            instagram="https://www.instagram.com/zeeshan_612"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Kapil_Murge}
+            Name="Kapil Murge"
+            domain="Publicity Team"
+            linkedin="https://www.linkedin.com/in/kapil-m-62875325b"
+            instagram="https://www.instagram.com/kapil_772002"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Manish_Patil}
+            Name="Manish Patil"
+            domain="Publicity Team"
+            linkedin="https://www.linkedin.com/in/manish-patil-2aa865252"
+            instagram="https://www.instagram.com/manish__patil0204"
           />
           <TeamSection
             className="cardcarousel"
@@ -401,6 +440,8 @@ const TeamCard = () => {
             Name="Ayush Rathod"
             domain="AI&DS Department Team"
             linkedin="https://www.linkedin.com/in/ayushjrathod"
+            instagram="https://www.instagram.com/ayushjrathod"
+            twitter="https://twitter.com/ayushjrathod0"
           />
           <TeamSection
             className="cardcarousel"
@@ -408,6 +449,7 @@ const TeamCard = () => {
             Name="Abhijeet Shinde"
             domain="Computer Department Team"
             linkedin="https://www.linkedin.com/in/abhijeet-shinde-94794725a"
+            instagram="https://www.instagram.com/abhijeetshinde_01"
           />
           <TeamSection
             className="cardcarousel"
@@ -415,6 +457,7 @@ const TeamCard = () => {
             Name="Rucha Ravindra Patil"
             domain="Computer Department Team"
             linkedin="https://www.linkedin.com/in/rucha-patil-15045625a"
+            instagram="https://www.instagram.com/rucha_28_"
           />
           <TeamSection
             className="cardcarousel"
@@ -422,6 +465,7 @@ const TeamCard = () => {
             Name="Pratham Katariya"
             domain="E&TC Department Team"
             linkedin="https://www.linkedin.com/in/pratham-katariya-239839259"
+            instagram="https://www.instagram.com/pratham_katariya7"
           />
           <TeamSection
             className="cardcarousel"
@@ -429,21 +473,24 @@ const TeamCard = () => {
             Name="Shreyanshi Meshram"
             domain="E&TC Department Team"
             linkedin="https://www.linkedin.com/in/shreyanshi-meshram-0694b2258"
+            instagram="https://www.instagram.com/shreyanshi.meshram.05"
           />
           <TeamSection
             className="cardcarousel"
-            image={Sahil_Wagh}
-            Name="Prasad Kulkarni"
-            domain="IT Department Team"
-            linkedin="https://www.linkedin.com/in/prasad-kulkarni-392b9b268"
-          />
-          {/* <TeamSection
-            className="cardcarousel"
-            image={Sahil_Khilar}
+            image={Sahil_Khilari}
             Name="Sahil Khilari"
             domain="IT Department Team"
             linkedin="https://www.linkedin.com/in/sahil-khilari-20513224a"
-          /> */}
+            instagram="https://www.instagram.com/sahil._.1.6"
+          />
+          <TeamSection
+            className="cardcarousel"
+            image={Prasad_Kulkarni}
+            Name="Prasad Kulkarni"
+            domain="IT Department Team"
+            linkedin="https://www.linkedin.com/in/prasad-kulkarni-392b9b268"
+            instagram="https://www.instagram.com/prasad_kulkarni_04"
+          />
           <TeamSection
             className="cardcarousel"
             image={Srivatsa_Ankamwar}
@@ -457,12 +504,14 @@ const TeamCard = () => {
             Name="Vaishnavi Shinde"
             domain="Documentation Team"
             linkedin="https://www.linkedin.com/in/vaishnavi-raman-shinde-2b890b25a"
+            instagram="https://www.instagram.com/vaishnaviramanshinde"
           />
           <TeamSection
             className="cardcarousel"
             image={Jaydip_Mane}
             Name="Jaydip Mane"
             domain="Documentation Team"
+            instagram="https://www.instagram.com/jaydipmane90"
           />
           <TeamSection
             className="cardcarousel"
@@ -675,11 +724,25 @@ const TeamCard = () => {
         </h2>
         <Carousel breakPoints={breakPoints}>
           <TeamInnerSection
+            Tag={<i className="fas fa-code"></i>}
+            image={Hrishikesh_Mahajan}
+            Name="Hrishikesh M"
+            domain="Jt. Technical Head"
+            linkedin="https://www.linkedin.com/in/hrishikesh-mahajan"
+          />
+          <TeamInnerSection
             className="cardcarousel"
             image={Riya_Agarwal}
             Name="Riya Agarwal"
             domain="Tech Team"
             linkedin="https://www.linkedin.com/in/riya-agarwal-a9285b229"
+          />
+          <TeamInnerSection
+            className="cardcarousel"
+            image={Chaitanya_Ganjiwale}
+            Name="Chaitanya G."
+            domain="Tech Team"
+            linkedin="https://www.linkedin.com/in/chaitanya-ganjiwale-77a61a229"
           />
           <TeamInnerSection
             className="cardcarousel"
@@ -711,6 +774,13 @@ const TeamCard = () => {
           />
           <TeamInnerSection
             className="cardcarousel"
+            image={Vedant_Devre}
+            Name="Vedant Devre"
+            domain="Jt.Dept Head"
+            linkedin="https://www.linkedin.com/in/vedant-devre/"
+          />
+          <TeamInnerSection
+            className="cardcarousel"
             image={Rahul_Shelke}
             Name="Rahul Shelke"
             domain="Jt.Content Head"
@@ -729,13 +799,6 @@ const TeamCard = () => {
             Name="Arnav Umarkar"
             domain="Content Writing"
             linkedin="https://www.linkedin.com/in/arnav-umarkar-0191a7252"
-          />
-          <TeamInnerSection
-            className="cardcarousel"
-            image={Vedant_Devre}
-            Name="Vedant Devre"
-            domain="Jt.Dept Head"
-            linkedin="https://www.linkedin.com/in/vedant-devre/"
           />
           <TeamInnerSection
             className="cardcarousel"
@@ -791,13 +854,6 @@ const TeamCard = () => {
             Name="Om_Dhede"
             domain="Jt.Dept Head"
             linkedin="https://www.linkedin.com/in/om-dhede-7b026122a"
-          />
-          <TeamInnerSection
-            className="cardcarousel"
-            image={Chaitanya_Ganjiwale}
-            Name="Chaitanya G."
-            domain="Tech Team"
-            linkedin="https://www.linkedin.com/in/chaitanya-ganjiwale-77a61a229"
           />
           <TeamInnerSection
             className="cardcarousel"
