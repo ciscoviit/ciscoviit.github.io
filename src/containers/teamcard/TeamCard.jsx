@@ -123,7 +123,7 @@ const TeamCard = () => {
           <TeamSection
             image={Vikas_Kolekar}
             Name="Vikas Kolekar"
-            Advisors="Faculty Advisor"
+            domain="Faculty Advisor"
             linkedin="https://www.linkedin.com/in/vikas-kolekar"
             twitter="https://twitter.com/KolekarVikas279"
             instagram="https://instagram.com/kolekarvikas279"
@@ -531,7 +531,7 @@ const TeamCard = () => {
             className="cardcarousel"
             Tag={<i className="fas fa-code"></i>}
             image={Shreyas_Gavhalkar}
-            Name="Shreyas G"
+            Name="Shreyas G."
             domain="President"
             linkedin="https://www.linkedin.com/in/shreyas-gavhalkar-a8b0bb206"
             instagram="www.instagram.com/__shreyas__19"
@@ -569,7 +569,7 @@ const TeamCard = () => {
             className="cardcarousel"
             Tag={<i className="fas fa-code"></i>}
             image={Saikumar_Padmawar}
-            Name="Saikumar P"
+            Name="Saikumar P."
             domain="Technical-Head"
             linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
             twitter="https://twitter.com/SAIKUMARPADMAW1"
@@ -588,7 +588,7 @@ const TeamCard = () => {
             className="cardcarousel"
             Tag={<i className="fas fa-code"></i>}
             image={Vishnu_Jadhav}
-            Name="Vishnu J"
+            Name="Vishnu J."
             domain="Department-Head "
             linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav"
             twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19"
@@ -608,7 +608,7 @@ const TeamCard = () => {
             className="cardcarousel"
             Tag={<i className="fas fa-code"></i>}
             image={Nikhilesh_Sharma}
-            Name="Nikhilesh S"
+            Name="Nikhilesh S."
             domain="Department-Head"
             linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/"
             instagram="https://www.instagram.com/_nikhileshsharma_/"
@@ -726,7 +726,7 @@ const TeamCard = () => {
           <TeamInnerSection
             Tag={<i className="fas fa-code"></i>}
             image={Hrishikesh_Mahajan}
-            Name="Hrishikesh M"
+            Name="Hrishikesh M."
             domain="Jt. Technical Head"
             linkedin="https://www.linkedin.com/in/hrishikesh-mahajan"
           />
