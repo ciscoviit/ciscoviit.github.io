@@ -644,7 +644,7 @@ const TeamCard = () => {
           <TeamInnerSection
             image={Manas_Sangale}
             Name="Manas Sangale"
-            domain="Jt.Dept-Head"
+            domain="Jt. Dept-Head"
             linkedin="https://www.linkedin.com/in/manas-sangale-47a209217"
             instagram="https://instagram.com/___manas_12?igshid=ZDdkNTZiNTM="
           />
@@ -683,7 +683,7 @@ const TeamCard = () => {
           <TeamInnerSection
             image={Mayur_Tingare}
             Name="Mayur Tingare"
-            domain="Jt.Activity Head"
+            domain="Jt. Activity Head"
             linkedin="https://www.linkedin.com/in/tingare-mayur-b2642122a"
           />
           <TeamInnerSection
@@ -695,19 +695,19 @@ const TeamCard = () => {
           <TeamInnerSection
             image={Sahil_Wagh}
             Name="Sahil Wagh"
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
           />
           <TeamInnerSection
             image={Vedant_Devre}
             Name="Vedant Devre"
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/vedant-devre/"
           />
           <TeamInnerSection
             image={Rahul_Shelke}
             Name="Rahul Shelke"
-            domain="Jt.Content Head"
+            domain="Jt. Content Head"
             linkedin="https://www.linkedin.com/in/rahul-shelke-457841227"
           />
           <TeamInnerSection
@@ -725,19 +725,19 @@ const TeamCard = () => {
           <TeamInnerSection
             image={Sankalp_Akkewar}
             Name="Sankalp A."
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/sankalp-akkewar-614b8822a"
           />
           <TeamInnerSection
             image={Hasan_Hussain}
             Name="Hasan Hussain"
-            domain="Jt.Activity Head"
+            domain="Jt. Activity Head"
             linkedin="https://www.linkedin.com/in/hasan-hussain-3481a722a"
           />
           <TeamInnerSection
             image={Akash_Kalshetti}
             Name="Akash K."
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/akash-kalshetti-27712b252"
           />
           <TeamInnerSection
@@ -754,53 +754,53 @@ const TeamCard = () => {
           <TeamInnerSection
             image={Siddhesh_Khairnar}
             Name="Siddhesh K."
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/siddhesh-khairnar-4234a3226"
           />
           <TeamInnerSection
             image={HARSH}
             Name="HARSH"
-            domain="Jt.Doc Head"
+            domain="Jt. Doc Head"
             linkedin="https://www.linkedin.com/in/harsh-01071b24a"
           />
           <TeamInnerSection
             image={Om_Dhede}
             Name="Om_Dhede"
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/om-dhede-7b026122a"
           />
           <TeamInnerSection
             image={Ankush_Singh}
             Name="Ankush Singh"
-            domain="Jt.Activity Head"
+            domain="Jt. Activity Head"
             linkedin="https://www.linkedin.com/in/ankush-singh-4721a122a"
           />
           <TeamInnerSection
             image={Smit_Ramteke}
             Name="Smit Ramteke"
-            domain="Jt.Dept Head"
+            domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
           />
           <TeamInnerSection
             image={Sandesh_Buchkul}
             Name="Sandesh B."
-            domain="Jt.Publicity Head"
+            domain="Jt. Publicity Head"
             linkedin="https://www.linkedin.com/in/sandeshbuchkul"
           />
           <TeamInnerSection
             image={Sumedh_kulkarni}
             Name="Sumedh K."
-            domain="Jt.Doc Head"
+            domain="Jt. Doc Head"
           />
           <TeamInnerSection
             image={Viraj_Badale}
             Name="Viraj Badale"
-            domain="Jt.Design Head"
+            domain="Jt. Design Head"
           />
           <TeamInnerSection
             image={Ashish_Ruke}
             Name="Ashish Ruke"
-            domain="Jt.Publicity Head"
+            domain="Jt. Publicity Head"
           />
         </Carousel>
       </div>
