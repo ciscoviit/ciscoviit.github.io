@@ -106,7 +106,6 @@ const breakPoints = [
 const TeamCard = () => {
   return (
     <section className="team-section" id="team">
-      {/* Co-ordinators Section */}
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary">
           Faculty Advisors
@@ -149,10 +148,9 @@ const TeamCard = () => {
           />
         </div>
       </div>
-      {/* TY-Committe Section*/}
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary">
-          TY-Committee
+          Core Committee
         </h2>
         <div className="row justify-content-center">
           <TeamSection
@@ -302,10 +300,9 @@ const TeamCard = () => {
           />
         </div>
       </div>
-      {/* SY-Committee Section */}
       <div className="container">
         <h2 className="page-section-heading text-center text-uppercase text-secondary">
-          SY-Committee
+          SY Committee
         </h2>
         <div className="row justify-content-center">
           <TeamSection
