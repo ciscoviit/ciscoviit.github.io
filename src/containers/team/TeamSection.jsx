@@ -137,14 +137,15 @@ const TeamSection = () => {
             Name="Vinayak Pawar"
             domain="Advisory Board Member"
             linkedin="https://www.linkedin.com/in/vinayak-pawar-17133a212"
-            instagram="https://www.instagram.com/we_nayak.08/"
+            instagram="https://www.instagram.com/we_nayak.08"
           />
           <TeamCard
             image={Saikumar_Padmawar}
             Name="Saikumar Padmawar"
             domain="Advisory Board Member"
             linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
-            instagram="https://www.instagram.com/saikumarpadmawar/"
+            twitter="https://twitter.com/SAIKUMARPADMAW1"
+            instagram="https://www.instagram.com/saikumarpadmawar"
           />
         </div>
       </div>
@@ -494,7 +495,7 @@ const TeamSection = () => {
             image={Sachi_Teke}
             Name="Sachi Teke"
             domain="Vice-President"
-            linkedin="https://www.linkedin.com/in/sachi-teke-118469206/"
+            linkedin="https://www.linkedin.com/in/sachi-teke-118469206"
             twitter="https://twitter.com/sachi_teke"
             instagram="https://instagram.com/sachi_teke7032"
           />
@@ -505,7 +506,7 @@ const TeamSection = () => {
             domain="Publicity-Head"
             linkedin="https://www.linkedin.com/in/pratik-rathod-10a522208"
             twitter="https://twitter.com/cyph3r_s"
-            instagram="https://www.instagram.com/pratik_rathod_1/"
+            instagram="https://www.instagram.com/pratik_rathod_1"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
@@ -513,7 +514,7 @@ const TeamSection = () => {
             Name="Tejaswini Bahir"
             domain="IR-Head"
             linkedin="https://www.linkedin.com/in/tejaswini-bahir-b6b401210"
-            instagram="https://instagram.com/tej_b01/"
+            instagram="https://instagram.com/tej_b01"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
@@ -522,7 +523,7 @@ const TeamSection = () => {
             domain="Technical-Head"
             linkedin="http://www.linkedin.com/in/saikumar-padmawar-0bab9b21b"
             twitter="https://twitter.com/SAIKUMARPADMAW1"
-            instagram="https://www.instagram.com/saikumarpadmawar/"
+            instagram="https://www.instagram.com/saikumarpadmawar"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
@@ -530,16 +531,16 @@ const TeamSection = () => {
             Name="Shrutika Wagh"
             domain="Publicity-Head"
             linkedin="https://www.linkedin.com/in/shrutika-wagh-65b907199"
-            instagram="https://www.instagram.com/shrutika_53/"
+            instagram="https://www.instagram.com/shrutika_53"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
             image={Vishnu_Jadhav}
             Name="Vishnu J."
             domain="Department-Head "
-            linkedin="Https://www.linkedin.com/mwlite/in/vishnujadhav"
-            twitter="https://twitter.com/vj_5501/status/1586284985656365056?t=k6UOBLD4QD7rk3JC51I8gQ&s=19"
-            instagram="https://instagram.com/vj_5501?igshid=YmMyMTA2M2Y="
+            linkedin="Https://www.linkedin.com/in/vishnujadhav"
+            twitter="https://twitter.com/vj_5501"
+            instagram="https://instagram.com/vj_5501"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
@@ -547,16 +548,16 @@ const TeamSection = () => {
             Name="Sayali Sontakke"
             domain="Design-Head"
             linkedin="https://www.linkedin.com/in/sayali-sontakke-a8119a209"
-            twitter="https://www.twitter.com/Sayaliii_s?t=0wEAcycyR-7Aecvhp4B9OA&s=08"
-            instagram="https://www.instagram.com/sayaliii.s_?igshid=ZDdkNTZiNTM="
+            twitter="https://www.twitter.com/Sayaliii_s"
+            instagram="https://www.instagram.com/sayaliii.s_"
           />
           <TeamCarouselCard
             Tag={<i className="fas fa-code"></i>}
             image={Nikhilesh_Sharma}
             Name="Nikhilesh S."
             domain="Department-Head"
-            linkedin="https://www.linkedin.com/in/nikhilesh-sharma-/"
-            instagram="https://www.instagram.com/_nikhileshsharma_/"
+            linkedin="https://www.linkedin.com/in/nikhilesh-sharma-"
+            instagram="https://www.instagram.com/_nikhileshsharma_"
           />
           <TeamCarouselCard
             image={Samruddhi_Nande}
@@ -564,21 +565,20 @@ const TeamSection = () => {
             domain="Technical Head"
             linkedin="http://www.linkedin.com/in/samruddhi-nande-35b0b6206"
             twitter="https://twitter.com/NandeSamruddhi"
-            instagram="https://www.instagram.com/__samruddhi07/"
+            instagram="https://www.instagram.com/__samruddhi07"
           />
           <TeamCarouselCard
             image={Yash_Akotkar}
             Name="Yash Akotkar"
             domain="Design-Head"
             linkedin="https://www.linkedin.com/in/yash-akotkar-9350ba214"
-            instagram="https://www.instagram.com/invites/contact/?i=n3ae3z845okv&utm_content=hlfwqgr"
           />
           <TeamCarouselCard
             image={Siddharth_Latthe}
             Name="Siddharth L."
             domain="Content Head"
             linkedin="https://www.linkedin.com/in/siddharth-latthe-4ab69a213"
-            instagram="https://instagram.com/sidd_latthe?igshid=ZDdkNTZiNTM="
+            instagram="https://instagram.com/sidd_latthe"
           />
           <TeamCarouselCard
             image={Rahul_Talele}
@@ -590,37 +590,37 @@ const TeamSection = () => {
             Name="Vinayak Pawar"
             domain="Admin"
             linkedin="https://www.linkedin.com/in/vinayak-pawar-17133a212"
-            instagram="https://www.instagram.com/we_nayak.08/"
+            instagram="https://www.instagram.com/we_nayak.08"
           />
           <TeamCarouselCard
             image={Shravani_Murabatte}
             Name="Shravani M."
             domain="Activity Head"
-            linkedin="https://www.linkedin.com/in/shravani-murabatte-518a80176/"
-            instagram="https://www.instagram.com/mshrau_28/"
+            linkedin="https://www.linkedin.com/in/shravani-murabatte-518a80176"
+            instagram="https://www.instagram.com/mshrau_28"
           />
           <TeamCarouselCard
             image={Shubham_Wamanacharya}
             Name="Shubham W."
             domain="Activity Head"
-            linkedin="https://www.linkedin.com/in/shubham-wamanacharya-420750227/"
+            linkedin="https://www.linkedin.com/in/shubham-wamanacharya-420750227"
             twitter="https://mobile.twitter.com/ShubhamPW2911"
-            instagram="https://www.instagram.com/shubham_wamanacharya/"
+            instagram="https://www.instagram.com/shubham_wamanacharya"
           />
           <TeamCarouselCard
             image={Amey_Agrawal}
             Name="Amey Agarwal"
             domain="Doc-Head"
             linkedin="https://www.linkedin.com/in/amey-agrawal-9a0b66213"
-            instagram="https://instagram.com/i_m_amey?igshid=YmMyMTA2M2Y="
+            instagram="https://instagram.com/i_m_amey"
           />
           <TeamCarouselCard
             image={Lokesh_Shingavi}
             Name="Lokesh S."
             domain="IR-Head"
             linkedin="https://www.linkedin.com/in/lokesh-shingvi-b270b421a"
-            instagram="https://www.instagram.com/lokesh_shingvi/"
-            twitter="https://twitter.com/LokeshShingvi?t=xKbSSdWcasZ7mGxNckznFw&s=09"
+            instagram="https://www.instagram.com/lokesh_shingvi"
+            twitter="https://twitter.com/LokeshShingvi"
           />
           <TeamCarouselCard
             image={Gaurav_kanade}
@@ -632,21 +632,21 @@ const TeamSection = () => {
             Name="Rithesh Lade"
             domain="Dept-Head"
             linkedin="https://www.linkedin.com/in/ritesh-lade-669263200"
-            instagram="https://instagram.com/ritesh.lade?igshid=YmMyMTA2M2Y="
+            instagram="https://instagram.com/ritesh.lade"
           />
           <TeamCarouselCard
             image={Armaan_Shaikh}
             Name="Armaan Shaikh"
             domain="Dept-Head"
             linkedin="https://www.linkedin.com/in/armaan-shaikh-23b9141a5"
-            instagram="https://www.instagram.com/armaaaaan.__/"
+            instagram="https://www.instagram.com/armaaaaan.__"
           />
           <TeamCarouselCard
             image={Manas_Sangale}
             Name="Manas Sangale"
             domain="Jt. Dept-Head"
             linkedin="https://www.linkedin.com/in/manas-sangale-47a209217"
-            instagram="https://instagram.com/___manas_12?igshid=ZDdkNTZiNTM="
+            instagram="https://instagram.com/___manas_12"
           />
         </Carousel>
       </div>
@@ -685,6 +685,7 @@ const TeamSection = () => {
             Name="Mayur Tingare"
             domain="Jt. Activity Head"
             linkedin="https://www.linkedin.com/in/tingare-mayur-b2642122a"
+            instagram="https://www.instagram.com/_itz_mayur_26"
           />
           <TeamCarouselCard
             image={Yash_Patil}
@@ -697,18 +698,22 @@ const TeamSection = () => {
             Name="Sahil Wagh"
             domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/sahil-wagh-73b9a7240"
+            instagram="https://www.instagram.com/its_me_sahilwagh"
           />
           <TeamCarouselCard
             image={Vedant_Devre}
             Name="Vedant Devre"
             domain="Jt. Dept Head"
-            linkedin="https://www.linkedin.com/in/vedant-devre/"
+            linkedin="https://www.linkedin.com/in/vedant-devre"
+            instagram="https://www.instagram.com/vedant_devre_77"
           />
           <TeamCarouselCard
             image={Rahul_Shelke}
             Name="Rahul Shelke"
             domain="Jt. Content Head"
             linkedin="https://www.linkedin.com/in/rahul-shelke-457841227"
+            twitter="https://twitter.com/Mr_RahulShelke"
+            instagram="https://www.instagram.com/mr_rahulshelke"
           />
           <TeamCarouselCard
             image={Prathamesh_Bhaskar}
@@ -739,12 +744,15 @@ const TeamSection = () => {
             Name="Akash K."
             domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/akash-kalshetti-27712b252"
+            instagram="https://www.instagram.com/kalshetti_akash"
           />
           <TeamCarouselCard
             image={Sanchit_Dhale}
             Name="Sanchit Dhale"
             domain="Jt. Admin"
             linkedin="https://www.linkedin.com/in/sanchit-dhale-8a9588231"
+            twitter="https://twitter.com/sanchez_1711"
+            instagram="https://www.instagram.com/sanchit_dhale_17_"
           />
           <TeamCarouselCard
             image={Gunesh_Sonawane}
@@ -759,13 +767,13 @@ const TeamSection = () => {
           />
           <TeamCarouselCard
             image={HARSH}
-            Name="HARSH"
+            Name="Harsh"
             domain="Jt. Doc Head"
             linkedin="https://www.linkedin.com/in/harsh-01071b24a"
           />
           <TeamCarouselCard
             image={Om_Dhede}
-            Name="Om_Dhede"
+            Name="Om Dhede"
             domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/om-dhede-7b026122a"
           />
@@ -780,6 +788,7 @@ const TeamSection = () => {
             Name="Smit Ramteke"
             domain="Jt. Dept Head"
             linkedin="https://www.linkedin.com/in/smit-ramteke-4b60b5232"
+            instagram="https://www.instagram.com/smit.__.ramteke"
           />
           <TeamCarouselCard
             image={Sandesh_Buchkul}
@@ -791,16 +800,23 @@ const TeamSection = () => {
             image={Sumedh_kulkarni}
             Name="Sumedh K."
             domain="Jt. Doc Head"
+            linkedin="https://www.linkedin.com/in/sumedh-kulkarni-080235245"
+            twitter="https://twitter.com/sumedh_2103"
+            instagram="https://www.instagram.com/sumedhk_2103"
           />
           <TeamCarouselCard
             image={Viraj_Badale}
             Name="Viraj Badale"
             domain="Jt. Design Head"
+            linkedin="https://www.linkedin.com/in/viraj-badale-731216229"
+            instagram="https://www.instagram.com/viraj_11_2020"
           />
           <TeamCarouselCard
             image={Ashish_Ruke}
             Name="Ashish Ruke"
             domain="Jt. Publicity Head"
+            linkedin="https://www.linkedin.com/in/ashish-ruke-68a038230"
+            instagram="https://www.instagram.com/ashishruke99"
           />
         </Carousel>
       </div>
