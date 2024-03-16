@@ -1,7 +1,7 @@
 import React from "react";
-import TeamInnerSection from "./TeamInnerSection";
+import TeamCarouselCard from "./TeamCarouselCard";
 
-const TeamSection = ({
+const TeamCard = ({
   image,
   Tag,
   Name,
@@ -12,7 +12,7 @@ const TeamSection = ({
 }) => {
   return (
     <div className="col-md-6 col-lg-4 mb-5">
-      <TeamInnerSection
+      <TeamCarouselCard
         image={image}
         Tag={Tag}
         Name={Name}
@@ -25,4 +25,4 @@ const TeamSection = ({
   );
 };
 
-export default TeamSection;
+export default TeamCard;
