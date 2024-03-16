@@ -1,6 +1,6 @@
 import React from "react";
 import FadeIn from "react-fade-in";
-import "./TeamSection.css";
+import "./TeamCarouselCard.css";
 
 const TeamInnerSection = ({
   image,

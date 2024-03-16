@@ -7,7 +7,7 @@ import {
   Footer,
   Gallery,
   HeroSection,
-  TeamCard,
+  TeamSection,
 } from "./containers";
 import "./App.css";
 
@@ -49,7 +49,7 @@ const Courses = () => {
 const Team = () => {
   return (
     <div>
-      <TeamCard />
+      <TeamSection />
     </div>
   );
 };
