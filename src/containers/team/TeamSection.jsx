@@ -3,7 +3,7 @@ import TeamCard from "../../components/teamcard/TeamCard.jsx";
 import TeamCarouselCard from "../../components/teamcard/TeamCarouselCard.jsx";
 import "../../components/teamcard/TeamCarouselCard.css";
 import "./TeamSection.css";
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 import "react-multi-carousel/lib/styles.css";
 import FooterHeart from "../footerHeart/FooterHeart.jsx";
 // Importing Images
