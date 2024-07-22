@@ -9,7 +9,7 @@
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "animate.css": "^4.1.1",
-    "caniuse-lite": "^1.0.30001637",
+    "caniuse-lite": "^1.0.30001638",
     "firebase": "^10.12.2",
     "jquery": "^3.7.1",
     "react": "^18.3.1",
