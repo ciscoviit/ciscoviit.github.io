@@ -1,0 +1,50 @@
+name: Auto Update Dependencies
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Run weekly on Sundays at midnight
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22" # Specify the Node.js version you use
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "latest" # Specify the Bun version you want
+
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: "latest" # Specify the pnpm version you want
+
+      - name: Install Bun dependencies
+        run: bun install -y
+
+      - name: Update Bun dependencies
+        run: bun update --latest
+
+      - name: Update npm dependencies
+        run: npm install --package-lock-only
+
+      - name: Update pnpm dependencies
+        run: pnpm install --no-frozen-lockfile --lockfile-only
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Update dependencies"
+          body: "This PR updates dependencies to their latest versions."
+          branch: "update-deps"
+          commit-message: "chore(deps): update dependencies"
+          base: "main" # Specify your default branch
