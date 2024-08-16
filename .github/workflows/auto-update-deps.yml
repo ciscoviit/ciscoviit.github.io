@@ -18,20 +18,22 @@ jobs:
         with:
           node-version: "22" # Specify the Node.js version you use
 
-      - name: Install dependencies
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: "latest" # Specify the Bun version you want
+
+      - name: Install npm dependencies
         run: npm install
 
-      - name: Update dependencies
+      - name: Install Bun dependencies
+        run: bun install
+
+      - name: Update npm dependencies
         run: npm update
 
-      - name: Install npm-check-updates
-        run: npm install -g npm-check-updates
-
-      - name: Upgrade dependencies
-        run: ncu -u
-
-      - name: Install updated dependencies
-        run: npm install
+      - name: Update Bun dependencies
+        run: bun update --latest
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
