@@ -28,11 +28,27 @@ jobs:
         with:
           version: "latest" # Specify the pnpm version you want
 
+      - name: Install pnpm dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Get outdated dependencies
+        uses: mathiasvr/command-output@v2.0.0
+        continue-on-error: true
+        id: outdated
+        with:
+          run: pnpm outdated --long
+
       - name: Install Bun dependencies
-        run: bun install -y
+        run: bun install
+
+      - name: Update package.json
+        run: npm install -g npm-check-updates && ncu -u
 
       - name: Update Bun dependencies
-        run: bun update --latest
+        uses: mathiasvr/command-output@v2.0.0
+        id: updates
+        with:
+          run: bun install
 
       - name: Update npm dependencies
         run: npm install --package-lock-only
@@ -44,7 +60,13 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           title: "Update dependencies"
-          body: "This PR updates dependencies to their latest versions."
+          body: |
+            This PR updates dependencies to their latest versions.
+
+            ${{ steps.outdated.outputs.stderr }}
           branch: "update-deps"
-          commit-message: "chore(deps): update dependencies"
+          commit-message: |
+            chore(deps): update dependencies
+
+            ${{ steps.updates.outputs.stdout }}
           base: "main" # Specify your default branch
