@@ -28,6 +28,15 @@ jobs:
         with:
           version: "latest" # Specify the pnpm version you want
 
+      - name: Install pnpm dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Get outdated dependencies
+        id: outdated
+        run: |
+          pnpm outdated --long > outdated.txt || true
+          cat outdated.txt
+
       - name: Install Bun dependencies
         run: bun install -y
 
@@ -44,7 +53,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           title: "Update dependencies"
-          body: "This PR updates dependencies to their latest versions."
+          body: "This PR updates dependencies to their latest versions.\n\n${{ steps.outdated.outputs.stdout }}"
           branch: "update-deps"
-          commit-message: "chore(deps): update dependencies"
+          commit-message: "chore(deps): update dependencies\n\n${{ steps.outdated.outputs.stdout }}"
           base: "main" # Specify your default branch
