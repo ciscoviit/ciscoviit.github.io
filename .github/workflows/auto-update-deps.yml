@@ -1,0 +1,42 @@
+name: Auto Update Dependencies
+
+on:
+  schedule:
+    - cron: "0 0 * * 0" # Run weekly on Sundays at midnight
+  workflow_dispatch: # Allows manual trigger from GitHub UI
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22" # Specify the Node.js version you use
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update dependencies
+        run: npm update
+
+      - name: Install npm-check-updates
+        run: npm install -g npm-check-updates
+
+      - name: Upgrade dependencies
+        run: ncu -u
+
+      - name: Install updated dependencies
+        run: npm install
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: "Update dependencies"
+          body: "This PR updates dependencies to their latest versions."
+          branch: "update-deps"
+          base: "main" # Specify your default branch
