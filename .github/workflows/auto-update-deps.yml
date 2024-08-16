@@ -28,23 +28,17 @@ jobs:
         with:
           version: "latest" # Specify the pnpm version you want
 
-      - name: Install npm dependencies
-        run: npm install
-
       - name: Install Bun dependencies
-        run: bun install
-
-      - name: Install pnpm dependencies
-        run: pnpm install
-
-      - name: Update npm dependencies
-        run: npm update
+        run: bun install -y
 
       - name: Update Bun dependencies
         run: bun update --latest
 
+      - name: Update npm dependencies
+        run: npm install --package-lock-only
+
       - name: Update pnpm dependencies
-        run: pnpm update
+        run: pnpm install --no-frozen-lockfile --lockfile-only
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
