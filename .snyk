@@ -1,0 +1,43 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hawk:20160119':
+    - serviceworker > request > hawk:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:hawk:20160119'
+        path: serviceworker > request > hawk
+  'npm:http-signature:20150122':
+    - serviceworker > request > http-signature:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:http-signature:20150122'
+        path: serviceworker > request > http-signature
+  'npm:mime:20170907':
+    - serviceworker > mime:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:mime:20170907'
+        path: serviceworker > mime
+    - serviceworker > request > mime:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:mime:20170907'
+        path: serviceworker > request > mime
+    - serviceworker > request > form-data > mime:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:mime:20170907'
+        path: serviceworker > request > form-data > mime
+  'npm:qs:20140806-1':
+    - serviceworker > request > qs:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:qs:20140806-1'
+        path: serviceworker > request > qs
+  'npm:request:20160119':
+    - serviceworker > request:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:request:20160119'
+        path: serviceworker > request
+  'npm:ws:20160920':
+    - serviceworker > ws:
+        patched: '2024-08-25T21:04:32.644Z'
+        id: 'npm:ws:20160920'
+        path: serviceworker > ws
