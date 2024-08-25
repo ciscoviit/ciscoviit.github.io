@@ -5,7 +5,7 @@
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@itseasy21/react-elastic-carousel": "^0.12.3",
-    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "animate.css": "^4.1.1",
