@@ -37,7 +37,7 @@ ul {
   padding: 0 15px;
 }
 .footer-col1 {
-  width: 25%;
+  width: 50%;
   padding: 0 15px;
   margin-bottom: 30px;
 }
@@ -113,7 +113,6 @@ ul {
 
 .footer-col1 ul li a {
   font-size: 16px;
-  text-transform: capitalize;
   color: #ffffff;
   text-decoration: none;
   font-weight: 300;
