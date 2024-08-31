@@ -35,16 +35,21 @@ const Footer = () => (
         <h4>Get In Touch</h4>
         <ul>
           <li>
-            <a href="/">
-              Survey No. 2/3/4, VIM Private Rd, Kapil Nagar, Kondhwa, Pune,
-              Maharashtra 411048{" "}
-            </a>
+            <iframe
+              title="VIIT"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d236.53320362823086!2d73.8841761!3d18.45958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2eaf4662547c9%3A0xd96690b0786458f5!2sVIIT%20-%20Computer%20Science%20Department!5e0!3m2!1sen!2sin!4v1725101261796!5m2!1sen!2sin"
+              width="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </li>
           <li>
-            <a href="/tel:+918552886372">+91 8552886372</a>
+            <a href="tel:+919767530401">+91 97675 30401</a>
           </li>
           <li>
-            <a href="mailto:ciscoviit@viit.ac.in">cisconetacad@viit.ac.in</a>
+            <a href="mailto:cisconetacad@viit.ac.in">cisconetacad@viit.ac.in</a>
           </li>
         </ul>
       </div>
@@ -65,12 +70,12 @@ const Footer = () => (
           >
             <i className="fab fa-linkedin-in"></i>
           </a>
-          <a href="/">
-            <i
-              className="fab fa-facebook-f"
-              rel="noopener noreferrer"
-              target="_blank"
-            ></i>
+          <a
+            href="https://www.facebook.com/CiscoVIIT"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <i className="fab fa-facebook-f"></i>
           </a>
           <a
             href="https://twitter.com/ciscoviit"
