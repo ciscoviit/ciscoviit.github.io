@@ -47,6 +47,7 @@ jobs:
               /^  / { gsub(/^[ \t]+/, "", $0); gsub(/^[^ ]+ /, "", $0); gsub(/ +$/, "", $0); split($0, parts, " "); printf "| %s | %s | %s | %s\n", parts[1], parts[2], parts[3], parts[4] }
               ' ncu-output.txt >> ncu-output.md
             cat ncu-output.md
+            rm ncu-output.txt ncu-output.md
 
       - name: Install Bun dependencies
         run: bun install
