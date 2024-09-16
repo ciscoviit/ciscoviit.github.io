@@ -1,3 +1,0 @@
-Checking /home/runner/work/ciscoviit.github.io/ciscoviit.github.io/package.json
-
-All dependencies match the latest package versions :)
