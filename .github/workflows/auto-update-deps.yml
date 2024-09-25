@@ -31,26 +31,31 @@ jobs:
       - name: Install npm-check-updates
         run: npm install -g npm-check-updates
 
+      - name: Install Bun dependencies
+        run: bun install
+
       - name: Get outdated dependencies
         uses: mathiasvr/command-output@v2.0.0
         continue-on-error: true
         id: outdated
         with:
           run: |
-            ncu --format repo > ncu-output.txt
-            echo "| Package | Current Version | Latest Version | URL |" >> ncu-output.md
+            ncu --format repo | head -n -2 | tail -n +3 > ncu-output.txt
+
+            echo "| Package | Current Version | Latest Version | URL |" > ncu-output.md
             echo "| --- | --- | --- | --- |" >> ncu-output.md
 
             # Process the `ncu` output and format it into Markdown
-            awk -F '→' '
-              BEGIN { OFS=" | " }
-              /^  / { gsub(/^[ \t]+/, "", $0); gsub(/^[^ ]+ /, "", $0); gsub(/ +$/, "", $0); split($0, parts, " "); printf "| %s | %s | %s | %s\n", parts[1], parts[2], parts[3], parts[4] }
-              ' ncu-output.txt >> ncu-output.md
-            cat ncu-output.md
-            rm ncu-output.txt ncu-output.md
+            awk '
+            {
+              gsub(/\^/, "", $2);
+              gsub(/\^/, "", $4);
+              print "| " $1 " | " $2 " | " $4 " | " $5 " |"
+            }' ncu-output.txt >> ncu-output.md
 
-      - name: Install Bun dependencies
-        run: bun install
+            cat ncu-output.md
+
+            rm ncu-output.txt ncu-output.md
 
       - name: Update package.json
         run: ncu -u
