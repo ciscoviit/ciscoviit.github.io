@@ -25,18 +25,12 @@ export function Links() {
         console.log(container);
     };
 
-    // const root = document.querySelector(':root')
-    const root = null;
-    const bgColor = root
-        ? getComputedStyle(root).getPropertyValue("--pc")
-        : "#111111";
-
     const options: ISourceOptions = useMemo(
         () => ({
             fullScreen: false,
             background: {
                 color: {
-                    value: bgColor,
+                    value: "#111111",
                 },
             },
             fpsLimit: 120,

@@ -6,7 +6,7 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'ciscoviit.in',
         port: '',
-        pathname: '/**',
+        pathname: '/static**',
         search: '',
       },
     ],
