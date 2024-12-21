@@ -18,7 +18,7 @@ const links: {
 }[] = [
     {
         name: "Courses",
-        link: "#",
+        link: "/courses",
     },
     {
         name: "Team",

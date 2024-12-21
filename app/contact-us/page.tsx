@@ -136,6 +136,7 @@ export default function ContactForm() {
                             width={400}
                             height={400}
                             className="object-contain"
+                            unoptimized
                         />
                     </div>
                 </div>
