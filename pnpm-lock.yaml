@@ -13,7 +13,7 @@ importers:
         version: 4.4.1
       '@itseasy21/react-elastic-carousel':
         specifier: ^0.12.3
-        version: 0.12.3(@babel/runtime@7.25.0)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))
+        version: 0.12.3(@babel/runtime@7.25.0)(prop-types@15.8.1)(react-dom@19.0.0(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@19.0.0(react@18.3.1))(react@18.3.1))
       animate.css:
         specifier: ^4.1.1
         version: 4.1.1
@@ -25,13 +25,13 @@ importers:
         version: 18.3.1
       react-bootstrap:
         specifier: ^2.10.5
-        version: 2.10.5(@types/react@18.2.79)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 2.10.5(@types/react@18.2.79)(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       react-countup:
         specifier: ^6.5.3
         version: 6.5.3(react@18.3.1)
       react-dom:
-        specifier: ^18.3.1
-        version: 18.3.1(react@18.3.1)
+        specifier: ^19.0.0
+        version: 19.0.0(react@18.3.1)
       react-fade-in:
         specifier: ^2.0.1
         version: 2.0.1(react@18.3.1)
@@ -43,19 +43,19 @@ importers:
         version: 2.8.5
       react-on-screen:
         specifier: ^2.1.1
-        version: 2.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 2.1.1(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       react-router-dom:
         specifier: ^6.27.0
-        version: 6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 6.27.0(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       react-scripts:
         specifier: ^5.0.1
         version: 5.0.1(@babel/plugin-syntax-flow@7.24.1(@babel/core@7.24.4))(@babel/plugin-transform-react-jsx@7.23.4(@babel/core@7.24.4))(@types/babel__core@7.20.5)(eslint@8.57.0)(react@18.3.1)(type-fest@0.21.3)(typescript@4.9.5)
       react-visibility-sensor:
         specifier: ^5.1.1
-        version: 5.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 5.1.1(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       styled-components:
         specifier: ^6.1.13
-        version: 6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        version: 6.1.13(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
     devDependencies:
       eslint-config-react-app:
         specifier: 7.0.1
@@ -1753,6 +1753,7 @@ packages:
 
   acorn-import-assertions@1.9.0:
     resolution: {integrity: sha512-cmMwop9x+8KFhxvKrKfPYmN6/pKTYYHBqLa0DfvVZcKMJWNyWLnaqND7dx/qn66R7ewM1UX5XMaDVP5wlVTaVA==}
+    deprecated: package has been renamed to acorn-import-attributes
     peerDependencies:
       acorn: ^8
 
@@ -4757,10 +4758,10 @@ packages:
       typescript:
         optional: true
 
-  react-dom@18.3.1:
-    resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
+  react-dom@19.0.0:
+    resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==}
     peerDependencies:
-      react: ^18.3.1
+      react: ^19.0.0
 
   react-error-overlay@6.0.11:
     resolution: {integrity: sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==}
@@ -5030,8 +5031,8 @@ packages:
     resolution: {integrity: sha512-5LBh1Tls8c9xgGjw3QrMwETmTMVk0oFgvrFSvWx62llR2hcEInrKNZ2GZCCuuy2lvWrdl5jhbpeqc5hRYKFOcw==}
     engines: {node: '>=10'}
 
-  scheduler@0.23.2:
-    resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
+  scheduler@0.25.0:
+    resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==}
 
   schema-utils@2.7.0:
     resolution: {integrity: sha512-0ilKFI6QQF5nxDZLFn2dMjvc4hjg/Wkg7rHd3jK6/A4a1Hl9VFdQWvgB1UMGoU94pad1P/8N7fMcEnLnSiju8A==}
@@ -7231,16 +7232,16 @@ snapshots:
 
   '@istanbuljs/schema@0.1.3': {}
 
-  '@itseasy21/react-elastic-carousel@0.12.3(@babel/runtime@7.25.0)(prop-types@15.8.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1))':
+  '@itseasy21/react-elastic-carousel@0.12.3(@babel/runtime@7.25.0)(prop-types@15.8.1)(react-dom@19.0.0(react@18.3.1))(react@18.3.1)(styled-components@6.1.13(react-dom@19.0.0(react@18.3.1))(react@18.3.1))':
     dependencies:
-      '@uiw/react-only-when': 1.2.0(@babel/runtime@7.25.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@uiw/react-only-when': 1.2.0(@babel/runtime@7.25.0)(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       classnames: 2.5.1
       prop-types: 15.8.1
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
       react-swipeable: 7.0.1(react@18.3.1)
       resize-observer-polyfill: 1.5.0
-      styled-components: 6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      styled-components: 6.1.13(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
     transitivePeerDependencies:
       - '@babel/runtime'
 
@@ -7518,7 +7519,7 @@ snapshots:
       dequal: 2.0.3
       react: 18.3.1
 
-  '@restart/ui@1.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@restart/ui@1.8.0(react-dom@19.0.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.25.0
       '@popperjs/core': 2.11.8
@@ -7528,7 +7529,7 @@ snapshots:
       dequal: 2.0.3
       dom-helpers: 5.2.1
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
       uncontrollable: 8.0.4(react@18.3.1)
       warning: 4.0.3
 
@@ -7923,11 +7924,11 @@ snapshots:
       '@typescript-eslint/types': 5.62.0
       eslint-visitor-keys: 3.4.3
 
-  '@uiw/react-only-when@1.2.0(@babel/runtime@7.25.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@uiw/react-only-when@1.2.0(@babel/runtime@7.25.0)(react-dom@19.0.0(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.25.0
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
 
   '@ungap/structured-clone@1.2.0': {}
 
@@ -11510,11 +11511,11 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.20
 
-  react-bootstrap@2.10.5(@types/react@18.2.79)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-bootstrap@2.10.5(@types/react@18.2.79)(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.0
       '@restart/hooks': 0.4.16(react@18.3.1)
-      '@restart/ui': 1.8.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@restart/ui': 1.8.0(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       '@types/react-transition-group': 4.4.10
       classnames: 2.5.1
       dom-helpers: 5.2.1
@@ -11522,8 +11523,8 @@ snapshots:
       prop-types: 15.8.1
       prop-types-extra: 1.1.1(react@18.3.1)
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      react-transition-group: 4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
+      react-transition-group: 4.4.5(react-dom@19.0.0(react@18.3.1))(react@18.3.1)
       uncontrollable: 7.2.1(react@18.3.1)
       warning: 4.0.3
     optionalDependencies:
@@ -11568,11 +11569,10 @@ snapshots:
       - supports-color
       - vue-template-compiler
 
-  react-dom@18.3.1(react@18.3.1):
+  react-dom@19.0.0(react@18.3.1):
     dependencies:
-      loose-envify: 1.4.0
       react: 18.3.1
-      scheduler: 0.23.2
+      scheduler: 0.25.0
 
   react-error-overlay@6.0.11: {}
 
@@ -11594,21 +11594,21 @@ snapshots:
 
   react-multi-carousel@2.8.5: {}
 
-  react-on-screen@2.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-on-screen@2.1.1(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       lodash.throttle: 4.1.1
       prop-types: 15.8.1
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
       shallowequal: 1.1.0
 
   react-refresh@0.11.0: {}
 
-  react-router-dom@6.27.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-router-dom@6.27.0(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@remix-run/router': 1.20.0
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
       react-router: 6.27.0(react@18.3.1)
 
   react-router@6.27.0(react@18.3.1):
@@ -11707,20 +11707,20 @@ snapshots:
     dependencies:
       react: 18.3.1
 
-  react-transition-group@4.4.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-transition-group@4.4.5(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@babel/runtime': 7.25.0
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
 
-  react-visibility-sensor@5.1.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  react-visibility-sensor@5.1.1(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       prop-types: 15.8.1
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
 
   react@18.3.1:
     dependencies:
@@ -11905,9 +11905,7 @@ snapshots:
     dependencies:
       xmlchars: 2.2.0
 
-  scheduler@0.23.2:
-    dependencies:
-      loose-envify: 1.4.0
+  scheduler@0.25.0: {}
 
   schema-utils@2.7.0:
     dependencies:
@@ -12206,7 +12204,7 @@ snapshots:
     dependencies:
       webpack: 5.91.0
 
-  styled-components@6.1.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  styled-components@6.1.13(react-dom@19.0.0(react@18.3.1))(react@18.3.1):
     dependencies:
       '@emotion/is-prop-valid': 1.2.2
       '@emotion/unitless': 0.8.1
@@ -12215,7 +12213,7 @@ snapshots:
       csstype: 3.1.3
       postcss: 8.4.38
       react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
+      react-dom: 19.0.0(react@18.3.1)
       shallowequal: 1.1.0
       stylis: 4.3.2
       tslib: 2.6.2
