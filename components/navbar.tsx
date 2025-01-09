@@ -24,10 +24,10 @@ const links: {
         name: "Team",
         link: "/team",
     },
-    {
-        name: "Contact Us",
-        link: "/contact-us",
-    },
+    // {
+    //     name: "Contact Us",
+    //     link: "/contact-us",
+    // },
 ];
 
 export default function Navbar() {

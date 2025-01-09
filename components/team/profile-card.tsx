@@ -35,7 +35,7 @@ export default function ProfileCard({
   return (
     <Card 
       className="relative w-full max-w-[300px] rounded-2xl overflow-hidden group cursor-pointer shadow-lg"
-      onMouseEnter={() => setIsHovered(true)}
+      onMouseEnter={() => setIsHovered(true && (socialLinks.length > 0))}
       onMouseLeave={() => setIsHovered(false)}
     >
       {/* Profile Image */}
@@ -50,7 +50,7 @@ export default function ProfileCard({
         {/* Overlay with social icons */}
         <div 
           className={`absolute inset-0 bg-black/60 flex items-center justify-center gap-4 transition-opacity duration-300
-            ${isHovered ? 'opacity-100' : 'opacity-0'}`}
+            ${(isHovered && (socialLinks.length > 0)) ? 'opacity-100' : 'opacity-0'}`}
         >
           {socialLinks.map((link, index) => (
             link?.url ? (<Link 
@@ -73,13 +73,13 @@ export default function ProfileCard({
       </div>
 
       {/* Plus Icon */}
-      <div className="absolute bottom-4 right-4">
+      {(socialLinks.length > 0) && <div className="absolute bottom-4 right-4">
         <div className={`p-2 rounded-full bg-white transition-transform duration-300
           ${isHovered ? 'rotate-45' : 'rotate-0'}`}
         >
           <Plus className="w-4 h-4 text-black" onClick={() => setIsHovered((isHov) => !isHov)} />
         </div>
-      </div>
+      </div>}
     </Card>
   )
 }
