@@ -31,7 +31,7 @@ export default function Footer() {
                     <h6 className="footer-title">Social</h6>
                     <div className="grid grid-flow-col gap-4">
                         <Link href="https://www.linkedin.com/company/ciscoviit"><SiLinkedin/></Link>
-                        <Link href="https://instagram.com/ciscoviit"><SiInstagram/></Link>
+                        <Link href="https://www.instagram.com/cisconetacadviit/"><SiInstagram/></Link>
                         <Link href="https://x.com/CiscoViit"><SiX/></Link>
                         <Link href="https://www.facebook.com/CiscoVIIT"><SiFacebook/></Link>
                         <Link href="https://api.whatsapp.com/send?phone=917028131458"><SiWhatsapp/></Link>
