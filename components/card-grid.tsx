@@ -22,7 +22,7 @@ export default function CardGrid<T>({
     const isMobile = useIsMobile();
 
     return (
-        <div className={cn("bg-base-300 py-16", className)}>
+        <div className={cn("bg-base-300 pb-32", className)}>
             <div className="container mx-auto px-4 relative">
                 <h1
                     className={`text-5xl md:text-6xl lg:text-8xl ${exwayer.className} text-white mb-12 ml-4 sm:ml-0`}
