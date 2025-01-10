@@ -62,7 +62,7 @@ export default function Navbar() {
     return (
         <nav
             className={cn(
-                "fixed top-4 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl rounded-[32px] transition-all duration-300 z-50 bg-primary-content/50 backdrop-blur-md shadow-lg px-5 ease-in-out"
+                "relative top-4 left-1/2 transform -translate-x-1/2 w-[95%] max-w-6xl rounded-[32px] transition-all duration-300 z-50 bg-primary-content/50 backdrop-blur-md shadow-lg px-5 ease-in-out"
             )}
             ref={menuRef}
         >
