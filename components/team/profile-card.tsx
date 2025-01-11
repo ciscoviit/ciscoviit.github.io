@@ -5,9 +5,10 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Card } from "@/components/ui/card";
-import { Github, Linkedin, Mail, Instagram, Plus } from 'lucide-react';
+import { Github, Linkedin, Mail, Instagram, Plus, CodeXml } from 'lucide-react';
 
 import { type TeamMember } from "./teamData";
+import { cn } from "@/lib/utils";
 
 interface socialLink {
     icon: JSX.Element
@@ -71,6 +72,12 @@ export default function ProfileCard({
         <h3 className="text-white font-semibold text-lg">{name}</h3>
         <p className="text-gray-300 text-sm">{role}</p>
       </div>
+
+      {role.startsWith("Technical") && (
+        <div className="absolute top-2 right-2">
+          <CodeXml className={cn("w-6 h-6 text-black", isHovered && "text-white")} strokeWidth={3} />
+        </div>
+      )}
 
       {/* Plus Icon */}
       {(socialLinks.length > 0) && <div className="absolute bottom-4 right-4">
