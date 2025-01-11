@@ -160,7 +160,7 @@ export const currentTeamMembers: Team[] = [
             {
                 name: "Ayush Chorage",
                 role: "Finance Head",
-                imageUrl: "/team/2024-25/finance/Ayush_Chorage.bmp",
+                imageUrl: "/team/2024-25/finance/Ayush_Chorage.jpg",
             },
             {
                 name: "Vinit Thate",
