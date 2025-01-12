@@ -4,7 +4,6 @@ import Link from "next/link";
 import {
     SiLinkedin,
     SiFacebook,
-    SiWhatsapp,
     SiYoutube,
     SiX,
     SiGithub,
