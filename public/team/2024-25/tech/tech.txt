@@ -1,0 +1,40 @@
+{
+    "teamName": "Technical",
+    "members": [
+        {
+            "name": "Chinmayee Mali",
+            "role": "Technical Head",
+            "imageUrl": "/tech/Chinmayee_Mali.jpg"
+        },
+        {
+            "name": "Soham Deshmukh",
+            "role": "Technical Head",
+            "imageUrl": "/tech/Soham_Deshmukh.jpg"
+        },
+        {
+            "name": "Prema Dongare",
+            "role": "Team Member",
+            "imageUrl": "/tech/Prema_Dongare.jpg"
+        },
+        {
+            "name": "Rishi Mothwani",
+            "role": "Team Member",
+            "imageUrl": "/tech/Rishi_Mothwani.jpg"
+        },
+        {
+            "name": "Snehal Wadhane",
+            "role": "Team Member",
+            "imageUrl": "/tech/Snehal_Wadhane.jpg"
+        },
+        {
+            "name": "Swaraj Pawar",
+            "role": "Team Member",
+            "imageUrl": "/tech/Swaraj_Pawar.jpg"
+        },
+        {
+            "name": "Yash Pawar",
+            "role": "Team Member",
+            "imageUrl": "/tech/Yash_Pawar.jpg"
+        }
+    ]
+}

@@ -23,22 +23,6 @@
     src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
 </div>
 
-<h1 align="center">Project Admin ❤️</h1>
-<table align="center">
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/hrishikesh-mahajan">
-          <img src="https://avatars.githubusercontent.com/u/140654204?v=4" width="125px;" />
-          <br />
-          <sub><b>Hrishikesh Mahajan</b></sub>
-        </a>
-        <br />
-      </td>
-    </tr>
-  </tbody>
-</table>
-
 <h1 align="center">OUR VALUABLE CONTRIBUTORS✨</h1>
 <p align="center">
   <a href="https://github.com/ciscoviit/ciscoviit.github.io/graphs/contributors">
