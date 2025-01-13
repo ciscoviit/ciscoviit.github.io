@@ -218,12 +218,12 @@ export const currentTeamMembers: Team[] = [
             {
                 name: "Gayatri Gulbhele",
                 role: "Design Team Member",
-                imageUrl: "/team/2024-25/design/GayatriG_design.jpg",
+                imageUrl: "/team/2024-25/design/GayatriG.jpg",
             },
             {
                 name: "Gayatri Pawar",
                 role: "Design Team Member",
-                imageUrl: "/team/2024-25/design/GayatriP_designTeam.jpg",
+                imageUrl: "/team/2024-25/design/GayatriP.jpg",
             },
             {
                 name: "Atharv Kadam",
