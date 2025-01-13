@@ -113,7 +113,7 @@ export function Links() {
 
 export default function Hero() {
     return (
-        <div className="min-h-screen relative">
+        <div className="max-h-screen h-screen relative">
             <Links />
             {/* <div className="w-screen h-screen absolute top-0 blur-md bg-black/20">
 

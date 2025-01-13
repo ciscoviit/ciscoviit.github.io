@@ -53,6 +53,42 @@ export const currentTeamMembers: Team[] = [
             },
         ],
     },
+    
+    {
+        teamName: "Admin Team",
+        members: [
+            {
+                name: "Abhijeet Shinde",
+                role: "Administration Head",
+                imageUrl: "/team/2024-25/Admin team/Abhijeet Shinde.jpg",
+            },
+            {
+                name: "Chirangi Gupta",
+                role: "Administration Head",
+                imageUrl: "/team/2024-25/Admin team/Chirangi_AdminHead.jpg",
+            },
+            {
+                name: "Shreeraj Wabale",
+                role: "Administration Team",
+                imageUrl: "/team/2024-25/Admin team/Shreeraj wabale.jpg",
+            },
+            {
+                name: "Parth Mahadik",
+                role: "Administration Team",
+                imageUrl: "/team/2024-25/Admin team/Parth mahadik.jpg",
+            },
+            {
+                name: "Shreya Patil",
+                role: "Administration Team",
+                imageUrl: "/team/2024-25/Admin team/Shreyapatil.jpg",
+            },
+            {
+                name: "Vaibhav Singh",
+                role: "Administration Team",
+                imageUrl: "/team/2024-25/Admin team/Vaibhav singh.jpg",
+            },
+        ],
+    },
     {
         teamName: "Technical Team",
         members: [
@@ -95,12 +131,54 @@ export const currentTeamMembers: Team[] = [
                 name: "Rishi Mothwani",
                 role: "Technical Team Member",
                 imageUrl: "/team/2024-25/tech/Rishi_Mothwani.jpg",
+                linkedinUrl:
+                    "https://in.linkedin.com/in/rishi-motwani-6a5883309",
             },
             {
                 name: "Swaraj Pawar",
                 role: "Technical Team Member",
                 imageUrl: "/team/2024-25/tech/Swaraj_Pawar.jpg",
                 linkedinUrl: "https://www.linkedin.com/in/swaraj-pawar12/",
+            },
+        ],
+    },
+    {
+        teamName: "Activity Team",
+        members: [
+            {
+                name: "Arya Patil",
+                role: "Activity Head",
+                imageUrl: "/team/2024-25/Activity team/arya Patil.jpg",
+            },
+            {
+                name: "Ishika Bhad",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/Ishika Bhad.jpg",
+            },
+            {
+                name: "Rituja Malode",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/Rituja Malode.jpg",
+            },
+            {
+                name: "Shradhha Salve",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/SHRADDHA SALVE.jpg",
+            },
+            {
+                name: "Dishant Yele",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/Dishant_Yele.jpg",
+            },
+            {
+                name: "Aditya Bhosale",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/Aditya Bhosale.jpg",
+            },
+            {
+                name: "Milind Borse",
+                role: "Activity Team",
+                imageUrl: "/team/2024-25/Activity team/Milind Borse.jpg",
             },
         ],
     },
@@ -155,6 +233,138 @@ export const currentTeamMembers: Team[] = [
         ],
     },
     {
+        teamName: "Department Team",
+        members: [
+            {
+                name: "Ishwari More",
+                role: "AIDS Departhemt Team Head",
+                imageUrl: "/team/2024-25/Dept/Ishwari_departmentHead.jpg",
+            },
+            {
+                name: "Abhishek Pingale",
+                role: "AIML Department Team Head",
+                imageUrl: "/team/2024-25/Dept/aiml-head.png",
+            },
+            {
+                name: "Prathmesh Phatake",
+                role: "CE Department Head",
+                imageUrl: "/team/2024-25/Dept/Prathamesh_DepartmentHead.jpg",
+            },
+            {
+                name: "Shreyanshi Meshram",
+                role: "ENTC Department Team Head",
+                imageUrl:
+                    "/team/2024-25/Dept/CISCO - C_32_SHREYANSHI_MESHRAM.jpg",
+            },
+            {
+                name: "Prasad Kulkarni",
+                role: "IT Department Team Head",
+                imageUrl:
+                    "/team/2024-25/Dept/PrasadKulkarni.jpg",
+            },
+            {
+                name: "Shivam Devikar",
+                role: "AIDS Department Team Member",
+                imageUrl: "/team/2024-25/Dept/Shivam_AIDS_departmentTeam.jpg",
+            },
+            {
+                name: "Sumant Bobade",
+                role: "AIDS Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/Sumant_AIDS_Department_team.jpg",
+            },
+            {
+                name: "Swanandi Kamat",
+                role: "CE Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/IMG_20240721_134957 - 16_SWANANDI KAMAT.jpg",
+            },
+            {
+                name: "Nilakashi Baviskar",
+                role: "CE Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/IMG_20241004_221507 - NILAKSHI BAVISKAR.jpg",
+            },
+            {
+                name: "Hrishikesh Wakode",
+                role: "CE Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/Hrishikesh.jpg",
+            },
+            {
+                name: "Rugved Dani",
+                role: "CE Departhemt Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/RUGVED_DANI.jpg",
+            },
+            {
+                name: "Namrata Devare",
+                role: "CE Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/Namrata_photo - 2204_NAMRATA DEVARE.jpg",
+            },
+            {
+                name: "Aboli Chormale",
+                role: "ENTC Department Team Member",
+                imageUrl: "/team/2024-25/Dept/Aboli_ENTCDepartment.jpg",
+            },
+            {
+                name: "Ayush Kale",
+                role: "ENTC Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/IMG_20241206_154234 - C_31_Ayush Kale.jpg",
+            },
+            {
+                name: "Prashant Takale",
+                role: "ENTC Department Team Member",
+                imageUrl: "/team/2024-25/Dept/Prashant_ENTC_Department.jpg",
+            },
+            {
+                name: "Shaikh Faraz",
+                role: "IT Department Team Member",
+                imageUrl: "/team/2024-25/Dept/Faraz_ItDepartmentTeam.jpg",
+            },
+            
+            {
+                name: "Prathamesh Jawahire",
+                role: "IT Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/IMG_20241205_200036 - PRATHAMESH JAWAHIRE.jpg",
+            },
+            {
+                name: "Prajakta Mandhere",
+                role: "IT Department Team Member",
+                imageUrl:
+                    "/team/2024-25/Dept/IMG_20241213_140130 - PRAJAKTA MANDHARE.jpg",
+            },
+        ],
+    },
+    {
+        teamName: "Documentation Team",
+        members: [
+            {
+                name: "Rucha Patil",
+                role: "Documentation Head",
+                imageUrl: "/team/2024-25/Documentation/Rucha Patil.jpg",
+            },
+            {
+                name: "Sanika Shinde",
+                role: "Documentation Head",
+                imageUrl: "/team/2024-25/Documentation/sanika shinde.jpg",
+            },
+            {
+                name: "Srushti Chaudhari",
+                role: "Documentation Team",
+                imageUrl: "/team/2024-25/Documentation/Srushti_chaudhari.jpg",
+            },
+            {
+                name: "Samruddhi Chaudhari",
+                role: "Documentation Team",
+                imageUrl: "/team/2024-25/Documentation/Samruddhi chaudhari.jpg",
+            },
+        ],
+    },
+    {
         teamName: "Finance Team",
         members: [
             {
@@ -165,12 +375,38 @@ export const currentTeamMembers: Team[] = [
             {
                 name: "Vinit Thate",
                 role: "Finance Team Member",
-                imageUrl: "/team/2024-25/finance/Vinit_Thate.jpg",
+                imageUrl: "/team/2024-25/finance/VinitThate.jpg",
             },
             {
                 name: "Vivek Bhange",
                 role: "Finance Team Member",
                 imageUrl: "/team/2024-25/finance/Vivek_Bhange.jpg",
+            },
+        ],
+    },
+    {
+        teamName: "Industry Relations Team",
+        members: [
+            {
+                name: "Deepak Walunj",
+                role: "Industry Relations Team Head",
+                imageUrl: "/team/2024-25/IR/Deepak_IR_Head.jpg",
+            },
+            {
+                name: "Sarvesh Pantoji",
+                role: "Industry Relations Team Head",
+                imageUrl: "/team/2024-25/IR/Sarvesh_IRHead.jpg",
+            },
+            {
+                name: "Adhija Bachchav",
+                role: "Team Member",
+                imageUrl: "/team/2024-25/IR/Adhija_IRTeam.jpg",
+            },
+            {
+                name: "Akshata Kadu",
+                role: "Team Member",
+                imageUrl:
+                    "/team/2024-25/IR/AKSHATA KADU.jpg",
             },
         ],
     },
@@ -251,102 +487,32 @@ export const currentTeamMembers: Team[] = [
         ],
     },
     {
-        teamName: "Activity Team",
+        teamName: "Advisory Team",
         members: [
             {
-                name: "Arya Patil",
-                role: "Activity Head",
-                imageUrl: "/team/2024-25/Activity team/arya Patil.jpg",
+                name: "Akash Kalshetti",
+                role: "Advisory Member",
+                imageUrl: "/team/2024-25/advisors/Akash.png",
             },
             {
-                name: "Ishika Bhad",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/Ishika Bhad.jpg",
+                name: "Hrishikesh Mahajan",
+                role: "Advisory Member",
+                imageUrl: "/team/2024-25/advisors/Hrishikesh.png",
             },
             {
-                name: "Rituja Malode",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/Rituja Malode.jpg",
+                name: "Mayur Tingare",
+                role: "Advisory Member",
+                imageUrl: "/team/2024-25/advisors/Mayur.png",
             },
             {
-                name: "Shradhha Salve",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/SHRADDHA SALVE.jpg",
+                name: "Rahul Shelke",
+                role: "Advisory Member",
+                imageUrl: "/team/2024-25/advisors/Rahul.png",
             },
             {
-                name: "Dishant Yele",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/Dishant_Yele.jpg",
-            },
-            {
-                name: "Aditya Bhosale",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/Aditya Bhosale.jpg",
-            },
-            {
-                name: "Milind Borse",
-                role: "Activity Team",
-                imageUrl: "/team/2024-25/Activity team/Milind Borse.jpg",
-            },
-        ],
-    },
-    {
-        teamName: "Admin Team",
-        members: [
-            {
-                name: "Abhijeet Shinde",
-                role: "Administration Head",
-                imageUrl: "/team/2024-25/Admin team/Abhijeet Shinde.jpg",
-            },
-            {
-                name: "Chirangi Gupta",
-                role: "Administration Head",
-                imageUrl: "/team/2024-25/Admin team/Chirangi_AdminHead.jpg",
-            },
-            {
-                name: "Shreeraj Wabale",
-                role: "Administration Team",
-                imageUrl: "/team/2024-25/Admin team/Shreeraj wabale.jpg",
-            },
-            {
-                name: "Parth Mahadik",
-                role: "Administration Team",
-                imageUrl: "/team/2024-25/Admin team/Parth mahadik.jpg",
-            },
-            {
-                name: "Shreya Patil",
-                role: "Administration Team",
-                imageUrl: "/team/2024-25/Admin team/Shreyapatil.jpg",
-            },
-            {
-                name: "Vaibhav Singh",
-                role: "Administration Team",
-                imageUrl: "/team/2024-25/Admin team/Vaibhav singh.jpg",
-            },
-        ],
-    },
-    {
-        teamName: "Documentation Team",
-        members: [
-            {
-                name: "Rucha Patil",
-                role: "Documentation Head",
-                imageUrl: "/team/2024-25/Documentation/Rucha Patil.jpg",
-            },
-            {
-                name: "Sanika Shinde",
-                role: "Documentation Head",
-                imageUrl: "/team/2024-25/Documentation/sanika shinde.jpg",
-            },
-            {
-                name: "Srushti Chaudhari",
-                role: "Documentation Team",
-                imageUrl: "/team/2024-25/Documentation/Srushti_chaudhari.jpg",
-            },
-            {
-                name: "Samruddhi Chaudhari",
-                role: "Documentation Team",
-                imageUrl: "/team/2024-25/Documentation/Samruddhi chaudhari.jpg",
+                name: "Sahil Wagh",
+                role: "Advisory Member",
+                imageUrl: "/team/2024-25/advisors/Sahil.png",
             },
         ],
     },
