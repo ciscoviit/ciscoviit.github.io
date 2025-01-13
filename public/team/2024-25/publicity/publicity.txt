@@ -1,0 +1,45 @@
+{
+    "teamName": "Publicity",
+    "members": [
+         {
+            "name": "Kapil Murge",
+            "role": "Publicity Head",
+            "imageUrl": "/publicity/Kapil_Murge.jpg"
+        },
+         {
+            "name": "Deep Meshram",
+            "role": "Publicity Head",
+            "imageUrl": "/publicity/Deep_Meshram.jpg"
+        },
+        {
+            "name": "Arnav Kulkarni",
+            "role": "Team Member",
+            "imageUrl": "/publicity/Arnav_Kulkarni.jpg"
+        },
+        {
+            "name": "Aryan Tembhurne",
+            "role": "Team Member",
+            "imageUrl": "/publicity/Aryan_Tembhurne.jpeg"
+        },
+        {
+            "name": "Ebrahim Bootwala",
+            "role": "Team Member",
+            "imageUrl": "/publicity/Ebrahim_Bootwala.jpg"
+        },
+        {
+            "name": "Jiya Sharma",
+            "role": "Team Member",
+            "imageUrl": "/team/2024-25/publicity/Jiya_Sharma.jpg"
+        },
+        {
+            "name": "Pratiksha Bhagat",
+            "role": "Team Member",
+            "imageUrl": "/publicity/Pratiksha_Bhagat.jpg"
+        },
+        {
+            "name": "Safir Sayyad",
+            "role": "Team Member",
+            "imageUrl": "/publicity/Safir_Sayyad.jpg"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "teamName": "Media",
+    "members": [
+        {
+            "name": "Sarvesh Shastri",
+            "role": "Media and Content Head",
+            "imageUrl": "/media/Sarvesh_Shastri.jpg"
+        },
+        {
+            "name": "Saurav Guddumwar",
+            "role": "Media and Content Head",
+            "imageUrl": "/media/Saurav_Guddumwar.jpg"
+        },
+        {
+            "name": "Aditya Kale",
+            "role": "Team Member",
+            "imageUrl": "/media/Aditya_Kale.jpg"
+        },
+        {
+            "name": "Hassan Khan",
+            "role": "Team Member",
+            "imageUrl": "/media/Hassan_Khan.jpg"
+        },
+       
+        {
+            "name": "Vinnet Unde",
+            "role": "Team Member",
+            "imageUrl": "/media/Vinnet_Unde.jpg"
+        }
+    ]
+}
