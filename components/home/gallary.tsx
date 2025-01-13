@@ -3,11 +3,12 @@ import Marquee from "@/components/ui/marquee";
 import Image from "next/image";
 
 const images = [
-    "https://ciscoviit.in/static/media/blog01.091f9f7520615064760a.JPG",
-    "https://ciscoviit.in/static/media/blog02.192afd2666002508b530.jpg",
-    "https://ciscoviit.in/static/media/blog03.9cf534d1ae2b9a1ef74e.JPG",
-    "https://ciscoviit.in/static/media/blog04.41c2c1054200e5ff3719.JPG",
-    "https://ciscoviit.in/static/media/blog05.9f6bc9e688e5861b241f.JPG",
+    "/lab-1.jpg",
+    "/lab-2.jpg",
+    "/lab-3.jpg",
+    "/full-team.jpg",
+    "/lab-training.jpg",
+    "/team-bonding.jpg",
 ];
 
 function ImageCard({ src, className }: { src: string; className?: string }) {
