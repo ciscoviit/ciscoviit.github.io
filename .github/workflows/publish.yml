@@ -2,7 +2,8 @@
 #
 # To get started with Next.js see: https://nextjs.org/docs/getting-started
 #
-name: Deploy Next.js site to Pages
+# new workflow for deployment
+name: Deploy Next.js site to Pages 🚀
 
 on:
   # Runs on pushes targeting the default branch
