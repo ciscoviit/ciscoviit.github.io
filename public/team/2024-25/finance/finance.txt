@@ -1,0 +1,20 @@
+{
+    "teamName": "Finance",
+    "members": [
+        {
+            "name": "Ayush Chorage",
+            "role": "Finance Head",
+            "imageUrl": "/finance/Ayush_Chorage.bmp"
+        },
+        {
+            "name": "Vinit Thate",
+            "role": "Team Member",
+            "imageUrl": "/finance/Vinit_Thate.jpg"
+        },
+        {
+            "name": "Vivek Bhange",
+            "role": "Team Member",
+            "imageUrl": "/finance/Vivek_Bhange.jpg"
+        }
+    ]
+}
