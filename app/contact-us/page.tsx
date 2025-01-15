@@ -12,7 +12,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 
 const formSchema = z.object({
-    name: z.string().min(2, "Name must be at least 2 characters"),
+    name: z.string().min(3, "Name must be at least 3 characters"),
     email: z.string().email("Please enter a valid email address"),
     message: z.string().min(10, "Message must be at least 10 characters"),
 });
@@ -35,8 +35,9 @@ export default function ContactForm() {
         setIsSubmitting(true);
         try {
             // Simulate API call
-            await new Promise((resolve) => setTimeout(resolve, 1000));
-            toast.success(JSON.stringify(data, null, 2));
+            await new Promise((resolve) => setTimeout(resolve, 500));
+            // toast.success(JSON.stringify(data, null, 2));
+            toast.success("Functionality is not available for the now.");
             reset();
         } catch {
             toast.error("Failed to send message. Please try again.");
@@ -108,7 +109,7 @@ export default function ContactForm() {
                                 <Label htmlFor="message">Message</Label>
                                 <Textarea
                                     id="message"
-                                    placeholder="Type your message here"
+                                    placeholder="Type your _M3ss@G3s}"
                                     {...register("message")}
                                     aria-describedby="message-error"
                                     className="min-h-[150px] bg-base-100 text-white"

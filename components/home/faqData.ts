@@ -18,7 +18,7 @@ export const faqItems: FAQItem[] = [
   },
   {
     question: "Are there any prerequisites for joining NetAcad courses?",
-    answer: "Prerequisites vary depending on the course. While some introductory courses don't require prior knowledge, advanced courses may have specific prerequisites. It's best to check the course description or consult with the NetAcad coordinator."
+    answer: "Prerequisites vary depending on the course. While some introductory courses don't require prior knowledge, advanced courses may have specific prerequisites. It's best to check the course description or consult with the NetAcad coordinator.   {EncRypt"
   },
   {
     question: "How do I register for a NetAcad course at VIIT Pune?",
