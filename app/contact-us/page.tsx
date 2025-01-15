@@ -37,6 +37,7 @@ export default function ContactForm() {
             // Simulate API call
             await new Promise((resolve) => setTimeout(resolve, 500));
             // toast.success(JSON.stringify(data, null, 2));
+            console.log(data);
             toast.success("Functionality is not available for the now.");
             reset();
         } catch {
