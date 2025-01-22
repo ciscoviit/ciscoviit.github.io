@@ -30,7 +30,7 @@ export default function Footer() {
                         <br />
                         The Bridge to Possible.
                         <br />
-                        Copyright <Copyright className="inline size-4" /> 2024 -
+                        Copyright <Copyright className="inline size-4" /> 2025 -
                         All right reserved
                     </p>
                 </aside>
