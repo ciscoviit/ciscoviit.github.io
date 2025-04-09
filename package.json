@@ -23,7 +23,7 @@
     "embla-carousel-react": "^8.5.2",
     "lucide-react": "^0.487.0",
     "motion": "^11.18.1",
-    "next": "^14.2.23",
+    "next": "^15.0.0",
     "next-themes": "^0.4.4",
     "react": "^18",
     "react-dom": "^18",
@@ -40,7 +40,7 @@
     "@types/react-dom": "^18.3.5",
     "daisyui": "^4.12.23",
     "eslint": "^8.57.1",
-    "eslint-config-next": "14.2.26",
+    "eslint-config-next": "15.2.5",
     "postcss": "^8.5.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3"
