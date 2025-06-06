@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-
+// import { SiLinkedin  } from "react-icons/si";  // For TypeScript  // Correct import
 import {
-    SiLinkedin,
+    SiLinkerd,
     SiFacebook,
     SiYoutube,
     SiX,
@@ -15,7 +15,7 @@ import logo from "@/public/logo.png";
 
 export default function Footer() {
     return (
-        <section className="bg-primary-content">
+        <section className="bg-primary-foreground">
             <footer className="footer text-neutral-content p-10 max-w-screen-xl m-auto">
                 <aside>
                     <Image
@@ -42,7 +42,7 @@ export default function Footer() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <SiLinkedin />
+                            <SiLinkerd />
                         </Link>
                         <Link
                             href="https://www.instagram.com/cisconetacadviit/"
