@@ -18,13 +18,13 @@ export const currentTeamMembers: Team[] = [
         teamName: "NetAcad Team",
         members: [
             {
-                name: "Vikas Kolekar",
+                name: "Dr.Vikas Kolekar",
                 role: "Faculty Advisor",
                 imageUrl: "/team/2024-25/vikas_kolekar.jpg",
                 linkedinUrl: "https://in.linkedin.com/in/vikas-kolekar",
             },
             {
-                name: "Nitin Sakhre",
+                name: "Dr.Nitin Sakhare",
                 role: "Faculty Advisor",
                 imageUrl: "/team/2024-25/nitin_sakhare.jpg",
                 linkedinUrl:
