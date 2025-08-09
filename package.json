@@ -18,7 +18,7 @@
     "@radix-ui/react-slot": "^1.2.0",
     "@radix-ui/react-toast": "^1.2.7",
     "@tsparticles/react": "^3.0.0",
-    "@tsparticles/slim": "~3.8.0",
+    "@tsparticles/slim": "~3.9.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "embla-carousel-react": "^8.6.0",
