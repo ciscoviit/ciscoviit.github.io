@@ -36,7 +36,7 @@
     "zod": "^4.0.0"
   },
   "devDependencies": {
-    "@types/node": "^22.14.1",
+    "@types/node": "^24.0.0",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
     "daisyui": "^5.0.19",
