@@ -39,7 +39,7 @@
     "@types/node": "^24.0.0",
     "@types/react": "^18.3.20",
     "@types/react-dom": "^18.3.6",
-    "daisyui": "4.12.24",
+    "daisyui": "5.5.14",
     "eslint": "^9.24.0",
     "eslint-config-next": "16.1.1",
     "postcss": "^8.5.3",
