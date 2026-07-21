@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "@types/node": "^24.0.0",
-    "@types/react": "^18.3.20",
-    "@types/react-dom": "^18.3.6",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
     "daisyui": "4.12.24",
     "eslint": "^10.0.0",
     "eslint-config-next": "16.2.10",
